@@ -1,0 +1,3 @@
+method,selected_edges,selected_positive_effects,selected_negative_effects,selected_neutrals,precision,recall,interaction_auprc
+LENS,125,28,4,93,0.256,0.2601626016260163,0.26585141855861055
+OneNet,125,9,2,114,0.088,0.08943089430894309,0.11278417106650127

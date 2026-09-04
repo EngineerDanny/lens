@@ -1,0 +1,50 @@
+{
+  "seed": 20260821,
+  "repeats": 200,
+  "taxon_fractions": [
+    0.2,
+    0.4,
+    0.6
+  ],
+  "feature_sets": {
+    "network_scores": [
+      "pln_score_percentile",
+      "glmnet_score_percentile",
+      "sparcc_score_percentile"
+    ],
+    "direct_abundance": [
+      "direct_prevalence_min",
+      "direct_prevalence_max",
+      "direct_joint_prevalence",
+      "direct_presence_jaccard",
+      "presence_phi_abs",
+      "presence_log_odds_abs",
+      "spearman_all_abs",
+      "spearman_copresent_abs",
+      "log_ratio_variance",
+      "abundance_contrast_min",
+      "abundance_contrast_max"
+    ],
+    "combined": [
+      "pln_score_percentile",
+      "glmnet_score_percentile",
+      "sparcc_score_percentile",
+      "direct_prevalence_min",
+      "direct_prevalence_max",
+      "direct_joint_prevalence",
+      "direct_presence_jaccard",
+      "presence_phi_abs",
+      "presence_log_odds_abs",
+      "spearman_all_abs",
+      "spearman_copresent_abs",
+      "log_ratio_variance",
+      "abundance_contrast_min",
+      "abundance_contrast_max"
+    ]
+  },
+  "unsupervised_selection": "highest calibration AUPRC among PLNNetwork, Poisson GLMNet, SparCC, and mean rank; mean rank fallback for one-class calibration sets",
+  "threshold_selection": "threshold maximizing F1 on revealed calibration labels; ties resolved toward the higher threshold",
+  "selection_uses_labels": false,
+  "model": "fixed L2 logistic regression, C=0.01, balanced class weights",
+  "pseudocount": "half the smallest positive abundance within each system"
+}

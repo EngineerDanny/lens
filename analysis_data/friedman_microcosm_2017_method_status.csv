@@ -1,0 +1,6 @@
+dataset,method,status,elapsed_seconds,detail
+friedman_microcosm_2017,pln,complete,0.704,""
+friedman_microcosm_2017,glmnet,complete,0.244,""
+friedman_microcosm_2017,spieceasi,complete,0.246,""
+friedman_microcosm_2017,spring,complete,1.676,""
+friedman_microcosm_2017,sparcc,complete,0.128,""

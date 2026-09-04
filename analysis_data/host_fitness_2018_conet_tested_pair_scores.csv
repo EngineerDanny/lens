@@ -1,0 +1,11 @@
+dataset,taxon_1,taxon_2,interaction_label,tested_status,conet_selected,conet_score,conet_qvalue,method_number
+host_fitness_2018,AO,AP,1,positive,1,4.3,0.0,4
+host_fitness_2018,AO,AT,1,positive,1,3.3,0.0,3
+host_fitness_2018,AO,LB,1,positive,1,2.3,0.0,2
+host_fitness_2018,AO,LP,0,tested_neutral,1,3.3,0.0,3
+host_fitness_2018,AP,AT,1,positive,1,3.3,0.0,3
+host_fitness_2018,AP,LB,1,positive,1,2.3,0.0,2
+host_fitness_2018,AP,LP,1,positive,1,3.3,0.0,3
+host_fitness_2018,AT,LB,1,positive,1,4.3,0.0,4
+host_fitness_2018,AT,LP,1,positive,1,2.3,0.0,2
+host_fitness_2018,LB,LP,1,positive,1,4.3,0.0,4

@@ -1,0 +1,2 @@
+method,n,pred_negative,pred_neutral,pred_positive,accuracy,balanced_accuracy,macro_f1,negative_f1,neutral_f1,positive_f1
+supervised_multinomial_calibration,2516,163,1422,931,0.33028616852146264,0.3041074138103787,0.25858240497075213,0.16036655211912945,0.4446693657219973,0.1707112970711297

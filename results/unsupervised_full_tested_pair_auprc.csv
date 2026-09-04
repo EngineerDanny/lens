@@ -1,0 +1,16 @@
+"analysis_set","system","method","tested_pairs","evaluated_outcomes","positives","prevalence","auprc"
+"butyrate_assembly_2021","Butyrate","PLNNetwork",104,104,76,0.730769230769231,0.787962117013277
+"butyrate_assembly_2021","Butyrate","Poisson GLMNet",104,104,76,0.730769230769231,0.678067117000021
+"butyrate_assembly_2021","Butyrate","SparCC",104,104,76,0.730769230769231,0.81353877949673
+"butyrate_assembly_2021","Butyrate","SPIEC-EASI",104,104,76,0.730769230769231,0.734311740890688
+"butyrate_assembly_2021","Butyrate","OneNet",104,104,76,0.730769230769231,0.717359290065653
+"carlstrom_phyllosphere_2019","Carlström","PLNNetwork",989,989,123,0.124368048533873,0.124368048533873
+"carlstrom_phyllosphere_2019","Carlström","Poisson GLMNet",989,989,123,0.124368048533873,0.143605403206879
+"carlstrom_phyllosphere_2019","Carlström","SparCC",989,989,123,0.124368048533873,0.11740722396575
+"carlstrom_phyllosphere_2019","Carlström","SPIEC-EASI",989,989,123,0.124368048533873,0.134207310222748
+"carlstrom_phyllosphere_2019","Carlström","OneNet",989,989,123,0.124368048533873,0.112784171066501
+"schafer_phyllosphere_2022","Schäfer","PLNNetwork",1524,1524,38,0.0249343832020997,0.0774878104039829
+"schafer_phyllosphere_2022","Schäfer","Poisson GLMNet",1524,1524,38,0.0249343832020997,0.0815784469073776
+"schafer_phyllosphere_2022","Schäfer","SparCC",1524,1524,38,0.0249343832020997,0.126902317964821
+"schafer_phyllosphere_2022","Schäfer","SPIEC-EASI",1524,1524,38,0.0249343832020997,0.0249343832020997
+"schafer_phyllosphere_2022","Schäfer","OneNet",1524,1524,38,0.0249343832020997,0.135048110218263

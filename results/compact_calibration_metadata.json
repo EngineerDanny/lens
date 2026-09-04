@@ -1,0 +1,37 @@
+{
+  "score_model": {
+    "predictors": [
+      "pln_score_percentile",
+      "glmnet_score_percentile",
+      "sparcc_score_percentile"
+    ],
+    "selected_C": 1.0,
+    "selected_threshold": 0.6599999999999999,
+    "training_macro_f1": 0.9186767064391913,
+    "test_labels_used_for_fitting_or_tuning": false
+  },
+  "observability_model": {
+    "predictors": [
+      "prevalence_min",
+      "joint_prevalence"
+    ],
+    "selected_C": 0.001,
+    "selected_threshold": 0.5399999999999999,
+    "training_macro_f1": 0.9186767064391913,
+    "test_labels_used_for_fitting_or_tuning": false
+  },
+  "compact_combined_model": {
+    "predictors": [
+      "pln_score_percentile",
+      "glmnet_score_percentile",
+      "sparcc_score_percentile",
+      "method_agreement",
+      "prevalence_min",
+      "joint_prevalence"
+    ],
+    "selected_C": 0.01,
+    "selected_threshold": 0.58,
+    "training_macro_f1": 0.9186767064391913,
+    "test_labels_used_for_fitting_or_tuning": false
+  }
+}

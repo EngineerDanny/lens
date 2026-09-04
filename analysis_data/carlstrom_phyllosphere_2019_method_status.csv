@@ -1,0 +1,6 @@
+dataset,method,status,elapsed_seconds,detail
+carlstrom_phyllosphere_2019,pln,complete,1.391,""
+carlstrom_phyllosphere_2019,glmnet,complete,1.224,""
+carlstrom_phyllosphere_2019,spieceasi,complete,0.873,""
+carlstrom_phyllosphere_2019,spring,complete,6.069,""
+carlstrom_phyllosphere_2019,sparcc,complete,0.211,""

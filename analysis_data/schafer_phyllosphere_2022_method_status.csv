@@ -1,0 +1,6 @@
+dataset,method,status,elapsed_seconds,detail
+schafer_phyllosphere_2022,pln,complete,48.424,""
+schafer_phyllosphere_2022,glmnet,complete,259.889,""
+schafer_phyllosphere_2022,spieceasi,complete,9.3,""
+schafer_phyllosphere_2022,spring,complete,47.932,""
+schafer_phyllosphere_2022,sparcc,complete,2.087,""

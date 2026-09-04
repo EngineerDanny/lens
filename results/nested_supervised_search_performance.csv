@@ -1,0 +1,5 @@
+analysis_set,scope,selected_model,tested_pairs,positive_pairs,random_auprc,supervised_auprc
+butyrate_assembly_2021,full,logistic_score5_C10.0_balancedTrue,104,76,0.7307692307692307,0.7933630458026666
+carlstrom_phyllosphere_2019,full,logistic_score5_C0.01_balancedTrue,989,123,0.1243680485338726,0.11514003594431238
+schafer_phyllosphere_2022,full,extra_score5_obs_depth2_leaf10,1524,38,0.024934383202099737,0.053163297030974166
+schafer_phyllosphere_2022,conet_universe,extra_score5_obs_depth2_leaf10,552,23,0.041666666666666664,0.05151315351211017

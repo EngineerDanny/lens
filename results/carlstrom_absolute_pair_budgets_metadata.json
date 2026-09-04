@@ -1,0 +1,20 @@
+{
+  "seed": 20260821,
+  "repeats": 20,
+  "folds_per_repeat": 5,
+  "outer_split": "stratified by interaction outcome",
+  "budget_pair_selection": "nested random order without outcomes",
+  "fixed_budgets": [
+    10,
+    20,
+    50,
+    100,
+    200,
+    500
+  ],
+  "maximum_budget": "all pair identifiers outside each test fold",
+  "model": "inner-tuned centered ridge logistic regression",
+  "inner_validation_fallback": "mean percentile across PLNNetwork, Poisson GLMNet, and SparCC when either training outcome class has fewer than three pairs",
+  "reference": "OneNet on the identical test pairs",
+  "se_unit": "mean of five folds within each repeated partition"
+}

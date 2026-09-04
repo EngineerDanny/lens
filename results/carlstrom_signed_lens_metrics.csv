@@ -1,0 +1,2 @@
+method,pairs,negative_pairs,neutral_pairs,positive_pairs,negative_ap,neutral_ap,positive_ap,macro_ap,balanced_accuracy,macro_f1
+signed_LENS,989,18,866,105,0.016500193349027997,0.9436911298681373,0.18867392773372527,0.38295508365029685,0.33141121986387573,0.29776541176875254

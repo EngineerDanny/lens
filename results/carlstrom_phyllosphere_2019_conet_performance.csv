@@ -1,0 +1,2 @@
+dataset,method,min_occurrence,iterations,n_samples,n_taxa,tested_pairs,positive_pairs,neutral_pairs,random_auprc,average_precision,auroc,native_selected_edges,native_precision,native_recall,native_f1,runtime_seconds
+carlstrom_phyllosphere_2019,CoNet,20,100,48,33,392,53,339,0.13520408163265307,0.12697353456433583,0.4779595925864084,286,0.15384615384615385,0.8301886792452831,0.2595870206489676,18.754300959

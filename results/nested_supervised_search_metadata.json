@@ -1,0 +1,7 @@
+{
+  "random_seed": 20260821,
+  "outer_validation": "leave one complete experimental system out",
+  "inner_selection": "highest mean AUPRC lift across held-out training systems",
+  "held_out_labels_used_for_selection": false,
+  "candidate_count": 65
+}

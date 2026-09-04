@@ -1,0 +1,6 @@
+dataset,method,status,elapsed_seconds,detail
+omm12_keystone_2023,pln,complete,1.652,""
+omm12_keystone_2023,glmnet,complete,0.401,""
+omm12_keystone_2023,spieceasi,complete,0.83,""
+omm12_keystone_2023,spring,complete,2.272,""
+omm12_keystone_2023,sparcc,complete,0.081,""

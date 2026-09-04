@@ -1,0 +1,12 @@
+{
+  "model_family": "L1-regularized logistic regression",
+  "regularization_candidates_C": [
+    0.01,
+    0.1,
+    1.0
+  ],
+  "selection_metric": "mean inner-fold AUPRC",
+  "outer_folds": 5,
+  "inner_folds_maximum": 3,
+  "test_labels_used_for_selection": false
+}

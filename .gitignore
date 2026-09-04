@@ -1,0 +1,49 @@
+# macOS and editor files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# R and Python session files
+.Rhistory
+.RData
+.Ruserdata
+Rplots.pdf
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Locally installed package libraries
+r_library/
+python_library/
+
+# Generated caches, temporary files, and logs
+analysis_cache/
+analysis_data/onenet_cache/
+tmp/
+logs/
+training_data/
+
+# Downloaded external sources and large software bundles
+external_data/*
+!external_data/PROVENANCE.md
+interaction_ground_truth/**/*.zip
+interaction_ground_truth/**/*.pdf
+interaction_ground_truth/**/*.jar
+
+# LaTeX build products
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+paper/main.pdf
+paper/arxiv_submission.zip
+
+# Miscellaneous generated files
+*.tmp
+*.bak

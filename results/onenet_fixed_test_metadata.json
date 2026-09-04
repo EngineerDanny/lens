@@ -1,0 +1,16 @@
+{
+  "score": "mean edge selection frequency across six OneNet estimators",
+  "mean_stability": 0.8,
+  "resamples": 30,
+  "estimators": [
+    "PLNnetwork",
+    "SpiecEasi",
+    "gCoda",
+    "EMtree",
+    "Magma",
+    "SPRING"
+  ],
+  "omitted_estimator": "ZiLN; constant columns occurred in sparse resamples",
+  "test_pairs": "same deterministic fixed test sets as the primary analysis",
+  "experimental_labels_used_in_onenet": false
+}

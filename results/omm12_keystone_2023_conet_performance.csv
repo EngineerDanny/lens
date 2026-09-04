@@ -1,0 +1,2 @@
+dataset,method,min_occurrence,iterations,n_samples,n_taxa,tested_pairs,positive_pairs,neutral_pairs,random_auprc,average_precision,auroc,native_selected_edges,native_precision,native_recall,native_f1,runtime_seconds
+omm12_keystone_2023,CoNet,20,100,228,10,24,24,0,1.0,,,22,1.0,0.9166666666666666,0.9565217391304348,4.479101333

@@ -1,0 +1,6 @@
+dataset,method,status,elapsed_seconds,detail
+butyrate_assembly_2021,pln,complete,2.087,""
+butyrate_assembly_2021,glmnet,complete,2.672,""
+butyrate_assembly_2021,spieceasi,complete,0.937,""
+butyrate_assembly_2021,spring,complete,4.153,""
+butyrate_assembly_2021,sparcc,complete,0.235,""

@@ -1,0 +1,2 @@
+dataset,method,min_occurrence,iterations,n_samples,n_taxa,tested_pairs,positive_pairs,neutral_pairs,random_auprc,average_precision,auroc,native_selected_edges,native_precision,native_recall,native_f1,runtime_seconds
+schafer_phyllosphere_2022,CoNet,20,100,662,53,552,23,529,0.041666666666666664,0.03681472330012734,0.3840716692693351,437,0.04576659038901602,0.8695652173913043,0.08695652173913043,

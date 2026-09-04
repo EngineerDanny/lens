@@ -1,0 +1,3 @@
+method,tested_pairs,positive_pairs,neutral_pairs,average_precision,auroc,brier_score,selected_edges,precision,recall,f1,density_matched_edges,density_matched_true_positives,density_matched_precision,density_matched_recall,density_matched_f1
+frozen_three_score_calibration,989,123,866,0.1176254952735002,0.4539232805722977,0.6964802325789,989,0.1243680485338726,1.0,0.22122302158273383,123,13,0.10569105691056911,0.10569105691056911,0.10569105691056913
+mean_three_score_rank,989,123,866,0.12601165510780216,0.47387296043861127,0.2667748618815402,0,,0.0,,123,14,0.11382113821138211,0.11382113821138211,0.11382113821138211

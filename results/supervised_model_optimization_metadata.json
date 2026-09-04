@@ -1,0 +1,70 @@
+{
+  "outer_folds": 5,
+  "inner_folds_maximum": 3,
+  "selection_metric": "mean inner-fold AUPRC",
+  "pair_grouping": true,
+  "features": [
+    "pln_score_percentile",
+    "glmnet_score_percentile",
+    "sparcc_score_percentile",
+    "direct_prevalence_min",
+    "direct_prevalence_max",
+    "direct_joint_prevalence",
+    "direct_presence_jaccard",
+    "presence_phi_abs",
+    "presence_log_odds_abs",
+    "spearman_all_abs",
+    "spearman_copresent_abs",
+    "log_ratio_variance",
+    "abundance_contrast_min",
+    "abundance_contrast_max"
+  ],
+  "candidate_models": [
+    {
+      "family": "logistic",
+      "setting": "l2_C=0.01"
+    },
+    {
+      "family": "logistic",
+      "setting": "l2_C=0.1"
+    },
+    {
+      "family": "logistic",
+      "setting": "l2_C=1"
+    },
+    {
+      "family": "logistic",
+      "setting": "l1_C=0.01"
+    },
+    {
+      "family": "logistic",
+      "setting": "l1_C=0.1"
+    },
+    {
+      "family": "logistic",
+      "setting": "l1_C=1"
+    },
+    {
+      "family": "ranking",
+      "setting": "C=0.01"
+    },
+    {
+      "family": "ranking",
+      "setting": "C=0.1"
+    },
+    {
+      "family": "ranking",
+      "setting": "C=1"
+    },
+    {
+      "family": "boosting",
+      "setting": "depth=1_l2=1"
+    },
+    {
+      "family": "boosting",
+      "setting": "depth=2_l2=1"
+    }
+  ],
+  "maximum_sampled_positive_negative_comparisons": 30000,
+  "test_labels_used_for_selection": false
+}

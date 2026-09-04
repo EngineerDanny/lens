@@ -1,0 +1,4 @@
+fit_state,fits,mean_training_positives,mean_prediction_sd,mean_supervised_auprc,mean_onenet_auprc,fit_fraction
+all coefficients zero,20,1.05,0.0,0.02477297238999137,0.17494189121653464,0.2
+no positive training example,78,0.0,0.0,0.02498299263290635,0.18413880571774957,0.78
+nonzero fitted model,2,2.5,0.22085146421659618,0.12167586112676504,0.2223428129474078,0.02

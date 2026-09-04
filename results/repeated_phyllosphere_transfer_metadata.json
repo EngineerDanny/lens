@@ -1,0 +1,16 @@
+{
+  "seed": 20260821,
+  "studies": [
+    "carlstrom_phyllosphere_2019",
+    "schafer_phyllosphere_2022"
+  ],
+  "common_pairs": 308,
+  "experimentally_common_pairs": 380,
+  "features": [
+    "pln_score_percentile",
+    "glmnet_score_percentile",
+    "sparcc_score_percentile"
+  ],
+  "validation": "train on one complete study and test on the other",
+  "important_difference": "Carlstrom measures removal effects; Schafer measures addition effects. The organisms overlap, but the biological endpoints differ."
+}

@@ -1,0 +1,12 @@
+model,predictor,standardized_coefficient
+score_model,pln_score_percentile,0.2349699680033499
+score_model,glmnet_score_percentile,0.009793862172778512
+score_model,sparcc_score_percentile,0.39838138688530145
+observability_model,prevalence_min,-0.12972624511163683
+observability_model,joint_prevalence,-0.17539758576156658
+compact_combined_model,pln_score_percentile,0.02845647921720741
+compact_combined_model,glmnet_score_percentile,-0.059195302610303674
+compact_combined_model,sparcc_score_percentile,0.1397106474579405
+compact_combined_model,method_agreement,0.6898185576297372
+compact_combined_model,prevalence_min,0.12469882028941623
+compact_combined_model,joint_prevalence,-0.043711901915457346

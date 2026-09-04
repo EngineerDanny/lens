@@ -1,0 +1,18 @@
+{
+  "seed": 20260821,
+  "repeats": 200,
+  "taxon_fractions": [
+    0.2,
+    0.4,
+    0.6
+  ],
+  "methods": [
+    "PLNNetwork",
+    "Poisson GLMNet",
+    "SparCC",
+    "Mean rank",
+    "SPIEC-EASI"
+  ],
+  "interaction_labels_used_for_method_fitting_or_selection": false,
+  "test_pairs": "identical to the supervised partial calibration evaluation"
+}

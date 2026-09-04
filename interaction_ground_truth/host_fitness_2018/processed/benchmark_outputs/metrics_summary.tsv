@@ -1,0 +1,4 @@
+dataset	method	n_truth	n_pred	tp	fp	fn	precision	recall	f1	sign_accuracy	elapsed_sec
+host_fitness_2018	Baseline_diagonal	9	0	0	0	9		0			0
+host_fitness_2018	PLNnetwork	9	6	6	0	3	1	0.666666666666667	0.8	0.833333333333333	2.415
+host_fitness_2018	LOTO_glmnet_CV1se	9	10	9	1	0	0.9	1	0.947368421052632	1	0.478

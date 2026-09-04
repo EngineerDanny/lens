@@ -1,0 +1,9 @@
+dataset,n_samples,n_taxa,zero_frequency,n_tested_pairs,n_positive,n_tested_neutral,n_ambiguous,n_excluded_records,source_abundance
+omm12,109,12,0.2125382262996941,66,66,0,0,0,interaction_ground_truth/omm12/processed/community_absabundance_in_vitro.tsv.gz
+omm12_keystone_2023,228,11,0.3149920255183413,27,25,2,0,1,interaction_ground_truth/omm12_keystone_2023/processed/community_absabundance_in_vitro.tsv.gz
+pairinterax,169,97,0.0,1823,1441,246,136,1,interaction_ground_truth/pairinterax/processed/abundance_matrix.tsv.gz
+butyrate_assembly_2021,537,26,0.6619395502077067,104,76,28,0,0,interaction_ground_truth/butyrate_assembly_2021/processed/abundance_matrix.tsv.gz
+host_fitness_2018,1449,5,0.5456176673567978,10,9,1,0,87,interaction_ground_truth/host_fitness_2018/processed/abundance_matrix.tsv.gz
+wortel_syncom_2026,166,9,0.7597054886211513,36,35,1,0,9,external_data/wortel_syncom_2026/source/SynCom/QPCR data/Files/In_vitro_data_with_raw.csv
+schafer_phyllosphere_2022,662,130,0.8453985591447827,1524,38,1486,25,80,external_data/schafer_phyllosphere_2022/source/supplementary_data_1.xlsx
+friedman_microcosm_2017,420,8,0.6788690476190476,56,33,23,0,7,external_data/friedman_microcosm_2017/source/jfriedman-micro-micro_assembly_rules-7adbaa1/data

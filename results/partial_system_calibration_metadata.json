@@ -1,0 +1,23 @@
+{
+  "seed": 20260821,
+  "repeats": 200,
+  "taxon_fractions": [
+    0.2,
+    0.4,
+    0.6
+  ],
+  "features": [
+    "pln_score_percentile",
+    "glmnet_score_percentile",
+    "sparcc_score_percentile"
+  ],
+  "taxon_panel_training": "all scored tested pairs with both taxa in the sampled panel",
+  "taxon_panel_test": "all scored tested pairs with both taxa outside the sampled panel",
+  "distributed_training": "uniform random pairs across the scored tested universe",
+  "distributed_test": "all remaining scored tested pairs",
+  "label_blind_sampling": true,
+  "distributed_pair_budget": "matched to the realized taxon panel pair count in each repeat",
+  "one_class_training": "constant probability equal to the revealed positive fraction",
+  "supervised_model": "L2 logistic regression with C=0.01 and balanced class weights, fixed before evaluation",
+  "primary_baseline": "fixed mean percentile rank of PLNNetwork, Poisson GLMNet, and SparCC"
+}

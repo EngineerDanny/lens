@@ -1,0 +1,39 @@
+{
+  "seed": 20260821,
+  "repeats": 200,
+  "test_fraction": 0.2,
+  "budget_fractions_of_all_tested_pair_identifiers": [
+    0.2,
+    0.4,
+    0.6,
+    0.8
+  ],
+  "test_set_fixed_across_budgets_within_repeat": true,
+  "calibration_sets_nested_within_repeat": true,
+  "calibration_pair_sampling_uses_outcomes": false,
+  "test_split_outcomes_used_only_to_require_both_classes": true,
+  "model": "fixed L2 logistic regression, C=0.01, balanced class weights",
+  "combined_features": [
+    "pln_score_percentile",
+    "glmnet_score_percentile",
+    "sparcc_score_percentile",
+    "direct_prevalence_min",
+    "direct_prevalence_max",
+    "direct_joint_prevalence",
+    "direct_presence_jaccard",
+    "presence_phi_abs",
+    "presence_log_odds_abs",
+    "spearman_all_abs",
+    "spearman_copresent_abs",
+    "log_ratio_variance",
+    "abundance_contrast_min",
+    "abundance_contrast_max"
+  ],
+  "unsupervised_methods": [
+    "PLNNetwork",
+    "Poisson GLMNet",
+    "SparCC",
+    "Mean rank",
+    "SPIEC-EASI"
+  ]
+}

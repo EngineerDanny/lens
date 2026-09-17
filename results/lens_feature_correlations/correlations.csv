@@ -1,0 +1,1177 @@
+"x","y","rho","n_complete","feature_x","feature_y","system","panel"
+1,1,1,104,"pln_score_percentile","pln_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+2,1,-0.168303588133431,104,"glmnet_score_percentile","pln_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+3,1,0.512718305552812,104,"sparcc_score_percentile","pln_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+4,1,-0.275876050192468,104,"direct_prevalence_min","pln_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+5,1,-0.321570052093075,104,"direct_prevalence_max","pln_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+6,1,-0.342340151917956,104,"direct_joint_prevalence","pln_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+7,1,-0.264710225992747,104,"direct_presence_jaccard","pln_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+8,1,0.219759726916978,104,"presence_phi_abs","pln_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+9,1,0.228366145075439,104,"presence_log_odds_abs","pln_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+10,1,0.45912182131759,104,"spearman_all_abs","pln_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+11,1,0.240948687251694,103,"spearman_copresent_abs","pln_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+12,1,-0.273671676555654,104,"log_ratio_variance","pln_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+13,1,0.293371947095534,104,"abundance_contrast_min","pln_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+14,1,0.25386262484217,104,"abundance_contrast_max","pln_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+1,2,-0.168303588133431,104,"pln_score_percentile","glmnet_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+2,2,1,104,"glmnet_score_percentile","glmnet_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+3,2,0.0960538650366379,104,"sparcc_score_percentile","glmnet_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+4,2,0.374444938850159,104,"direct_prevalence_min","glmnet_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+5,2,0.463697249908692,104,"direct_prevalence_max","glmnet_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+6,2,0.475634568068413,104,"direct_joint_prevalence","glmnet_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+7,2,0.38921931427322,104,"direct_presence_jaccard","glmnet_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+8,2,-0.231995730943911,104,"presence_phi_abs","glmnet_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+9,2,-0.245032845908183,104,"presence_log_odds_abs","glmnet_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+10,2,-0.194139113079184,104,"spearman_all_abs","glmnet_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+11,2,-0.563991981836552,103,"spearman_copresent_abs","glmnet_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+12,2,0.650412391514479,104,"log_ratio_variance","glmnet_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+13,2,-0.055694197399459,104,"abundance_contrast_min","glmnet_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+14,2,-0.110294985476476,104,"abundance_contrast_max","glmnet_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+1,3,0.512718305552812,104,"pln_score_percentile","sparcc_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+2,3,0.0960538650366379,104,"glmnet_score_percentile","sparcc_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+3,3,1,104,"sparcc_score_percentile","sparcc_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+4,3,-0.137547619889454,104,"direct_prevalence_min","sparcc_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+5,3,-0.0860545171483664,104,"direct_prevalence_max","sparcc_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+6,3,-0.15219838713556,104,"direct_joint_prevalence","sparcc_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+7,3,-0.151324159752202,104,"direct_presence_jaccard","sparcc_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+8,3,0.0475408087058572,104,"presence_phi_abs","sparcc_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+9,3,0.0701328560743892,104,"presence_log_odds_abs","sparcc_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+10,3,0.294676197588819,104,"spearman_all_abs","sparcc_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+11,3,-0.00441505952642446,103,"spearman_copresent_abs","sparcc_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+12,3,-0.0723354315587325,104,"log_ratio_variance","sparcc_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+13,3,0.233073722394111,104,"abundance_contrast_min","sparcc_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+14,3,0.253547423450336,104,"abundance_contrast_max","sparcc_score_percentile","Butyrate","Butyrate
+104 tested pairs"
+1,4,-0.275876050192468,104,"pln_score_percentile","direct_prevalence_min","Butyrate","Butyrate
+104 tested pairs"
+2,4,0.374444938850159,104,"glmnet_score_percentile","direct_prevalence_min","Butyrate","Butyrate
+104 tested pairs"
+3,4,-0.137547619889454,104,"sparcc_score_percentile","direct_prevalence_min","Butyrate","Butyrate
+104 tested pairs"
+4,4,1,104,"direct_prevalence_min","direct_prevalence_min","Butyrate","Butyrate
+104 tested pairs"
+5,4,0.314898530292413,104,"direct_prevalence_max","direct_prevalence_min","Butyrate","Butyrate
+104 tested pairs"
+6,4,0.814411975774993,104,"direct_joint_prevalence","direct_prevalence_min","Butyrate","Butyrate
+104 tested pairs"
+7,4,0.877409785781533,104,"direct_presence_jaccard","direct_prevalence_min","Butyrate","Butyrate
+104 tested pairs"
+8,4,-0.0335922580510194,104,"presence_phi_abs","direct_prevalence_min","Butyrate","Butyrate
+104 tested pairs"
+9,4,-0.155532273666752,104,"presence_log_odds_abs","direct_prevalence_min","Butyrate","Butyrate
+104 tested pairs"
+10,4,-0.180681001178197,104,"spearman_all_abs","direct_prevalence_min","Butyrate","Butyrate
+104 tested pairs"
+11,4,-0.376105477039347,103,"spearman_copresent_abs","direct_prevalence_min","Butyrate","Butyrate
+104 tested pairs"
+12,4,0.528272697019023,104,"log_ratio_variance","direct_prevalence_min","Butyrate","Butyrate
+104 tested pairs"
+13,4,-0.112847903103257,104,"abundance_contrast_min","direct_prevalence_min","Butyrate","Butyrate
+104 tested pairs"
+14,4,-0.189064325191568,104,"abundance_contrast_max","direct_prevalence_min","Butyrate","Butyrate
+104 tested pairs"
+1,5,-0.321570052093075,104,"pln_score_percentile","direct_prevalence_max","Butyrate","Butyrate
+104 tested pairs"
+2,5,0.463697249908692,104,"glmnet_score_percentile","direct_prevalence_max","Butyrate","Butyrate
+104 tested pairs"
+3,5,-0.0860545171483664,104,"sparcc_score_percentile","direct_prevalence_max","Butyrate","Butyrate
+104 tested pairs"
+4,5,0.314898530292413,104,"direct_prevalence_min","direct_prevalence_max","Butyrate","Butyrate
+104 tested pairs"
+5,5,1,104,"direct_prevalence_max","direct_prevalence_max","Butyrate","Butyrate
+104 tested pairs"
+6,5,0.736000843048884,104,"direct_joint_prevalence","direct_prevalence_max","Butyrate","Butyrate
+104 tested pairs"
+7,5,0.57570530766479,104,"direct_presence_jaccard","direct_prevalence_max","Butyrate","Butyrate
+104 tested pairs"
+8,5,-0.111274583893098,104,"presence_phi_abs","direct_prevalence_max","Butyrate","Butyrate
+104 tested pairs"
+9,5,-0.125156397291199,104,"presence_log_odds_abs","direct_prevalence_max","Butyrate","Butyrate
+104 tested pairs"
+10,5,-0.117117992983824,104,"spearman_all_abs","direct_prevalence_max","Butyrate","Butyrate
+104 tested pairs"
+11,5,-0.477785625118568,103,"spearman_copresent_abs","direct_prevalence_max","Butyrate","Butyrate
+104 tested pairs"
+12,5,0.691971508300372,104,"log_ratio_variance","direct_prevalence_max","Butyrate","Butyrate
+104 tested pairs"
+13,5,-0.00511569829318195,104,"abundance_contrast_min","direct_prevalence_max","Butyrate","Butyrate
+104 tested pairs"
+14,5,-0.0641417330581444,104,"abundance_contrast_max","direct_prevalence_max","Butyrate","Butyrate
+104 tested pairs"
+1,6,-0.342340151917956,104,"pln_score_percentile","direct_joint_prevalence","Butyrate","Butyrate
+104 tested pairs"
+2,6,0.475634568068413,104,"glmnet_score_percentile","direct_joint_prevalence","Butyrate","Butyrate
+104 tested pairs"
+3,6,-0.15219838713556,104,"sparcc_score_percentile","direct_joint_prevalence","Butyrate","Butyrate
+104 tested pairs"
+4,6,0.814411975774993,104,"direct_prevalence_min","direct_joint_prevalence","Butyrate","Butyrate
+104 tested pairs"
+5,6,0.736000843048884,104,"direct_prevalence_max","direct_joint_prevalence","Butyrate","Butyrate
+104 tested pairs"
+6,6,1,104,"direct_joint_prevalence","direct_joint_prevalence","Butyrate","Butyrate
+104 tested pairs"
+7,6,0.958824966258127,104,"direct_presence_jaccard","direct_joint_prevalence","Butyrate","Butyrate
+104 tested pairs"
+8,6,-0.0138876293235834,104,"presence_phi_abs","direct_joint_prevalence","Butyrate","Butyrate
+104 tested pairs"
+9,6,-0.120678755755214,104,"presence_log_odds_abs","direct_joint_prevalence","Butyrate","Butyrate
+104 tested pairs"
+10,6,-0.120848517790429,104,"spearman_all_abs","direct_joint_prevalence","Butyrate","Butyrate
+104 tested pairs"
+11,6,-0.491841369226302,103,"spearman_copresent_abs","direct_joint_prevalence","Butyrate","Butyrate
+104 tested pairs"
+12,6,0.775914601531839,104,"log_ratio_variance","direct_joint_prevalence","Butyrate","Butyrate
+104 tested pairs"
+13,6,-0.0348284457258364,104,"abundance_contrast_min","direct_joint_prevalence","Butyrate","Butyrate
+104 tested pairs"
+14,6,-0.123564154872912,104,"abundance_contrast_max","direct_joint_prevalence","Butyrate","Butyrate
+104 tested pairs"
+1,7,-0.264710225992747,104,"pln_score_percentile","direct_presence_jaccard","Butyrate","Butyrate
+104 tested pairs"
+2,7,0.38921931427322,104,"glmnet_score_percentile","direct_presence_jaccard","Butyrate","Butyrate
+104 tested pairs"
+3,7,-0.151324159752202,104,"sparcc_score_percentile","direct_presence_jaccard","Butyrate","Butyrate
+104 tested pairs"
+4,7,0.877409785781533,104,"direct_prevalence_min","direct_presence_jaccard","Butyrate","Butyrate
+104 tested pairs"
+5,7,0.57570530766479,104,"direct_prevalence_max","direct_presence_jaccard","Butyrate","Butyrate
+104 tested pairs"
+6,7,0.958824966258127,104,"direct_joint_prevalence","direct_presence_jaccard","Butyrate","Butyrate
+104 tested pairs"
+7,7,1,104,"direct_presence_jaccard","direct_presence_jaccard","Butyrate","Butyrate
+104 tested pairs"
+8,7,0.0807378699844741,104,"presence_phi_abs","direct_presence_jaccard","Butyrate","Butyrate
+104 tested pairs"
+9,7,-0.0371125111358872,104,"presence_log_odds_abs","direct_presence_jaccard","Butyrate","Butyrate
+104 tested pairs"
+10,7,-0.0528863721854031,104,"spearman_all_abs","direct_presence_jaccard","Butyrate","Butyrate
+104 tested pairs"
+11,7,-0.419318790255985,103,"spearman_copresent_abs","direct_presence_jaccard","Butyrate","Butyrate
+104 tested pairs"
+12,7,0.657548204023537,104,"log_ratio_variance","direct_presence_jaccard","Butyrate","Butyrate
+104 tested pairs"
+13,7,-0.0108557360699309,104,"abundance_contrast_min","direct_presence_jaccard","Butyrate","Butyrate
+104 tested pairs"
+14,7,-0.110355091930546,104,"abundance_contrast_max","direct_presence_jaccard","Butyrate","Butyrate
+104 tested pairs"
+1,8,0.219759726916978,104,"pln_score_percentile","presence_phi_abs","Butyrate","Butyrate
+104 tested pairs"
+2,8,-0.231995730943911,104,"glmnet_score_percentile","presence_phi_abs","Butyrate","Butyrate
+104 tested pairs"
+3,8,0.0475408087058572,104,"sparcc_score_percentile","presence_phi_abs","Butyrate","Butyrate
+104 tested pairs"
+4,8,-0.0335922580510194,104,"direct_prevalence_min","presence_phi_abs","Butyrate","Butyrate
+104 tested pairs"
+5,8,-0.111274583893098,104,"direct_prevalence_max","presence_phi_abs","Butyrate","Butyrate
+104 tested pairs"
+6,8,-0.0138876293235834,104,"direct_joint_prevalence","presence_phi_abs","Butyrate","Butyrate
+104 tested pairs"
+7,8,0.0807378699844741,104,"direct_presence_jaccard","presence_phi_abs","Butyrate","Butyrate
+104 tested pairs"
+8,8,1,104,"presence_phi_abs","presence_phi_abs","Butyrate","Butyrate
+104 tested pairs"
+9,8,0.979454119209735,104,"presence_log_odds_abs","presence_phi_abs","Butyrate","Butyrate
+104 tested pairs"
+10,8,0.657740317934493,104,"spearman_all_abs","presence_phi_abs","Butyrate","Butyrate
+104 tested pairs"
+11,8,0.149090629530378,103,"spearman_copresent_abs","presence_phi_abs","Butyrate","Butyrate
+104 tested pairs"
+12,8,-0.158871225861517,104,"log_ratio_variance","presence_phi_abs","Butyrate","Butyrate
+104 tested pairs"
+13,8,0.370895124293183,104,"abundance_contrast_min","presence_phi_abs","Butyrate","Butyrate
+104 tested pairs"
+14,8,0.354571641950283,104,"abundance_contrast_max","presence_phi_abs","Butyrate","Butyrate
+104 tested pairs"
+1,9,0.228366145075439,104,"pln_score_percentile","presence_log_odds_abs","Butyrate","Butyrate
+104 tested pairs"
+2,9,-0.245032845908183,104,"glmnet_score_percentile","presence_log_odds_abs","Butyrate","Butyrate
+104 tested pairs"
+3,9,0.0701328560743892,104,"sparcc_score_percentile","presence_log_odds_abs","Butyrate","Butyrate
+104 tested pairs"
+4,9,-0.155532273666752,104,"direct_prevalence_min","presence_log_odds_abs","Butyrate","Butyrate
+104 tested pairs"
+5,9,-0.125156397291199,104,"direct_prevalence_max","presence_log_odds_abs","Butyrate","Butyrate
+104 tested pairs"
+6,9,-0.120678755755214,104,"direct_joint_prevalence","presence_log_odds_abs","Butyrate","Butyrate
+104 tested pairs"
+7,9,-0.0371125111358872,104,"direct_presence_jaccard","presence_log_odds_abs","Butyrate","Butyrate
+104 tested pairs"
+8,9,0.979454119209735,104,"presence_phi_abs","presence_log_odds_abs","Butyrate","Butyrate
+104 tested pairs"
+9,9,1,104,"presence_log_odds_abs","presence_log_odds_abs","Butyrate","Butyrate
+104 tested pairs"
+10,9,0.677536628128712,104,"spearman_all_abs","presence_log_odds_abs","Butyrate","Butyrate
+104 tested pairs"
+11,9,0.184626789863624,103,"spearman_copresent_abs","presence_log_odds_abs","Butyrate","Butyrate
+104 tested pairs"
+12,9,-0.225922004077467,104,"log_ratio_variance","presence_log_odds_abs","Butyrate","Butyrate
+104 tested pairs"
+13,9,0.393255040461542,104,"abundance_contrast_min","presence_log_odds_abs","Butyrate","Butyrate
+104 tested pairs"
+14,9,0.40509766162874,104,"abundance_contrast_max","presence_log_odds_abs","Butyrate","Butyrate
+104 tested pairs"
+1,10,0.45912182131759,104,"pln_score_percentile","spearman_all_abs","Butyrate","Butyrate
+104 tested pairs"
+2,10,-0.194139113079184,104,"glmnet_score_percentile","spearman_all_abs","Butyrate","Butyrate
+104 tested pairs"
+3,10,0.294676197588819,104,"sparcc_score_percentile","spearman_all_abs","Butyrate","Butyrate
+104 tested pairs"
+4,10,-0.180681001178197,104,"direct_prevalence_min","spearman_all_abs","Butyrate","Butyrate
+104 tested pairs"
+5,10,-0.117117992983824,104,"direct_prevalence_max","spearman_all_abs","Butyrate","Butyrate
+104 tested pairs"
+6,10,-0.120848517790429,104,"direct_joint_prevalence","spearman_all_abs","Butyrate","Butyrate
+104 tested pairs"
+7,10,-0.0528863721854031,104,"direct_presence_jaccard","spearman_all_abs","Butyrate","Butyrate
+104 tested pairs"
+8,10,0.657740317934493,104,"presence_phi_abs","spearman_all_abs","Butyrate","Butyrate
+104 tested pairs"
+9,10,0.677536628128712,104,"presence_log_odds_abs","spearman_all_abs","Butyrate","Butyrate
+104 tested pairs"
+10,10,1,104,"spearman_all_abs","spearman_all_abs","Butyrate","Butyrate
+104 tested pairs"
+11,10,0.162061239731143,103,"spearman_copresent_abs","spearman_all_abs","Butyrate","Butyrate
+104 tested pairs"
+12,10,-0.150549450549451,104,"log_ratio_variance","spearman_all_abs","Butyrate","Butyrate
+104 tested pairs"
+13,10,0.592926490984743,104,"abundance_contrast_min","spearman_all_abs","Butyrate","Butyrate
+104 tested pairs"
+14,10,0.642995839112344,104,"abundance_contrast_max","spearman_all_abs","Butyrate","Butyrate
+104 tested pairs"
+1,11,0.240948687251694,103,"pln_score_percentile","spearman_copresent_abs","Butyrate","Butyrate
+104 tested pairs"
+2,11,-0.563991981836552,103,"glmnet_score_percentile","spearman_copresent_abs","Butyrate","Butyrate
+104 tested pairs"
+3,11,-0.00441505952642446,103,"sparcc_score_percentile","spearman_copresent_abs","Butyrate","Butyrate
+104 tested pairs"
+4,11,-0.376105477039347,103,"direct_prevalence_min","spearman_copresent_abs","Butyrate","Butyrate
+104 tested pairs"
+5,11,-0.477785625118568,103,"direct_prevalence_max","spearman_copresent_abs","Butyrate","Butyrate
+104 tested pairs"
+6,11,-0.491841369226302,103,"direct_joint_prevalence","spearman_copresent_abs","Butyrate","Butyrate
+104 tested pairs"
+7,11,-0.419318790255985,103,"direct_presence_jaccard","spearman_copresent_abs","Butyrate","Butyrate
+104 tested pairs"
+8,11,0.149090629530378,103,"presence_phi_abs","spearman_copresent_abs","Butyrate","Butyrate
+104 tested pairs"
+9,11,0.184626789863624,103,"presence_log_odds_abs","spearman_copresent_abs","Butyrate","Butyrate
+104 tested pairs"
+10,11,0.162061239731143,103,"spearman_all_abs","spearman_copresent_abs","Butyrate","Butyrate
+104 tested pairs"
+11,11,1,103,"spearman_copresent_abs","spearman_copresent_abs","Butyrate","Butyrate
+104 tested pairs"
+12,11,-0.554276677063656,103,"log_ratio_variance","spearman_copresent_abs","Butyrate","Butyrate
+104 tested pairs"
+13,11,0.1754382111321,103,"abundance_contrast_min","spearman_copresent_abs","Butyrate","Butyrate
+104 tested pairs"
+14,11,0.194515222070905,103,"abundance_contrast_max","spearman_copresent_abs","Butyrate","Butyrate
+104 tested pairs"
+1,12,-0.273671676555654,104,"pln_score_percentile","log_ratio_variance","Butyrate","Butyrate
+104 tested pairs"
+2,12,0.650412391514479,104,"glmnet_score_percentile","log_ratio_variance","Butyrate","Butyrate
+104 tested pairs"
+3,12,-0.0723354315587325,104,"sparcc_score_percentile","log_ratio_variance","Butyrate","Butyrate
+104 tested pairs"
+4,12,0.528272697019023,104,"direct_prevalence_min","log_ratio_variance","Butyrate","Butyrate
+104 tested pairs"
+5,12,0.691971508300372,104,"direct_prevalence_max","log_ratio_variance","Butyrate","Butyrate
+104 tested pairs"
+6,12,0.775914601531839,104,"direct_joint_prevalence","log_ratio_variance","Butyrate","Butyrate
+104 tested pairs"
+7,12,0.657548204023537,104,"direct_presence_jaccard","log_ratio_variance","Butyrate","Butyrate
+104 tested pairs"
+8,12,-0.158871225861517,104,"presence_phi_abs","log_ratio_variance","Butyrate","Butyrate
+104 tested pairs"
+9,12,-0.225922004077467,104,"presence_log_odds_abs","log_ratio_variance","Butyrate","Butyrate
+104 tested pairs"
+10,12,-0.150549450549451,104,"spearman_all_abs","log_ratio_variance","Butyrate","Butyrate
+104 tested pairs"
+11,12,-0.554276677063656,103,"spearman_copresent_abs","log_ratio_variance","Butyrate","Butyrate
+104 tested pairs"
+12,12,1,104,"log_ratio_variance","log_ratio_variance","Butyrate","Butyrate
+104 tested pairs"
+13,12,-0.0152352501867065,104,"abundance_contrast_min","log_ratio_variance","Butyrate","Butyrate
+104 tested pairs"
+14,12,-0.0636829190227248,104,"abundance_contrast_max","log_ratio_variance","Butyrate","Butyrate
+104 tested pairs"
+1,13,0.293371947095534,104,"pln_score_percentile","abundance_contrast_min","Butyrate","Butyrate
+104 tested pairs"
+2,13,-0.055694197399459,104,"glmnet_score_percentile","abundance_contrast_min","Butyrate","Butyrate
+104 tested pairs"
+3,13,0.233073722394111,104,"sparcc_score_percentile","abundance_contrast_min","Butyrate","Butyrate
+104 tested pairs"
+4,13,-0.112847903103257,104,"direct_prevalence_min","abundance_contrast_min","Butyrate","Butyrate
+104 tested pairs"
+5,13,-0.00511569829318195,104,"direct_prevalence_max","abundance_contrast_min","Butyrate","Butyrate
+104 tested pairs"
+6,13,-0.0348284457258364,104,"direct_joint_prevalence","abundance_contrast_min","Butyrate","Butyrate
+104 tested pairs"
+7,13,-0.0108557360699309,104,"direct_presence_jaccard","abundance_contrast_min","Butyrate","Butyrate
+104 tested pairs"
+8,13,0.370895124293183,104,"presence_phi_abs","abundance_contrast_min","Butyrate","Butyrate
+104 tested pairs"
+9,13,0.393255040461542,104,"presence_log_odds_abs","abundance_contrast_min","Butyrate","Butyrate
+104 tested pairs"
+10,13,0.592926490984743,104,"spearman_all_abs","abundance_contrast_min","Butyrate","Butyrate
+104 tested pairs"
+11,13,0.1754382111321,103,"spearman_copresent_abs","abundance_contrast_min","Butyrate","Butyrate
+104 tested pairs"
+12,13,-0.0152352501867065,104,"log_ratio_variance","abundance_contrast_min","Butyrate","Butyrate
+104 tested pairs"
+13,13,1,104,"abundance_contrast_min","abundance_contrast_min","Butyrate","Butyrate
+104 tested pairs"
+14,13,0.708919236103702,104,"abundance_contrast_max","abundance_contrast_min","Butyrate","Butyrate
+104 tested pairs"
+1,14,0.25386262484217,104,"pln_score_percentile","abundance_contrast_max","Butyrate","Butyrate
+104 tested pairs"
+2,14,-0.110294985476476,104,"glmnet_score_percentile","abundance_contrast_max","Butyrate","Butyrate
+104 tested pairs"
+3,14,0.253547423450336,104,"sparcc_score_percentile","abundance_contrast_max","Butyrate","Butyrate
+104 tested pairs"
+4,14,-0.189064325191568,104,"direct_prevalence_min","abundance_contrast_max","Butyrate","Butyrate
+104 tested pairs"
+5,14,-0.0641417330581444,104,"direct_prevalence_max","abundance_contrast_max","Butyrate","Butyrate
+104 tested pairs"
+6,14,-0.123564154872912,104,"direct_joint_prevalence","abundance_contrast_max","Butyrate","Butyrate
+104 tested pairs"
+7,14,-0.110355091930546,104,"direct_presence_jaccard","abundance_contrast_max","Butyrate","Butyrate
+104 tested pairs"
+8,14,0.354571641950283,104,"presence_phi_abs","abundance_contrast_max","Butyrate","Butyrate
+104 tested pairs"
+9,14,0.40509766162874,104,"presence_log_odds_abs","abundance_contrast_max","Butyrate","Butyrate
+104 tested pairs"
+10,14,0.642995839112344,104,"spearman_all_abs","abundance_contrast_max","Butyrate","Butyrate
+104 tested pairs"
+11,14,0.194515222070905,103,"spearman_copresent_abs","abundance_contrast_max","Butyrate","Butyrate
+104 tested pairs"
+12,14,-0.0636829190227248,104,"log_ratio_variance","abundance_contrast_max","Butyrate","Butyrate
+104 tested pairs"
+13,14,0.708919236103702,104,"abundance_contrast_min","abundance_contrast_max","Butyrate","Butyrate
+104 tested pairs"
+14,14,1,104,"abundance_contrast_max","abundance_contrast_max","Butyrate","Butyrate
+104 tested pairs"
+1,1,NA,989,"pln_score_percentile","pln_score_percentile","Carlström","Carlström
+989 tested pairs"
+2,1,NA,989,"glmnet_score_percentile","pln_score_percentile","Carlström","Carlström
+989 tested pairs"
+3,1,NA,989,"sparcc_score_percentile","pln_score_percentile","Carlström","Carlström
+989 tested pairs"
+4,1,NA,989,"direct_prevalence_min","pln_score_percentile","Carlström","Carlström
+989 tested pairs"
+5,1,NA,989,"direct_prevalence_max","pln_score_percentile","Carlström","Carlström
+989 tested pairs"
+6,1,NA,989,"direct_joint_prevalence","pln_score_percentile","Carlström","Carlström
+989 tested pairs"
+7,1,NA,989,"direct_presence_jaccard","pln_score_percentile","Carlström","Carlström
+989 tested pairs"
+8,1,NA,989,"presence_phi_abs","pln_score_percentile","Carlström","Carlström
+989 tested pairs"
+9,1,NA,989,"presence_log_odds_abs","pln_score_percentile","Carlström","Carlström
+989 tested pairs"
+10,1,NA,989,"spearman_all_abs","pln_score_percentile","Carlström","Carlström
+989 tested pairs"
+11,1,NA,865,"spearman_copresent_abs","pln_score_percentile","Carlström","Carlström
+989 tested pairs"
+12,1,NA,989,"log_ratio_variance","pln_score_percentile","Carlström","Carlström
+989 tested pairs"
+13,1,NA,969,"abundance_contrast_min","pln_score_percentile","Carlström","Carlström
+989 tested pairs"
+14,1,NA,969,"abundance_contrast_max","pln_score_percentile","Carlström","Carlström
+989 tested pairs"
+1,2,NA,989,"pln_score_percentile","glmnet_score_percentile","Carlström","Carlström
+989 tested pairs"
+2,2,1,989,"glmnet_score_percentile","glmnet_score_percentile","Carlström","Carlström
+989 tested pairs"
+3,2,0.134314263228945,989,"sparcc_score_percentile","glmnet_score_percentile","Carlström","Carlström
+989 tested pairs"
+4,2,0.0739732976773838,989,"direct_prevalence_min","glmnet_score_percentile","Carlström","Carlström
+989 tested pairs"
+5,2,0.0692460424307795,989,"direct_prevalence_max","glmnet_score_percentile","Carlström","Carlström
+989 tested pairs"
+6,2,0.0831145497386836,989,"direct_joint_prevalence","glmnet_score_percentile","Carlström","Carlström
+989 tested pairs"
+7,2,0.0732854284545518,989,"direct_presence_jaccard","glmnet_score_percentile","Carlström","Carlström
+989 tested pairs"
+8,2,-0.0430854783605835,989,"presence_phi_abs","glmnet_score_percentile","Carlström","Carlström
+989 tested pairs"
+9,2,0.0162376925522494,989,"presence_log_odds_abs","glmnet_score_percentile","Carlström","Carlström
+989 tested pairs"
+10,2,0.122922436292108,989,"spearman_all_abs","glmnet_score_percentile","Carlström","Carlström
+989 tested pairs"
+11,2,0.0920243244920134,865,"spearman_copresent_abs","glmnet_score_percentile","Carlström","Carlström
+989 tested pairs"
+12,2,0.0777313617811099,989,"log_ratio_variance","glmnet_score_percentile","Carlström","Carlström
+989 tested pairs"
+13,2,0.0245924385962667,969,"abundance_contrast_min","glmnet_score_percentile","Carlström","Carlström
+989 tested pairs"
+14,2,-0.0207596795700765,969,"abundance_contrast_max","glmnet_score_percentile","Carlström","Carlström
+989 tested pairs"
+1,3,NA,989,"pln_score_percentile","sparcc_score_percentile","Carlström","Carlström
+989 tested pairs"
+2,3,0.134314263228945,989,"glmnet_score_percentile","sparcc_score_percentile","Carlström","Carlström
+989 tested pairs"
+3,3,1,989,"sparcc_score_percentile","sparcc_score_percentile","Carlström","Carlström
+989 tested pairs"
+4,3,0.256354003374785,989,"direct_prevalence_min","sparcc_score_percentile","Carlström","Carlström
+989 tested pairs"
+5,3,0.173248483473982,989,"direct_prevalence_max","sparcc_score_percentile","Carlström","Carlström
+989 tested pairs"
+6,3,0.258695486923258,989,"direct_joint_prevalence","sparcc_score_percentile","Carlström","Carlström
+989 tested pairs"
+7,3,0.252979387498752,989,"direct_presence_jaccard","sparcc_score_percentile","Carlström","Carlström
+989 tested pairs"
+8,3,-0.0402511455203758,989,"presence_phi_abs","sparcc_score_percentile","Carlström","Carlström
+989 tested pairs"
+9,3,0.0927433113420241,989,"presence_log_odds_abs","sparcc_score_percentile","Carlström","Carlström
+989 tested pairs"
+10,3,0.416558981390542,989,"spearman_all_abs","sparcc_score_percentile","Carlström","Carlström
+989 tested pairs"
+11,3,0.0279834195320219,865,"spearman_copresent_abs","sparcc_score_percentile","Carlström","Carlström
+989 tested pairs"
+12,3,0.150231406966014,989,"log_ratio_variance","sparcc_score_percentile","Carlström","Carlström
+989 tested pairs"
+13,3,0.268538475269939,969,"abundance_contrast_min","sparcc_score_percentile","Carlström","Carlström
+989 tested pairs"
+14,3,0.235828022085962,969,"abundance_contrast_max","sparcc_score_percentile","Carlström","Carlström
+989 tested pairs"
+1,4,NA,989,"pln_score_percentile","direct_prevalence_min","Carlström","Carlström
+989 tested pairs"
+2,4,0.0739732976773838,989,"glmnet_score_percentile","direct_prevalence_min","Carlström","Carlström
+989 tested pairs"
+3,4,0.256354003374785,989,"sparcc_score_percentile","direct_prevalence_min","Carlström","Carlström
+989 tested pairs"
+4,4,1,989,"direct_prevalence_min","direct_prevalence_min","Carlström","Carlström
+989 tested pairs"
+5,4,0.437994244444135,989,"direct_prevalence_max","direct_prevalence_min","Carlström","Carlström
+989 tested pairs"
+6,4,0.953470053073766,989,"direct_joint_prevalence","direct_prevalence_min","Carlström","Carlström
+989 tested pairs"
+7,4,0.961583304612456,989,"direct_presence_jaccard","direct_prevalence_min","Carlström","Carlström
+989 tested pairs"
+8,4,-0.231817658922829,989,"presence_phi_abs","direct_prevalence_min","Carlström","Carlström
+989 tested pairs"
+9,4,-0.00561951416527552,989,"presence_log_odds_abs","direct_prevalence_min","Carlström","Carlström
+989 tested pairs"
+10,4,-0.0183355109050169,989,"spearman_all_abs","direct_prevalence_min","Carlström","Carlström
+989 tested pairs"
+11,4,-0.366090425617231,865,"spearman_copresent_abs","direct_prevalence_min","Carlström","Carlström
+989 tested pairs"
+12,4,0.494316567549043,989,"log_ratio_variance","direct_prevalence_min","Carlström","Carlström
+989 tested pairs"
+13,4,-0.0442711582257716,969,"abundance_contrast_min","direct_prevalence_min","Carlström","Carlström
+989 tested pairs"
+14,4,-0.105645373934851,969,"abundance_contrast_max","direct_prevalence_min","Carlström","Carlström
+989 tested pairs"
+1,5,NA,989,"pln_score_percentile","direct_prevalence_max","Carlström","Carlström
+989 tested pairs"
+2,5,0.0692460424307795,989,"glmnet_score_percentile","direct_prevalence_max","Carlström","Carlström
+989 tested pairs"
+3,5,0.173248483473982,989,"sparcc_score_percentile","direct_prevalence_max","Carlström","Carlström
+989 tested pairs"
+4,5,0.437994244444135,989,"direct_prevalence_min","direct_prevalence_max","Carlström","Carlström
+989 tested pairs"
+5,5,1,989,"direct_prevalence_max","direct_prevalence_max","Carlström","Carlström
+989 tested pairs"
+6,5,0.63060920646535,989,"direct_joint_prevalence","direct_prevalence_max","Carlström","Carlström
+989 tested pairs"
+7,5,0.490873889560704,989,"direct_presence_jaccard","direct_prevalence_max","Carlström","Carlström
+989 tested pairs"
+8,5,-0.660918031842101,989,"presence_phi_abs","direct_prevalence_max","Carlström","Carlström
+989 tested pairs"
+9,5,0.236664375588724,989,"presence_log_odds_abs","direct_prevalence_max","Carlström","Carlström
+989 tested pairs"
+10,5,-0.0274463963639645,989,"spearman_all_abs","direct_prevalence_max","Carlström","Carlström
+989 tested pairs"
+11,5,-0.182147660647076,865,"spearman_copresent_abs","direct_prevalence_max","Carlström","Carlström
+989 tested pairs"
+12,5,0.102477531950191,989,"log_ratio_variance","direct_prevalence_max","Carlström","Carlström
+989 tested pairs"
+13,5,0.145392950227762,969,"abundance_contrast_min","direct_prevalence_max","Carlström","Carlström
+989 tested pairs"
+14,5,-0.0936193255423996,969,"abundance_contrast_max","direct_prevalence_max","Carlström","Carlström
+989 tested pairs"
+1,6,NA,989,"pln_score_percentile","direct_joint_prevalence","Carlström","Carlström
+989 tested pairs"
+2,6,0.0831145497386836,989,"glmnet_score_percentile","direct_joint_prevalence","Carlström","Carlström
+989 tested pairs"
+3,6,0.258695486923258,989,"sparcc_score_percentile","direct_joint_prevalence","Carlström","Carlström
+989 tested pairs"
+4,6,0.953470053073766,989,"direct_prevalence_min","direct_joint_prevalence","Carlström","Carlström
+989 tested pairs"
+5,6,0.63060920646535,989,"direct_prevalence_max","direct_joint_prevalence","Carlström","Carlström
+989 tested pairs"
+6,6,1,989,"direct_joint_prevalence","direct_joint_prevalence","Carlström","Carlström
+989 tested pairs"
+7,6,0.976668662590609,989,"direct_presence_jaccard","direct_joint_prevalence","Carlström","Carlström
+989 tested pairs"
+8,6,-0.315405967834168,989,"presence_phi_abs","direct_joint_prevalence","Carlström","Carlström
+989 tested pairs"
+9,6,0.0717531023109604,989,"presence_log_odds_abs","direct_joint_prevalence","Carlström","Carlström
+989 tested pairs"
+10,6,0.00575679126551411,989,"spearman_all_abs","direct_joint_prevalence","Carlström","Carlström
+989 tested pairs"
+11,6,-0.384315155147813,865,"spearman_copresent_abs","direct_joint_prevalence","Carlström","Carlström
+989 tested pairs"
+12,6,0.461908269688547,989,"log_ratio_variance","direct_joint_prevalence","Carlström","Carlström
+989 tested pairs"
+13,6,0.0266540659097953,969,"abundance_contrast_min","direct_joint_prevalence","Carlström","Carlström
+989 tested pairs"
+14,6,-0.0737851110326068,969,"abundance_contrast_max","direct_joint_prevalence","Carlström","Carlström
+989 tested pairs"
+1,7,NA,989,"pln_score_percentile","direct_presence_jaccard","Carlström","Carlström
+989 tested pairs"
+2,7,0.0732854284545518,989,"glmnet_score_percentile","direct_presence_jaccard","Carlström","Carlström
+989 tested pairs"
+3,7,0.252979387498752,989,"sparcc_score_percentile","direct_presence_jaccard","Carlström","Carlström
+989 tested pairs"
+4,7,0.961583304612456,989,"direct_prevalence_min","direct_presence_jaccard","Carlström","Carlström
+989 tested pairs"
+5,7,0.490873889560704,989,"direct_prevalence_max","direct_presence_jaccard","Carlström","Carlström
+989 tested pairs"
+6,7,0.976668662590609,989,"direct_joint_prevalence","direct_presence_jaccard","Carlström","Carlström
+989 tested pairs"
+7,7,1,989,"direct_presence_jaccard","direct_presence_jaccard","Carlström","Carlström
+989 tested pairs"
+8,7,-0.214939335611103,989,"presence_phi_abs","direct_presence_jaccard","Carlström","Carlström
+989 tested pairs"
+9,7,0.0716101935285603,989,"presence_log_odds_abs","direct_presence_jaccard","Carlström","Carlström
+989 tested pairs"
+10,7,0.036626866551176,989,"spearman_all_abs","direct_presence_jaccard","Carlström","Carlström
+989 tested pairs"
+11,7,-0.370040573650424,865,"spearman_copresent_abs","direct_presence_jaccard","Carlström","Carlström
+989 tested pairs"
+12,7,0.438819496962129,989,"log_ratio_variance","direct_presence_jaccard","Carlström","Carlström
+989 tested pairs"
+13,7,0.0325169356832086,969,"abundance_contrast_min","direct_presence_jaccard","Carlström","Carlström
+989 tested pairs"
+14,7,-0.0532434601613972,969,"abundance_contrast_max","direct_presence_jaccard","Carlström","Carlström
+989 tested pairs"
+1,8,NA,989,"pln_score_percentile","presence_phi_abs","Carlström","Carlström
+989 tested pairs"
+2,8,-0.0430854783605835,989,"glmnet_score_percentile","presence_phi_abs","Carlström","Carlström
+989 tested pairs"
+3,8,-0.0402511455203758,989,"sparcc_score_percentile","presence_phi_abs","Carlström","Carlström
+989 tested pairs"
+4,8,-0.231817658922829,989,"direct_prevalence_min","presence_phi_abs","Carlström","Carlström
+989 tested pairs"
+5,8,-0.660918031842101,989,"direct_prevalence_max","presence_phi_abs","Carlström","Carlström
+989 tested pairs"
+6,8,-0.315405967834168,989,"direct_joint_prevalence","presence_phi_abs","Carlström","Carlström
+989 tested pairs"
+7,8,-0.214939335611103,989,"direct_presence_jaccard","presence_phi_abs","Carlström","Carlström
+989 tested pairs"
+8,8,1,989,"presence_phi_abs","presence_phi_abs","Carlström","Carlström
+989 tested pairs"
+9,8,0.190500111327436,989,"presence_log_odds_abs","presence_phi_abs","Carlström","Carlström
+989 tested pairs"
+10,8,0.293089738172362,989,"spearman_all_abs","presence_phi_abs","Carlström","Carlström
+989 tested pairs"
+11,8,0.0904255376520076,865,"spearman_copresent_abs","presence_phi_abs","Carlström","Carlström
+989 tested pairs"
+12,8,0.164143440319895,989,"log_ratio_variance","presence_phi_abs","Carlström","Carlström
+989 tested pairs"
+13,8,0.129182543088377,969,"abundance_contrast_min","presence_phi_abs","Carlström","Carlström
+989 tested pairs"
+14,8,0.465992117362526,969,"abundance_contrast_max","presence_phi_abs","Carlström","Carlström
+989 tested pairs"
+1,9,NA,989,"pln_score_percentile","presence_log_odds_abs","Carlström","Carlström
+989 tested pairs"
+2,9,0.0162376925522494,989,"glmnet_score_percentile","presence_log_odds_abs","Carlström","Carlström
+989 tested pairs"
+3,9,0.0927433113420241,989,"sparcc_score_percentile","presence_log_odds_abs","Carlström","Carlström
+989 tested pairs"
+4,9,-0.00561951416527552,989,"direct_prevalence_min","presence_log_odds_abs","Carlström","Carlström
+989 tested pairs"
+5,9,0.236664375588724,989,"direct_prevalence_max","presence_log_odds_abs","Carlström","Carlström
+989 tested pairs"
+6,9,0.0717531023109604,989,"direct_joint_prevalence","presence_log_odds_abs","Carlström","Carlström
+989 tested pairs"
+7,9,0.0716101935285603,989,"direct_presence_jaccard","presence_log_odds_abs","Carlström","Carlström
+989 tested pairs"
+8,9,0.190500111327436,989,"presence_phi_abs","presence_log_odds_abs","Carlström","Carlström
+989 tested pairs"
+9,9,1,989,"presence_log_odds_abs","presence_log_odds_abs","Carlström","Carlström
+989 tested pairs"
+10,9,0.34543607707385,989,"spearman_all_abs","presence_log_odds_abs","Carlström","Carlström
+989 tested pairs"
+11,9,-0.00537791090758301,865,"spearman_copresent_abs","presence_log_odds_abs","Carlström","Carlström
+989 tested pairs"
+12,9,-0.149074816356925,989,"log_ratio_variance","presence_log_odds_abs","Carlström","Carlström
+989 tested pairs"
+13,9,0.472550479688604,969,"abundance_contrast_min","presence_log_odds_abs","Carlström","Carlström
+989 tested pairs"
+14,9,0.409719043989694,969,"abundance_contrast_max","presence_log_odds_abs","Carlström","Carlström
+989 tested pairs"
+1,10,NA,989,"pln_score_percentile","spearman_all_abs","Carlström","Carlström
+989 tested pairs"
+2,10,0.122922436292108,989,"glmnet_score_percentile","spearman_all_abs","Carlström","Carlström
+989 tested pairs"
+3,10,0.416558981390542,989,"sparcc_score_percentile","spearman_all_abs","Carlström","Carlström
+989 tested pairs"
+4,10,-0.0183355109050169,989,"direct_prevalence_min","spearman_all_abs","Carlström","Carlström
+989 tested pairs"
+5,10,-0.0274463963639645,989,"direct_prevalence_max","spearman_all_abs","Carlström","Carlström
+989 tested pairs"
+6,10,0.00575679126551411,989,"direct_joint_prevalence","spearman_all_abs","Carlström","Carlström
+989 tested pairs"
+7,10,0.036626866551176,989,"direct_presence_jaccard","spearman_all_abs","Carlström","Carlström
+989 tested pairs"
+8,10,0.293089738172362,989,"presence_phi_abs","spearman_all_abs","Carlström","Carlström
+989 tested pairs"
+9,10,0.34543607707385,989,"presence_log_odds_abs","spearman_all_abs","Carlström","Carlström
+989 tested pairs"
+10,10,1,989,"spearman_all_abs","spearman_all_abs","Carlström","Carlström
+989 tested pairs"
+11,10,0.0763794966797741,865,"spearman_copresent_abs","spearman_all_abs","Carlström","Carlström
+989 tested pairs"
+12,10,-0.0618302752526027,989,"log_ratio_variance","spearman_all_abs","Carlström","Carlström
+989 tested pairs"
+13,10,0.595163079207607,969,"abundance_contrast_min","spearman_all_abs","Carlström","Carlström
+989 tested pairs"
+14,10,0.60991586784843,969,"abundance_contrast_max","spearman_all_abs","Carlström","Carlström
+989 tested pairs"
+1,11,NA,865,"pln_score_percentile","spearman_copresent_abs","Carlström","Carlström
+989 tested pairs"
+2,11,0.0920243244920134,865,"glmnet_score_percentile","spearman_copresent_abs","Carlström","Carlström
+989 tested pairs"
+3,11,0.0279834195320219,865,"sparcc_score_percentile","spearman_copresent_abs","Carlström","Carlström
+989 tested pairs"
+4,11,-0.366090425617231,865,"direct_prevalence_min","spearman_copresent_abs","Carlström","Carlström
+989 tested pairs"
+5,11,-0.182147660647076,865,"direct_prevalence_max","spearman_copresent_abs","Carlström","Carlström
+989 tested pairs"
+6,11,-0.384315155147813,865,"direct_joint_prevalence","spearman_copresent_abs","Carlström","Carlström
+989 tested pairs"
+7,11,-0.370040573650424,865,"direct_presence_jaccard","spearman_copresent_abs","Carlström","Carlström
+989 tested pairs"
+8,11,0.0904255376520076,865,"presence_phi_abs","spearman_copresent_abs","Carlström","Carlström
+989 tested pairs"
+9,11,-0.00537791090758301,865,"presence_log_odds_abs","spearman_copresent_abs","Carlström","Carlström
+989 tested pairs"
+10,11,0.0763794966797741,865,"spearman_all_abs","spearman_copresent_abs","Carlström","Carlström
+989 tested pairs"
+11,11,1,865,"spearman_copresent_abs","spearman_copresent_abs","Carlström","Carlström
+989 tested pairs"
+12,11,-0.199885090914146,865,"log_ratio_variance","spearman_copresent_abs","Carlström","Carlström
+989 tested pairs"
+13,11,-0.00666581179786,845,"abundance_contrast_min","spearman_copresent_abs","Carlström","Carlström
+989 tested pairs"
+14,11,0.00833684940569532,845,"abundance_contrast_max","spearman_copresent_abs","Carlström","Carlström
+989 tested pairs"
+1,12,NA,989,"pln_score_percentile","log_ratio_variance","Carlström","Carlström
+989 tested pairs"
+2,12,0.0777313617811099,989,"glmnet_score_percentile","log_ratio_variance","Carlström","Carlström
+989 tested pairs"
+3,12,0.150231406966014,989,"sparcc_score_percentile","log_ratio_variance","Carlström","Carlström
+989 tested pairs"
+4,12,0.494316567549043,989,"direct_prevalence_min","log_ratio_variance","Carlström","Carlström
+989 tested pairs"
+5,12,0.102477531950191,989,"direct_prevalence_max","log_ratio_variance","Carlström","Carlström
+989 tested pairs"
+6,12,0.461908269688547,989,"direct_joint_prevalence","log_ratio_variance","Carlström","Carlström
+989 tested pairs"
+7,12,0.438819496962129,989,"direct_presence_jaccard","log_ratio_variance","Carlström","Carlström
+989 tested pairs"
+8,12,0.164143440319895,989,"presence_phi_abs","log_ratio_variance","Carlström","Carlström
+989 tested pairs"
+9,12,-0.149074816356925,989,"presence_log_odds_abs","log_ratio_variance","Carlström","Carlström
+989 tested pairs"
+10,12,-0.0618302752526027,989,"spearman_all_abs","log_ratio_variance","Carlström","Carlström
+989 tested pairs"
+11,12,-0.199885090914146,865,"spearman_copresent_abs","log_ratio_variance","Carlström","Carlström
+989 tested pairs"
+12,12,1,989,"log_ratio_variance","log_ratio_variance","Carlström","Carlström
+989 tested pairs"
+13,12,-0.159996935678168,969,"abundance_contrast_min","log_ratio_variance","Carlström","Carlström
+989 tested pairs"
+14,12,0.0270950276780125,969,"abundance_contrast_max","log_ratio_variance","Carlström","Carlström
+989 tested pairs"
+1,13,NA,969,"pln_score_percentile","abundance_contrast_min","Carlström","Carlström
+989 tested pairs"
+2,13,0.0245924385962667,969,"glmnet_score_percentile","abundance_contrast_min","Carlström","Carlström
+989 tested pairs"
+3,13,0.268538475269939,969,"sparcc_score_percentile","abundance_contrast_min","Carlström","Carlström
+989 tested pairs"
+4,13,-0.0442711582257716,969,"direct_prevalence_min","abundance_contrast_min","Carlström","Carlström
+989 tested pairs"
+5,13,0.145392950227762,969,"direct_prevalence_max","abundance_contrast_min","Carlström","Carlström
+989 tested pairs"
+6,13,0.0266540659097953,969,"direct_joint_prevalence","abundance_contrast_min","Carlström","Carlström
+989 tested pairs"
+7,13,0.0325169356832086,969,"direct_presence_jaccard","abundance_contrast_min","Carlström","Carlström
+989 tested pairs"
+8,13,0.129182543088377,969,"presence_phi_abs","abundance_contrast_min","Carlström","Carlström
+989 tested pairs"
+9,13,0.472550479688604,969,"presence_log_odds_abs","abundance_contrast_min","Carlström","Carlström
+989 tested pairs"
+10,13,0.595163079207607,969,"spearman_all_abs","abundance_contrast_min","Carlström","Carlström
+989 tested pairs"
+11,13,-0.00666581179786,845,"spearman_copresent_abs","abundance_contrast_min","Carlström","Carlström
+989 tested pairs"
+12,13,-0.159996935678168,969,"log_ratio_variance","abundance_contrast_min","Carlström","Carlström
+989 tested pairs"
+13,13,1,969,"abundance_contrast_min","abundance_contrast_min","Carlström","Carlström
+989 tested pairs"
+14,13,0.668030031028569,969,"abundance_contrast_max","abundance_contrast_min","Carlström","Carlström
+989 tested pairs"
+1,14,NA,969,"pln_score_percentile","abundance_contrast_max","Carlström","Carlström
+989 tested pairs"
+2,14,-0.0207596795700765,969,"glmnet_score_percentile","abundance_contrast_max","Carlström","Carlström
+989 tested pairs"
+3,14,0.235828022085962,969,"sparcc_score_percentile","abundance_contrast_max","Carlström","Carlström
+989 tested pairs"
+4,14,-0.105645373934851,969,"direct_prevalence_min","abundance_contrast_max","Carlström","Carlström
+989 tested pairs"
+5,14,-0.0936193255423996,969,"direct_prevalence_max","abundance_contrast_max","Carlström","Carlström
+989 tested pairs"
+6,14,-0.0737851110326068,969,"direct_joint_prevalence","abundance_contrast_max","Carlström","Carlström
+989 tested pairs"
+7,14,-0.0532434601613972,969,"direct_presence_jaccard","abundance_contrast_max","Carlström","Carlström
+989 tested pairs"
+8,14,0.465992117362526,969,"presence_phi_abs","abundance_contrast_max","Carlström","Carlström
+989 tested pairs"
+9,14,0.409719043989694,969,"presence_log_odds_abs","abundance_contrast_max","Carlström","Carlström
+989 tested pairs"
+10,14,0.60991586784843,969,"spearman_all_abs","abundance_contrast_max","Carlström","Carlström
+989 tested pairs"
+11,14,0.00833684940569532,845,"spearman_copresent_abs","abundance_contrast_max","Carlström","Carlström
+989 tested pairs"
+12,14,0.0270950276780125,969,"log_ratio_variance","abundance_contrast_max","Carlström","Carlström
+989 tested pairs"
+13,14,0.668030031028569,969,"abundance_contrast_min","abundance_contrast_max","Carlström","Carlström
+989 tested pairs"
+14,14,1,969,"abundance_contrast_max","abundance_contrast_max","Carlström","Carlström
+989 tested pairs"
+1,1,1,1524,"pln_score_percentile","pln_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+2,1,0.136802278428286,1524,"glmnet_score_percentile","pln_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+3,1,0.0843770514254838,1524,"sparcc_score_percentile","pln_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+4,1,0.0175887179729297,1524,"direct_prevalence_min","pln_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+5,1,0.0149640739790581,1524,"direct_prevalence_max","pln_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+6,1,0.0324280680495202,1524,"direct_joint_prevalence","pln_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+7,1,0.0237690180812129,1524,"direct_presence_jaccard","pln_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+8,1,-0.00309395236679337,1524,"presence_phi_abs","pln_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+9,1,-0.00299237439619409,1524,"presence_log_odds_abs","pln_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+10,1,0.205286320008976,1524,"spearman_all_abs","pln_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+11,1,0.0679812587002313,1381,"spearman_copresent_abs","pln_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+12,1,0.117887388176201,1524,"log_ratio_variance","pln_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+13,1,0.17862974438448,1462,"abundance_contrast_min","pln_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+14,1,0.235771664731272,1462,"abundance_contrast_max","pln_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+1,2,0.136802278428286,1524,"pln_score_percentile","glmnet_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+2,2,1,1524,"glmnet_score_percentile","glmnet_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+3,2,0.237202582142238,1524,"sparcc_score_percentile","glmnet_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+4,2,0.273778514419007,1524,"direct_prevalence_min","glmnet_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+5,2,0.146570632268302,1524,"direct_prevalence_max","glmnet_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+6,2,0.281272388479686,1524,"direct_joint_prevalence","glmnet_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+7,2,0.273391786366756,1524,"direct_presence_jaccard","glmnet_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+8,2,-0.124546718037596,1524,"presence_phi_abs","glmnet_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+9,2,0.0817880940455272,1524,"presence_log_odds_abs","glmnet_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+10,2,0.23468531288659,1524,"spearman_all_abs","glmnet_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+11,2,0.0679892366829869,1381,"spearman_copresent_abs","glmnet_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+12,2,0.0991138784211096,1524,"log_ratio_variance","glmnet_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+13,2,0.149765538722706,1462,"abundance_contrast_min","glmnet_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+14,2,0.0846174957956105,1462,"abundance_contrast_max","glmnet_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+1,3,0.0843770514254838,1524,"pln_score_percentile","sparcc_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+2,3,0.237202582142238,1524,"glmnet_score_percentile","sparcc_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+3,3,1,1524,"sparcc_score_percentile","sparcc_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+4,3,0.238131991789323,1524,"direct_prevalence_min","sparcc_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+5,3,0.137019060565198,1524,"direct_prevalence_max","sparcc_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+6,3,0.288766766426949,1524,"direct_joint_prevalence","sparcc_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+7,3,0.243799067828492,1524,"direct_presence_jaccard","sparcc_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+8,3,-0.0825743738392436,1524,"presence_phi_abs","sparcc_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+9,3,0.0755390806884101,1524,"presence_log_odds_abs","sparcc_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+10,3,0.219715262304332,1524,"spearman_all_abs","sparcc_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+11,3,0.0632086031754003,1381,"spearman_copresent_abs","sparcc_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+12,3,0.110566369240765,1524,"log_ratio_variance","sparcc_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+13,3,0.0854800785346119,1462,"abundance_contrast_min","sparcc_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+14,3,0.0392011027734021,1462,"abundance_contrast_max","sparcc_score_percentile","Schäfer","Schäfer
+1524 tested pairs"
+1,4,0.0175887179729297,1524,"pln_score_percentile","direct_prevalence_min","Schäfer","Schäfer
+1524 tested pairs"
+2,4,0.273778514419007,1524,"glmnet_score_percentile","direct_prevalence_min","Schäfer","Schäfer
+1524 tested pairs"
+3,4,0.238131991789323,1524,"sparcc_score_percentile","direct_prevalence_min","Schäfer","Schäfer
+1524 tested pairs"
+4,4,1,1524,"direct_prevalence_min","direct_prevalence_min","Schäfer","Schäfer
+1524 tested pairs"
+5,4,0.0475553000154905,1524,"direct_prevalence_max","direct_prevalence_min","Schäfer","Schäfer
+1524 tested pairs"
+6,4,0.945041116803711,1524,"direct_joint_prevalence","direct_prevalence_min","Schäfer","Schäfer
+1524 tested pairs"
+7,4,0.984186730852991,1524,"direct_presence_jaccard","direct_prevalence_min","Schäfer","Schäfer
+1524 tested pairs"
+8,4,0.0337555763324041,1524,"presence_phi_abs","direct_prevalence_min","Schäfer","Schäfer
+1524 tested pairs"
+9,4,-0.402782123775262,1524,"presence_log_odds_abs","direct_prevalence_min","Schäfer","Schäfer
+1524 tested pairs"
+10,4,0.314273145750201,1524,"spearman_all_abs","direct_prevalence_min","Schäfer","Schäfer
+1524 tested pairs"
+11,4,-0.441459272866139,1381,"spearman_copresent_abs","direct_prevalence_min","Schäfer","Schäfer
+1524 tested pairs"
+12,4,0.514529324565325,1524,"log_ratio_variance","direct_prevalence_min","Schäfer","Schäfer
+1524 tested pairs"
+13,4,-0.119461074335096,1462,"abundance_contrast_min","direct_prevalence_min","Schäfer","Schäfer
+1524 tested pairs"
+14,4,-0.250416759934171,1462,"abundance_contrast_max","direct_prevalence_min","Schäfer","Schäfer
+1524 tested pairs"
+1,5,0.0149640739790581,1524,"pln_score_percentile","direct_prevalence_max","Schäfer","Schäfer
+1524 tested pairs"
+2,5,0.146570632268302,1524,"glmnet_score_percentile","direct_prevalence_max","Schäfer","Schäfer
+1524 tested pairs"
+3,5,0.137019060565198,1524,"sparcc_score_percentile","direct_prevalence_max","Schäfer","Schäfer
+1524 tested pairs"
+4,5,0.0475553000154905,1524,"direct_prevalence_min","direct_prevalence_max","Schäfer","Schäfer
+1524 tested pairs"
+5,5,1,1524,"direct_prevalence_max","direct_prevalence_max","Schäfer","Schäfer
+1524 tested pairs"
+6,5,0.223054219794756,1524,"direct_joint_prevalence","direct_prevalence_max","Schäfer","Schäfer
+1524 tested pairs"
+7,5,0.059137175158275,1524,"direct_presence_jaccard","direct_prevalence_max","Schäfer","Schäfer
+1524 tested pairs"
+8,5,-0.955616207331249,1524,"presence_phi_abs","direct_prevalence_max","Schäfer","Schäfer
+1524 tested pairs"
+9,5,0.73940840963785,1524,"presence_log_odds_abs","direct_prevalence_max","Schäfer","Schäfer
+1524 tested pairs"
+10,5,0.0760498989035177,1524,"spearman_all_abs","direct_prevalence_max","Schäfer","Schäfer
+1524 tested pairs"
+11,5,-0.00716786547544545,1381,"spearman_copresent_abs","direct_prevalence_max","Schäfer","Schäfer
+1524 tested pairs"
+12,5,-0.100628162634467,1524,"log_ratio_variance","direct_prevalence_max","Schäfer","Schäfer
+1524 tested pairs"
+13,5,0.390943956489616,1462,"abundance_contrast_min","direct_prevalence_max","Schäfer","Schäfer
+1524 tested pairs"
+14,5,-0.0361480778955131,1462,"abundance_contrast_max","direct_prevalence_max","Schäfer","Schäfer
+1524 tested pairs"
+1,6,0.0324280680495202,1524,"pln_score_percentile","direct_joint_prevalence","Schäfer","Schäfer
+1524 tested pairs"
+2,6,0.281272388479686,1524,"glmnet_score_percentile","direct_joint_prevalence","Schäfer","Schäfer
+1524 tested pairs"
+3,6,0.288766766426949,1524,"sparcc_score_percentile","direct_joint_prevalence","Schäfer","Schäfer
+1524 tested pairs"
+4,6,0.945041116803711,1524,"direct_prevalence_min","direct_joint_prevalence","Schäfer","Schäfer
+1524 tested pairs"
+5,6,0.223054219794756,1524,"direct_prevalence_max","direct_joint_prevalence","Schäfer","Schäfer
+1524 tested pairs"
+6,6,1,1524,"direct_joint_prevalence","direct_joint_prevalence","Schäfer","Schäfer
+1524 tested pairs"
+7,6,0.959145963256315,1524,"direct_presence_jaccard","direct_joint_prevalence","Schäfer","Schäfer
+1524 tested pairs"
+8,6,-0.109736994426536,1524,"presence_phi_abs","direct_joint_prevalence","Schäfer","Schäfer
+1524 tested pairs"
+9,6,-0.2529596049186,1524,"presence_log_odds_abs","direct_joint_prevalence","Schäfer","Schäfer
+1524 tested pairs"
+10,6,0.3132101958323,1524,"spearman_all_abs","direct_joint_prevalence","Schäfer","Schäfer
+1524 tested pairs"
+11,6,-0.474309494376405,1381,"spearman_copresent_abs","direct_joint_prevalence","Schäfer","Schäfer
+1524 tested pairs"
+12,6,0.533560835361261,1524,"log_ratio_variance","direct_joint_prevalence","Schäfer","Schäfer
+1524 tested pairs"
+13,6,-0.0203951796715622,1462,"abundance_contrast_min","direct_joint_prevalence","Schäfer","Schäfer
+1524 tested pairs"
+14,6,-0.224407018908645,1462,"abundance_contrast_max","direct_joint_prevalence","Schäfer","Schäfer
+1524 tested pairs"
+1,7,0.0237690180812129,1524,"pln_score_percentile","direct_presence_jaccard","Schäfer","Schäfer
+1524 tested pairs"
+2,7,0.273391786366756,1524,"glmnet_score_percentile","direct_presence_jaccard","Schäfer","Schäfer
+1524 tested pairs"
+3,7,0.243799067828492,1524,"sparcc_score_percentile","direct_presence_jaccard","Schäfer","Schäfer
+1524 tested pairs"
+4,7,0.984186730852991,1524,"direct_prevalence_min","direct_presence_jaccard","Schäfer","Schäfer
+1524 tested pairs"
+5,7,0.059137175158275,1524,"direct_prevalence_max","direct_presence_jaccard","Schäfer","Schäfer
+1524 tested pairs"
+6,7,0.959145963256315,1524,"direct_joint_prevalence","direct_presence_jaccard","Schäfer","Schäfer
+1524 tested pairs"
+7,7,1,1524,"direct_presence_jaccard","direct_presence_jaccard","Schäfer","Schäfer
+1524 tested pairs"
+8,7,0.0243088079542162,1524,"presence_phi_abs","direct_presence_jaccard","Schäfer","Schäfer
+1524 tested pairs"
+9,7,-0.391563348639572,1524,"presence_log_odds_abs","direct_presence_jaccard","Schäfer","Schäfer
+1524 tested pairs"
+10,7,0.311892070770326,1524,"spearman_all_abs","direct_presence_jaccard","Schäfer","Schäfer
+1524 tested pairs"
+11,7,-0.44234251866419,1381,"spearman_copresent_abs","direct_presence_jaccard","Schäfer","Schäfer
+1524 tested pairs"
+12,7,0.524415981630219,1524,"log_ratio_variance","direct_presence_jaccard","Schäfer","Schäfer
+1524 tested pairs"
+13,7,-0.11314544751492,1462,"abundance_contrast_min","direct_presence_jaccard","Schäfer","Schäfer
+1524 tested pairs"
+14,7,-0.252796029520698,1462,"abundance_contrast_max","direct_presence_jaccard","Schäfer","Schäfer
+1524 tested pairs"
+1,8,-0.00309395236679337,1524,"pln_score_percentile","presence_phi_abs","Schäfer","Schäfer
+1524 tested pairs"
+2,8,-0.124546718037596,1524,"glmnet_score_percentile","presence_phi_abs","Schäfer","Schäfer
+1524 tested pairs"
+3,8,-0.0825743738392436,1524,"sparcc_score_percentile","presence_phi_abs","Schäfer","Schäfer
+1524 tested pairs"
+4,8,0.0337555763324041,1524,"direct_prevalence_min","presence_phi_abs","Schäfer","Schäfer
+1524 tested pairs"
+5,8,-0.955616207331249,1524,"direct_prevalence_max","presence_phi_abs","Schäfer","Schäfer
+1524 tested pairs"
+6,8,-0.109736994426536,1524,"direct_joint_prevalence","presence_phi_abs","Schäfer","Schäfer
+1524 tested pairs"
+7,8,0.0243088079542162,1524,"direct_presence_jaccard","presence_phi_abs","Schäfer","Schäfer
+1524 tested pairs"
+8,8,1,1524,"presence_phi_abs","presence_phi_abs","Schäfer","Schäfer
+1524 tested pairs"
+9,8,-0.710457877950393,1524,"presence_log_odds_abs","presence_phi_abs","Schäfer","Schäfer
+1524 tested pairs"
+10,8,-0.00326615463470396,1524,"spearman_all_abs","presence_phi_abs","Schäfer","Schäfer
+1524 tested pairs"
+11,8,-0.0410727929873699,1381,"spearman_copresent_abs","presence_phi_abs","Schäfer","Schäfer
+1524 tested pairs"
+12,8,0.157268314108221,1524,"log_ratio_variance","presence_phi_abs","Schäfer","Schäfer
+1524 tested pairs"
+13,8,-0.323943219135857,1462,"abundance_contrast_min","presence_phi_abs","Schäfer","Schäfer
+1524 tested pairs"
+14,8,0.0713818927107399,1462,"abundance_contrast_max","presence_phi_abs","Schäfer","Schäfer
+1524 tested pairs"
+1,9,-0.00299237439619409,1524,"pln_score_percentile","presence_log_odds_abs","Schäfer","Schäfer
+1524 tested pairs"
+2,9,0.0817880940455272,1524,"glmnet_score_percentile","presence_log_odds_abs","Schäfer","Schäfer
+1524 tested pairs"
+3,9,0.0755390806884101,1524,"sparcc_score_percentile","presence_log_odds_abs","Schäfer","Schäfer
+1524 tested pairs"
+4,9,-0.402782123775262,1524,"direct_prevalence_min","presence_log_odds_abs","Schäfer","Schäfer
+1524 tested pairs"
+5,9,0.73940840963785,1524,"direct_prevalence_max","presence_log_odds_abs","Schäfer","Schäfer
+1524 tested pairs"
+6,9,-0.2529596049186,1524,"direct_joint_prevalence","presence_log_odds_abs","Schäfer","Schäfer
+1524 tested pairs"
+7,9,-0.391563348639572,1524,"direct_presence_jaccard","presence_log_odds_abs","Schäfer","Schäfer
+1524 tested pairs"
+8,9,-0.710457877950393,1524,"presence_phi_abs","presence_log_odds_abs","Schäfer","Schäfer
+1524 tested pairs"
+9,9,1,1524,"presence_log_odds_abs","presence_log_odds_abs","Schäfer","Schäfer
+1524 tested pairs"
+10,9,0.0159103523414881,1524,"spearman_all_abs","presence_log_odds_abs","Schäfer","Schäfer
+1524 tested pairs"
+11,9,0.309477901354705,1381,"spearman_copresent_abs","presence_log_odds_abs","Schäfer","Schäfer
+1524 tested pairs"
+12,9,-0.41796603593941,1524,"log_ratio_variance","presence_log_odds_abs","Schäfer","Schäfer
+1524 tested pairs"
+13,9,0.470907469194326,1462,"abundance_contrast_min","presence_log_odds_abs","Schäfer","Schäfer
+1524 tested pairs"
+14,9,0.161853854371771,1462,"abundance_contrast_max","presence_log_odds_abs","Schäfer","Schäfer
+1524 tested pairs"
+1,10,0.205286320008976,1524,"pln_score_percentile","spearman_all_abs","Schäfer","Schäfer
+1524 tested pairs"
+2,10,0.23468531288659,1524,"glmnet_score_percentile","spearman_all_abs","Schäfer","Schäfer
+1524 tested pairs"
+3,10,0.219715262304332,1524,"sparcc_score_percentile","spearman_all_abs","Schäfer","Schäfer
+1524 tested pairs"
+4,10,0.314273145750201,1524,"direct_prevalence_min","spearman_all_abs","Schäfer","Schäfer
+1524 tested pairs"
+5,10,0.0760498989035177,1524,"direct_prevalence_max","spearman_all_abs","Schäfer","Schäfer
+1524 tested pairs"
+6,10,0.3132101958323,1524,"direct_joint_prevalence","spearman_all_abs","Schäfer","Schäfer
+1524 tested pairs"
+7,10,0.311892070770326,1524,"direct_presence_jaccard","spearman_all_abs","Schäfer","Schäfer
+1524 tested pairs"
+8,10,-0.00326615463470396,1524,"presence_phi_abs","spearman_all_abs","Schäfer","Schäfer
+1524 tested pairs"
+9,10,0.0159103523414881,1524,"presence_log_odds_abs","spearman_all_abs","Schäfer","Schäfer
+1524 tested pairs"
+10,10,1,1524,"spearman_all_abs","spearman_all_abs","Schäfer","Schäfer
+1524 tested pairs"
+11,10,-0.0501225164430738,1381,"spearman_copresent_abs","spearman_all_abs","Schäfer","Schäfer
+1524 tested pairs"
+12,10,0.0607571311154186,1524,"log_ratio_variance","spearman_all_abs","Schäfer","Schäfer
+1524 tested pairs"
+13,10,0.603551036844141,1462,"abundance_contrast_min","spearman_all_abs","Schäfer","Schäfer
+1524 tested pairs"
+14,10,0.675892945023931,1462,"abundance_contrast_max","spearman_all_abs","Schäfer","Schäfer
+1524 tested pairs"
+1,11,0.0679812587002313,1381,"pln_score_percentile","spearman_copresent_abs","Schäfer","Schäfer
+1524 tested pairs"
+2,11,0.0679892366829869,1381,"glmnet_score_percentile","spearman_copresent_abs","Schäfer","Schäfer
+1524 tested pairs"
+3,11,0.0632086031754003,1381,"sparcc_score_percentile","spearman_copresent_abs","Schäfer","Schäfer
+1524 tested pairs"
+4,11,-0.441459272866139,1381,"direct_prevalence_min","spearman_copresent_abs","Schäfer","Schäfer
+1524 tested pairs"
+5,11,-0.00716786547544545,1381,"direct_prevalence_max","spearman_copresent_abs","Schäfer","Schäfer
+1524 tested pairs"
+6,11,-0.474309494376405,1381,"direct_joint_prevalence","spearman_copresent_abs","Schäfer","Schäfer
+1524 tested pairs"
+7,11,-0.44234251866419,1381,"direct_presence_jaccard","spearman_copresent_abs","Schäfer","Schäfer
+1524 tested pairs"
+8,11,-0.0410727929873699,1381,"presence_phi_abs","spearman_copresent_abs","Schäfer","Schäfer
+1524 tested pairs"
+9,11,0.309477901354705,1381,"presence_log_odds_abs","spearman_copresent_abs","Schäfer","Schäfer
+1524 tested pairs"
+10,11,-0.0501225164430738,1381,"spearman_all_abs","spearman_copresent_abs","Schäfer","Schäfer
+1524 tested pairs"
+11,11,1,1381,"spearman_copresent_abs","spearman_copresent_abs","Schäfer","Schäfer
+1524 tested pairs"
+12,11,-0.282646754645045,1381,"log_ratio_variance","spearman_copresent_abs","Schäfer","Schäfer
+1524 tested pairs"
+13,11,0.091028534566342,1337,"abundance_contrast_min","spearman_copresent_abs","Schäfer","Schäfer
+1524 tested pairs"
+14,11,0.160845872693359,1337,"abundance_contrast_max","spearman_copresent_abs","Schäfer","Schäfer
+1524 tested pairs"
+1,12,0.117887388176201,1524,"pln_score_percentile","log_ratio_variance","Schäfer","Schäfer
+1524 tested pairs"
+2,12,0.0991138784211096,1524,"glmnet_score_percentile","log_ratio_variance","Schäfer","Schäfer
+1524 tested pairs"
+3,12,0.110566369240765,1524,"sparcc_score_percentile","log_ratio_variance","Schäfer","Schäfer
+1524 tested pairs"
+4,12,0.514529324565325,1524,"direct_prevalence_min","log_ratio_variance","Schäfer","Schäfer
+1524 tested pairs"
+5,12,-0.100628162634467,1524,"direct_prevalence_max","log_ratio_variance","Schäfer","Schäfer
+1524 tested pairs"
+6,12,0.533560835361261,1524,"direct_joint_prevalence","log_ratio_variance","Schäfer","Schäfer
+1524 tested pairs"
+7,12,0.524415981630219,1524,"direct_presence_jaccard","log_ratio_variance","Schäfer","Schäfer
+1524 tested pairs"
+8,12,0.157268314108221,1524,"presence_phi_abs","log_ratio_variance","Schäfer","Schäfer
+1524 tested pairs"
+9,12,-0.41796603593941,1524,"presence_log_odds_abs","log_ratio_variance","Schäfer","Schäfer
+1524 tested pairs"
+10,12,0.0607571311154186,1524,"spearman_all_abs","log_ratio_variance","Schäfer","Schäfer
+1524 tested pairs"
+11,12,-0.282646754645045,1381,"spearman_copresent_abs","log_ratio_variance","Schäfer","Schäfer
+1524 tested pairs"
+12,12,1,1524,"log_ratio_variance","log_ratio_variance","Schäfer","Schäfer
+1524 tested pairs"
+13,12,-0.216858500744347,1462,"abundance_contrast_min","log_ratio_variance","Schäfer","Schäfer
+1524 tested pairs"
+14,12,-0.182965188588962,1462,"abundance_contrast_max","log_ratio_variance","Schäfer","Schäfer
+1524 tested pairs"
+1,13,0.17862974438448,1462,"pln_score_percentile","abundance_contrast_min","Schäfer","Schäfer
+1524 tested pairs"
+2,13,0.149765538722706,1462,"glmnet_score_percentile","abundance_contrast_min","Schäfer","Schäfer
+1524 tested pairs"
+3,13,0.0854800785346119,1462,"sparcc_score_percentile","abundance_contrast_min","Schäfer","Schäfer
+1524 tested pairs"
+4,13,-0.119461074335096,1462,"direct_prevalence_min","abundance_contrast_min","Schäfer","Schäfer
+1524 tested pairs"
+5,13,0.390943956489616,1462,"direct_prevalence_max","abundance_contrast_min","Schäfer","Schäfer
+1524 tested pairs"
+6,13,-0.0203951796715622,1462,"direct_joint_prevalence","abundance_contrast_min","Schäfer","Schäfer
+1524 tested pairs"
+7,13,-0.11314544751492,1462,"direct_presence_jaccard","abundance_contrast_min","Schäfer","Schäfer
+1524 tested pairs"
+8,13,-0.323943219135857,1462,"presence_phi_abs","abundance_contrast_min","Schäfer","Schäfer
+1524 tested pairs"
+9,13,0.470907469194326,1462,"presence_log_odds_abs","abundance_contrast_min","Schäfer","Schäfer
+1524 tested pairs"
+10,13,0.603551036844141,1462,"spearman_all_abs","abundance_contrast_min","Schäfer","Schäfer
+1524 tested pairs"
+11,13,0.091028534566342,1337,"spearman_copresent_abs","abundance_contrast_min","Schäfer","Schäfer
+1524 tested pairs"
+12,13,-0.216858500744347,1462,"log_ratio_variance","abundance_contrast_min","Schäfer","Schäfer
+1524 tested pairs"
+13,13,1,1462,"abundance_contrast_min","abundance_contrast_min","Schäfer","Schäfer
+1524 tested pairs"
+14,13,0.768529559258479,1462,"abundance_contrast_max","abundance_contrast_min","Schäfer","Schäfer
+1524 tested pairs"
+1,14,0.235771664731272,1462,"pln_score_percentile","abundance_contrast_max","Schäfer","Schäfer
+1524 tested pairs"
+2,14,0.0846174957956105,1462,"glmnet_score_percentile","abundance_contrast_max","Schäfer","Schäfer
+1524 tested pairs"
+3,14,0.0392011027734021,1462,"sparcc_score_percentile","abundance_contrast_max","Schäfer","Schäfer
+1524 tested pairs"
+4,14,-0.250416759934171,1462,"direct_prevalence_min","abundance_contrast_max","Schäfer","Schäfer
+1524 tested pairs"
+5,14,-0.0361480778955131,1462,"direct_prevalence_max","abundance_contrast_max","Schäfer","Schäfer
+1524 tested pairs"
+6,14,-0.224407018908645,1462,"direct_joint_prevalence","abundance_contrast_max","Schäfer","Schäfer
+1524 tested pairs"
+7,14,-0.252796029520698,1462,"direct_presence_jaccard","abundance_contrast_max","Schäfer","Schäfer
+1524 tested pairs"
+8,14,0.0713818927107399,1462,"presence_phi_abs","abundance_contrast_max","Schäfer","Schäfer
+1524 tested pairs"
+9,14,0.161853854371771,1462,"presence_log_odds_abs","abundance_contrast_max","Schäfer","Schäfer
+1524 tested pairs"
+10,14,0.675892945023931,1462,"spearman_all_abs","abundance_contrast_max","Schäfer","Schäfer
+1524 tested pairs"
+11,14,0.160845872693359,1337,"spearman_copresent_abs","abundance_contrast_max","Schäfer","Schäfer
+1524 tested pairs"
+12,14,-0.182965188588962,1462,"log_ratio_variance","abundance_contrast_max","Schäfer","Schäfer
+1524 tested pairs"
+13,14,0.768529559258479,1462,"abundance_contrast_min","abundance_contrast_max","Schäfer","Schäfer
+1524 tested pairs"
+14,14,1,1462,"abundance_contrast_max","abundance_contrast_max","Schäfer","Schäfer
+1524 tested pairs"

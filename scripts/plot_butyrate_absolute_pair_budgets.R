@@ -23,17 +23,17 @@ repeats <- rbindlist(lapply(names(system_files), function(system_name) {
 }))
 
 maximum_labels <- c(
-  Butyrate = "Maximum\n(83.2)",
-  `Carlström` = "Maximum\n(791.2)",
-  `Schäfer` = "Maximum\n(1219.2)"
+  Butyrate = "84",
+  `Carlström` = "792",
+  `Schäfer` = "1,220"
 )
 repeats[, budget_display := fifelse(
   budget_label == "maximum", unname(maximum_labels[system]), budget_label
 )]
 display_levels <- c(
-  "10", "20", "50", "Maximum\n(83.2)",
-  "100", "200", "500", "Maximum\n(791.2)",
-  "1000", "Maximum\n(1219.2)"
+  "10", "20", "50", "84",
+  "100", "200", "500", "792",
+  "1000", "1,220"
 )
 repeats[, budget_display := factor(budget_display, levels = display_levels)]
 
@@ -107,14 +107,6 @@ dir.create(figure_dir, recursive = TRUE, showWarnings = FALSE)
 fwrite(
   summary_data,
   file.path(root, "results", "absolute_pair_budgets_figure_data.csv")
-)
-ggsave(
-  file.path(figure_dir, "butyrate_absolute_pair_budgets.pdf"),
-  plot,
-  width = 10.8,
-  height = 3.0,
-  units = "in",
-  device = cairo_pdf
 )
 ggsave(
   file.path(figure_dir, "butyrate_absolute_pair_budgets.png"),

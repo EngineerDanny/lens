@@ -1,0 +1,16 @@
+{
+  "system": "carlstrom_phyllosphere_2019",
+  "budget": 0.8,
+  "seed": 20260821,
+  "lens_threshold_rule": "Maximum nested training F1; ties use highest threshold; select scores >= threshold",
+  "onenet_threshold_rule": "Mean selection frequency > 0.9; no interaction labels",
+  "onenet_alignment_target": 0.8,
+  "onenet_resamples": 30,
+  "onenet_estimators": 6,
+  "selection_reference": "https://doi.org/10.1371/journal.pcbi.1012627",
+  "baseline_mean_absolute_density_error": 0.002844991658387286,
+  "scope": "989 experimentally tested pairs; no inference of truth for untested pairs",
+  "qualification": "Existing label-stratified outer folds constrain prevalence differences. This is an exploratory diagnostic, not independent validation of density under distribution shift.",
+  "onenet": "Network scores and selection threshold use no experimental interaction labels.",
+  "undefined_precision": "Missing when no pairs are selected; recall and F1 remain zero."
+}

@@ -13,6 +13,10 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.Rproj.user/
 
 # Locally installed package libraries
 r_library/
@@ -24,6 +28,14 @@ analysis_data/onenet_cache/
 tmp/
 logs/
 training_data/
+*.log
+*.rds
+*.RDS
+*.rda
+*.RData
+*.pkl
+*.pickle
+*.joblib
 
 # Downloaded external sources and large software bundles
 external_data/*
@@ -43,6 +55,28 @@ paper/*.out
 paper/*.synctex.gz
 paper/main.pdf
 paper/arxiv_submission.zip
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.dvi
+*.bcf
+*.run.xml
+
+# Private local configuration
+.env
+.env.*
+!.env.example
 
 # Miscellaneous generated files
 *.tmp

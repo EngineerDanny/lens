@@ -118,7 +118,7 @@ curve_summary[, `:=`(
 )]
 
 plot <- ggplot(
-  curve_summary,
+  curve_summary[method %in% c("LENS", "OneNet")],
   aes(
     x = recall,
     y = mean_precision,
@@ -172,14 +172,6 @@ dir.create(figure_dir, recursive = TRUE, showWarnings = FALSE)
 fwrite(
   curve_summary,
   file.path(root, "results", "final_sparse_pr_curve_summary.csv")
-)
-ggsave(
-  file.path(figure_dir, "final_sparse_pr_curves.pdf"),
-  plot,
-  width = 10.8,
-  height = 2.7,
-  units = "in",
-  device = cairo_pdf
 )
 ggsave(
   file.path(figure_dir, "final_sparse_pr_curves.png"),

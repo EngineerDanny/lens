@@ -1,0 +1,16 @@
+"analysis_set","bootstrap","method","auprc","omitted_taxa","fit_status","detail","elapsed_seconds"
+"butyrate_assembly_2021",1,"OneNet",0.64758651440552,0,"complete",NA,115.162817001343
+"butyrate_assembly_2021",2,"OneNet",0.737572833931545,0,"complete",NA,114.919908046722
+"butyrate_assembly_2021",3,"OneNet",0.776421280587627,0,"complete",NA,115.26845407486
+"butyrate_assembly_2021",4,"OneNet",0.719669093791853,0,"complete",NA,88.8733730316162
+"butyrate_assembly_2021",5,"OneNet",0.794755097375778,0,"complete",NA,89.3034470081329
+"carlstrom_phyllosphere_2019",1,"OneNet",0.124203950484292,0,"complete",NA,166.606780052185
+"carlstrom_phyllosphere_2019",2,"OneNet",0.128929960965775,0,"complete",NA,190.879285812378
+"carlstrom_phyllosphere_2019",3,"OneNet",0.119072169947462,0,"complete",NA,137.779083013535
+"carlstrom_phyllosphere_2019",4,"OneNet",0.117812806217726,1,"complete",NA,113.448241949081
+"carlstrom_phyllosphere_2019",5,"OneNet",0.122011600100109,0,"complete",NA,114.044192075729
+"schafer_phyllosphere_2022",1,"OneNet",NA,NA,"failed","Raw data x contains a constant column.",1411.2843208313
+"schafer_phyllosphere_2022",2,"OneNet",0.11302513224877,1,"complete","",1300.99897098541
+"schafer_phyllosphere_2022",3,"OneNet",NA,NA,"failed","Raw data x contains a constant column.",1369.76607394218
+"schafer_phyllosphere_2022",4,"OneNet",NA,NA,"failed","Raw data x contains a constant column.",3124.34609603882
+"schafer_phyllosphere_2022",5,"OneNet",NA,NA,"failed","Raw data x contains a constant column.",1224.39016103745

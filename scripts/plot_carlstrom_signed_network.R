@@ -6,18 +6,60 @@ suppressPackageStartupMessages({
 })
 
 root <- normalizePath(file.path(dirname(commandArgs(trailingOnly = FALSE)[1]), ".."), mustWork = FALSE)
-if (!file.exists(file.path(root, "analysis_data", "carlstrom_signed_lens_oof_predictions.csv"))) {
+if (!file.exists(file.path(root, "results", "final_sparse_pr_predictions_80pct.csv"))) {
   root <- normalizePath(".")
 }
 
 predictions <- read.csv(
-  file.path(root, "analysis_data", "carlstrom_signed_lens_oof_predictions.csv"),
+  file.path(root, "results", "final_sparse_pr_predictions_80pct.csv"),
   stringsAsFactors = FALSE
 )
 features <- read.csv(
   file.path(root, "analysis_data", "carlstrom_phyllosphere_2019_pair_features.csv"),
   stringsAsFactors = FALSE
 )
+predictions <- predictions[predictions$analysis_set == "carlstrom_phyllosphere_2019", ]
+truth <- read.csv(file.path(root, "cleaned_data", "carlstrom_phyllosphere_2019_tested_pairs.csv"))
+pair_key <- function(d) paste(pmin(d$taxon_1, d$taxon_2), pmax(d$taxon_1, d$taxon_2), sep = "||")
+stopifnot(nrow(predictions) == 989, !anyDuplicated(pair_key(predictions)), !anyDuplicated(pair_key(truth)))
+ix <- match(pair_key(predictions), pair_key(truth))
+stopifnot(!anyNA(ix), all(predictions$interaction_label == truth$interaction_label[ix]))
+predictions$sign_label <- ifelse(predictions$interaction_label == 0, "neutral", truth$effect_sign[ix])
+stopifnot(all(predictions$sign_label %in% c("positive", "negative", "neutral")))
+fi <- match(pair_key(predictions), pair_key(features))
+stopifnot(!anyNA(fi))
+predictions$prevalence_1 <- features$prevalence_1[fi]
+predictions$prevalence_2 <- features$prevalence_2[fi]
+predictions$interaction_probability <- predictions$supervised_score
+predictions$display_selected <- FALSE
+predictions$onenet_display_selected <- FALSE
+fold_audit <- list()
+for (fold_id in sort(unique(predictions$fold))) {
+  test <- which(predictions$fold == fold_id)
+  train <- which(predictions$fold != fold_id)
+  stopifnot(all(predictions$budget_pairs[test] == length(train)))
+  k <- max(1L, as.integer(round(mean(predictions$interaction_label[train]) * length(test))))
+  # Deterministic tie breaking by pair identifier; test outcomes never enter ranking.
+  a <- order(-predictions$supervised_score[test], predictions$pair_id[test])
+  b <- order(-predictions$onenet_score[test], predictions$pair_id[test])
+  predictions$display_selected[test[a[seq_len(k)]]] <- TRUE
+  predictions$onenet_display_selected[test[b[seq_len(k)]]] <- TRUE
+  fold_audit[[as.character(fold_id)]] <- data.frame(fold = fold_id, train_pairs = length(train),
+    test_pairs = length(test), train_interactions = sum(predictions$interaction_label[train]), selected_edges = k)
+}
+write.csv(predictions, file.path(root, "analysis_data", "carlstrom_binary_lens_network_predictions.csv"), row.names = FALSE)
+write.csv(do.call(rbind, fold_audit), file.path(root, "results", "carlstrom_binary_network_fold_audit.csv"), row.names = FALSE)
+metrics <- do.call(rbind, lapply(c("LENS", "OneNet"), function(method) {
+  selected <- if (method == "LENS") predictions$display_selected else predictions$onenet_display_selected
+  hit <- sum(predictions$interaction_label[selected])
+  data.frame(method, selected_edges = sum(selected),
+    selected_positive_effects = sum(predictions$sign_label[selected] == "positive"),
+    selected_negative_effects = sum(predictions$sign_label[selected] == "negative"),
+    selected_neutrals = sum(predictions$sign_label[selected] == "neutral"),
+    precision = hit / sum(selected), recall = hit / sum(predictions$interaction_label))
+}))
+write.csv(metrics, file.path(root, "results", "carlstrom_binary_network_edge_summary.csv"), row.names = FALSE)
+print(metrics)
 
 canonical <- function(first, second) {
   data.frame(
@@ -196,10 +238,6 @@ combined <- gridExtra::arrangeGrob(
   key_grob,
   ncol = 1,
   heights = c(1, 0.055, 0.30)
-)
-ggsave(
-  file.path(output, "carlstrom_signed_network.pdf"),
-  combined, width = 7.2, height = 4.85, units = "in", device = cairo_pdf
 )
 ggsave(
   file.path(output, "carlstrom_signed_network.png"),

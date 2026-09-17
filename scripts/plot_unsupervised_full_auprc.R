@@ -129,6 +129,13 @@ curves$method <- factor(curves$method, levels = names(score_columns))
 baselines <- unique(results[c("system", "prevalence")])
 bootstrap_path <- file.path(root, "results", "abundance_bootstrap_5_auprc.csv")
 bootstrap_results <- read.csv(bootstrap_path, stringsAsFactors = FALSE)
+onenet_bootstrap_path <- file.path(root, "results", "onenet_abundance_bootstrap_5_auprc.csv")
+if (file.exists(onenet_bootstrap_path)) {
+  onenet_bootstrap <- read.csv(onenet_bootstrap_path, stringsAsFactors = FALSE)
+  stopifnot(nrow(onenet_bootstrap) == 15L,
+            all(table(onenet_bootstrap$analysis_set) == 5L))
+  bootstrap_results <- rbind(bootstrap_results, onenet_bootstrap[, names(bootstrap_results)])
+}
 bootstrap_results <- bootstrap_results[
   bootstrap_results$fit_status == "complete" &
     !is.na(bootstrap_results$auprc) &
@@ -145,31 +152,40 @@ bootstrap_results$method <- factor(
 bootstrap_summary <- aggregate(
   auprc ~ analysis_set + system + method,
   data = bootstrap_results,
-  FUN = function(values) c(mean = mean(values), sd = sd(values))
+  FUN = function(values) c(mean = mean(values), sd = sd(values), n = length(values))
 )
 bootstrap_summary <- data.frame(
   analysis_set = bootstrap_summary$analysis_set,
   system = bootstrap_summary$system,
   method = bootstrap_summary$method,
   mean_auprc = bootstrap_summary$auprc[, "mean"],
-  sd_auprc = bootstrap_summary$auprc[, "sd"]
+  sd_auprc = bootstrap_summary$auprc[, "sd"],
+  successful_refits = bootstrap_summary$auprc[, "n"]
 )
-onenet_summary <- results[results$method == "OneNet", ]
+onenet_summary <- results[results$method == "OneNet" &
+                           !results$analysis_set %in% bootstrap_summary$analysis_set[bootstrap_summary$method == "OneNet"], ]
 onenet_summary <- data.frame(
   analysis_set = onenet_summary$analysis_set,
   system = onenet_summary$system,
   method = onenet_summary$method,
   mean_auprc = onenet_summary$auprc,
-  sd_auprc = NA_real_
+  sd_auprc = rep(NA_real_, nrow(onenet_summary)),
+  successful_refits = rep(0L, nrow(onenet_summary))
 )
 bar_data <- rbind(bootstrap_summary, onenet_summary)
+bar_data <- bar_data[bar_data$method != "Poisson GLMNet", ]
 bar_data$system <- factor(bar_data$system, levels = unname(system_names))
-bar_data$method <- factor(bar_data$method, levels = rev(names(score_columns)))
+bar_data$method <- factor(bar_data$method, levels = rev(c("OneNet", "PLNNetwork", "SparCC", "SPIEC-EASI")))
 bar_data$lower_auprc <- pmax(0, bar_data$mean_auprc - bar_data$sd_auprc)
 bar_data$upper_auprc <- pmin(1, bar_data$mean_auprc + bar_data$sd_auprc)
 
 bar_plot <- ggplot(bar_data, aes(x = mean_auprc, y = method)) +
   geom_col(width = 0.62, fill = "grey35") +
+  geom_errorbar(
+    data = bar_data[bar_data$successful_refits == 1L, ],
+    aes(xmin = mean_auprc, xmax = mean_auprc),
+    width = 0.22, linewidth = 0.55, orientation = "y"
+  ) +
   geom_vline(
     data = baselines,
     aes(xintercept = prevalence),
@@ -223,14 +239,6 @@ write.csv(
   row.names = FALSE
 )
 ggsave(
-  file.path(figure_dir, "unsupervised_full_tested_pair_auprc.pdf"),
-  bar_plot,
-  width = 10.8,
-  height = 2.20,
-  units = "in",
-  device = cairo_pdf
-)
-ggsave(
   file.path(figure_dir, "unsupervised_full_tested_pair_auprc.png"),
   bar_plot,
   width = 10.8,
@@ -238,14 +246,6 @@ ggsave(
   units = "in",
   dpi = 300,
   bg = "white"
-)
-ggsave(
-  file.path(figure_dir, "unsupervised_full_tested_pair_pr_curves.pdf"),
-  curve_plot,
-  width = 10.8,
-  height = 2.20,
-  units = "in",
-  device = cairo_pdf
 )
 ggsave(
   file.path(figure_dir, "unsupervised_full_tested_pair_pr_curves.png"),

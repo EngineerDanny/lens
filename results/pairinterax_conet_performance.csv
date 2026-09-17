@@ -1,2 +1,0 @@
-dataset,method,min_occurrence,iterations,n_samples,n_taxa,tested_pairs,positive_pairs,neutral_pairs,random_auprc,average_precision,auroc,native_selected_edges,native_precision,native_recall,native_f1,runtime_seconds
-pairinterax,CoNet,20,100,169,97,1687,1441,246,0.8541790160047421,0.8541790160047421,0.5,0,,0.0,,85.81414454200001

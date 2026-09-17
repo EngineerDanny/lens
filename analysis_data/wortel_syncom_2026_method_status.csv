@@ -1,6 +1,0 @@
-dataset,method,status,elapsed_seconds,detail
-wortel_syncom_2026,pln,complete,0.642,""
-wortel_syncom_2026,glmnet,complete,0.307,""
-wortel_syncom_2026,spieceasi,complete,0.257,""
-wortel_syncom_2026,spring,complete,1.583,""
-wortel_syncom_2026,sparcc,complete,0.05,""

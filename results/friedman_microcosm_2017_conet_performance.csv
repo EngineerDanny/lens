@@ -1,2 +1,0 @@
-dataset,method,min_occurrence,iterations,n_samples,n_taxa,tested_pairs,positive_pairs,neutral_pairs,random_auprc,average_precision,auroc,native_selected_edges,native_precision,native_recall,native_f1,runtime_seconds
-friedman_microcosm_2017,CoNet,20,100,420,8,28,26,2,0.9285714285714286,0.9862637362637361,0.8557692307692308,22,0.9545454545454546,0.8076923076923077,0.875,4.592531958

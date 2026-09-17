@@ -1,4 +1,0 @@
-dataset	method	n_truth	n_pred	tp	fp	fn	precision	recall	f1	sign_accuracy	elapsed_sec
-omm12	Baseline_diagonal	66	0	0	0	66		0			0.000999999999999446
-omm12	PLNnetwork	66	50	50	0	16	1	0.757575757575758	0.862068965517241	0.657142857142857	3.112
-omm12	LOTO_glmnet_CV1se	66	11	11	0	55	1	0.166666666666667	0.285714285714286	0	0.893000000000001

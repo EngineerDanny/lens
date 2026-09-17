@@ -1,8 +1,0 @@
-{
-  "seed": 20260821,
-  "outer_folds": 5,
-  "outer_fold_assignment": "stratified by pair outcome",
-  "test_folds_identical_between_designs": true,
-  "model_changed": false,
-  "new_budget_sampling": "nested label-blind order with early taxon coverage"
-}

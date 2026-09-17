@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-base_dir <- normalizePath("/projects/genomic-ml/da2343/PLN/pln_eval/data/interaction_ground_truth/butyrate_assembly_2021", mustWork = TRUE)
+base_dir <- normalizePath("interaction_ground_truth/butyrate_assembly_2021", mustWork = TRUE)
 zip_path <- file.path(base_dir, "DesignSyntheticGutMicrobiomeAssemblyFunction-v1.0.zip")
 proc_dir <- file.path(base_dir, "processed")
 if (!dir.exists(proc_dir)) dir.create(proc_dir, recursive = TRUE, showWarnings = FALSE)

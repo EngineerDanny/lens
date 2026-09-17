@@ -1,2 +1,0 @@
-method,n,negative_ap,neutral_ap,positive_ap,macro_ap,negative_ap_lift,neutral_ap_lift,positive_ap_lift,macro_ap_lift
-supervised_multinomial_calibration,2516,0.35938075791875124,0.6819412449684032,0.11032887516096339,0.38388362601603937,1.2735239252444763,1.112687530700715,1.0514676132764542,1.1458930230738817

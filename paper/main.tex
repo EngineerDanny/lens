@@ -94,9 +94,8 @@ Nested training samples expose increasing numbers of interaction outcomes from t
 Performance changes can therefore be attributed to the added measurements.
 The model learns from selected interactions in the microbial system where it will be applied; it does not depend on transfer from an unrelated system.
 
-Two questions guide the analysis.
-First, does performance improve as researchers measure more interactions while the evaluation pairs stay fixed? Second, does the placement of those measurements matter? The primary design samples pairs across the available taxa.
-A secondary design confines measurements to one taxon panel and tests pairs among taxa with no calibration labels.
+The analysis asks whether partial experimental measurements improve interaction ranking and how performance changes as more pairs are measured.
+Training pairs are sampled across the available taxa, and evaluation pairs remain fixed across measurement budgets within each fold.
 
 \subsection{Summary of contributions}
 
@@ -105,8 +104,8 @@ This study makes four contributions.
 \item We introduce LENS as a partial measurement procedure with a defined reference ranking, a centred update when both outcome classes are represented, and a fixed-score fallback when experimental evidence is insufficient.
 \item We connect the estimator to an experimental design in which abundance-derived evidence is computed once, selected pair outcomes update the ranking, and the remaining pairs receive interaction probabilities.
 \item We evaluate the complete procedure with fixed held-out pairs, nested measurement samples, training-only preprocessing, and a OneNet comparison that remains unchanged across budgets.
-\item We show how interaction ranking changes with the number and placement of measured pairs across three experimental systems.
-The analysis connects predictive performance to an experimental decision: how many interactions to measure and how broadly to distribute them across taxa.
+\item We show how interaction ranking changes with the number of measured pairs across three experimental systems.
+The analysis connects predictive performance to the number of interactions researchers can measure.
 \end{enumerate}
 
 \section{Related work}
@@ -394,13 +393,6 @@ Three inner pair folds selected the penalty when both outcome classes contained 
 Smaller samples remained on the fixed mean score.
 The budget comparison therefore follows one procedure from its unsupervised reference through increasingly informed supervised updates.
 
-For the taxon panel sensitivity analysis, 40\% of taxa were reserved for testing in each repeat.
-Test pairs contained two reserved taxa.
-The training pool contained pairs formed only from the remaining taxa.
-Budgets contained 20\%, 40\%, 60\%, or 80\% of eligible pair identifiers and were nested.
-The taxon partition and test pairs stayed fixed across budgets.
-This analysis used L2 logistic regression with $C=0.01$ and balanced class weights; it is reported separately from the primary centred ridge analysis.
-
 \subsection{Evaluation}
 
 The primary metric was average precision, reported as AUPRC.
@@ -544,15 +536,7 @@ Researchers can retain the broad coverage of an abundance experiment and add a s
 Related supervised approaches use traits or previous interaction measurements to predict unperformed experiments \citep{dimucci2018missing,nestor2023growth}.
 LENS addresses the setting in which abundance measurements already exist and the interaction screen can cover only part of the same taxon set.
 
-Where the measurements are placed also matters.
-The taxon panel sensitivity analysis reserved 40\% of taxa in each repeat and used the original fixed L2 logistic specification.
-Training labels came only from pairs among the remaining taxa, while test pairs were formed among reserved taxa.
-The unsupervised scores still used the complete abundance table.
-At the 80\% budget, calibration exceeded the oracle reference in Carlstr\"om, was close to SparCC in Butyrate, and remained below mean rank in Sch\"afer.
-Sch\"afer improved from 0.150 at 20\% to 0.245 at 80\%, compared with 0.301 for mean rank.
-These results indicate that measurements spread across the taxa gave more consistent gains than labels confined to one panel.
-
-A laboratory with a fixed measurement capacity may therefore gain more from sampling pairs across many taxa than from completing a dense block for a few taxa.
+The best allocation of measurements across taxa remains an open question.
 Work on active learning for biological networks formalizes the next step: choose experiments by expected information or cost, then update the model with the observed outcomes \citep{sverchkov2017active}.
 Our experiment used random distributed sampling, so it does not identify the best pairs to measure.
 It provides the reference against which an adaptive rule should be tested.
@@ -562,12 +546,11 @@ The leading estimator changed across systems, and no single score dominated the 
 This agrees with earlier comparisons in which tool choice changed edge recovery and network properties \citep{weiss2016correlation,rottjers2018hairballs}.
 OneNet gives a prespecified consensus without interaction outcomes \citep{champion2024onenet}.
 LENS uses partial outcomes to change the contribution of the scores and abundance features.
-In Carlstr\"om, it recovered 32 supported effects at the selected edge count, compared with 11 for OneNet.
+In Carlstr\"om, it recovered 40 supported effects at the selected edge count, compared with 11 for OneNet.
 This comparison used identical test pairs and an equal number of selected edges.
 
-The sign analysis was less successful.
-LENS ranked positive effects better than the individual signed scores, but average precision for negative effects remained near their frequency.
-Only 18 negative effects were available, and the network scores were symmetric even though experimental effects can be directional.
+The binary model does not predict effect signs.
+Only 18 negative effects were available in Carlstr\"om, and the network scores were symmetric even though experimental effects can be directional.
 The Carlstr\"om network should therefore be read as an interaction recovery example with experimentally known signs.
 It does not establish sign prediction.
 
@@ -588,7 +571,7 @@ Experimental labels also require care.
 Untested pairs were excluded, and tested neutral pairs were kept separate from missing outcomes.
 The primary analysis combined positive and negative experimental effects into one interaction class.
 This was appropriate for unsigned recovery, but it removed direction and sign from the main target.
-The signed analysis restored effect sign only for Carlstr\"om and remained limited by 18 negative examples.
+The Carlstr\"om display annotated selected pairs with observed effect signs; it did not evaluate sign prediction.
 Some experimental pairs could not be scored because their taxa were absent from the aligned abundance table.
 
 The abundance sources used different measurement scales.

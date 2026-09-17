@@ -81,3 +81,6 @@ paper/arxiv_submission.zip
 # Miscellaneous generated files
 *.tmp
 *.bak
+
+# Private research planning, separate from this release
+/research_ideas/

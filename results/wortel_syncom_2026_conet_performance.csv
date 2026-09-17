@@ -1,2 +1,0 @@
-dataset,method,min_occurrence,iterations,n_samples,n_taxa,tested_pairs,positive_pairs,neutral_pairs,random_auprc,average_precision,auroc,native_selected_edges,native_precision,native_recall,native_f1,runtime_seconds
-wortel_syncom_2026,CoNet,20,100,166,9,36,35,1,0.9722222222222222,0.9944444444444445,0.9,28,1.0,0.8,0.888888888888889,3.801432125

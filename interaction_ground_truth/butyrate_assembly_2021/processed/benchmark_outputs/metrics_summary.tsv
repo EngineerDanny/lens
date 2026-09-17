@@ -1,4 +1,0 @@
-dataset	method	n_truth	n_pred	tp	fp	fn	precision	recall	f1	sign_accuracy	elapsed_sec
-butyrate_assembly_2021	Baseline_diagonal	76	0	0	0	76		0			0
-butyrate_assembly_2021	PLNnetwork	76	204	50	154	26	0.245098039215686	0.657894736842105	0.357142857142857	0.82	3.145
-butyrate_assembly_2021	LOTO_glmnet_CV1se	76	107	25	82	51	0.233644859813084	0.328947368421053	0.273224043715847	1	4.35

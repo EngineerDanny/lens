@@ -1,2 +1,0 @@
-dataset	mode	n_truth	n_pred	tp	fp	fn	precision	recall	f1	signed_tp	sign_accuracy
-omm12	directed	132	132	132	0	0	1	1	1	132	1

@@ -7,10 +7,8 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import StratifiedKFold
 
-from evaluate_optimized_sparse_logistic import select_regularization
-from evaluate_pair_five_fold_cv import REFERENCE_METHODS, SYSTEMS, load_system
-from evaluate_within_system_calibration import ROOT, SEED
-from optimize_supervised_model import fit_score
+from lens import ROOT, SEED, SYSTEMS, SYSTEM_SEED_INDEX, REFERENCE_METHODS, load_system, select_regularization, fit_score
+
 
 
 ANALYSIS_SYSTEMS = [
@@ -28,7 +26,7 @@ def run_system(system: str) -> list[dict]:
     )
     splitter = StratifiedKFold(n_splits=5, shuffle=True, random_state=SEED)
     _, onenet_column = REFERENCE_METHODS[system]
-    system_index = SYSTEMS.index(system)
+    system_index = SYSTEM_SEED_INDEX[system]
     rows: list[dict] = []
 
     for fold, (pool_index, test_index) in enumerate(

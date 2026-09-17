@@ -2,93 +2,26 @@
 
 **Supervised Calibration of Unsupervised Microbiome Network Scores with Partial Experimental Measurements**
 
-LENS uses partial experimental interaction measurements to update a ranking derived from microbiome abundance data. The current study asks how prediction of unmeasured pairs changes as more interactions are measured within the same microbial system.
+LENS uses a small set of measured interactions to update a ranking derived from microbial abundance data.
+This repository contains the current binary model and the three systems used in the manuscript.
+Start with the prepared data and saved results; downloading raw sequencing data or refitting network estimators is optional.
 
-The manuscript is in [paper/main.tex](paper/main.tex). The earlier README is preserved in [docs/analysis_history.md](docs/analysis_history.md). Older scripts and instruction documents contain superseded plans; the current analysis is described below.
+## Quick start
 
-## Experimental systems
-
-The evaluation includes experimentally tested pairs with matching abundance features.
-
-| System | Tested pairs | Supported interactions | Tested neutral pairs | Experimental evidence |
-| --- | ---: | ---: | ---: | --- |
-| Butyrate assembly | 104 | 76 | 28 | Effects on abundance during community assembly |
-| Carlström | 989 | 123 | 866 | Abundance changes after strain removal |
-| Schäfer | 1,524 | 38 | 1,486 | Abundance changes after strain addition |
-
-Untested pairs are excluded from binary evaluation. Supported interactions combine positive and negative effects. Original signs and directions are retained where available. A neutral label means the experiment did not meet its criterion for an interaction under the conditions tested.
-
-## Model and evaluation
-
-LENS combines score percentiles from PLNNetwork, Poisson GLMNet, and SparCC with 11 abundance features describing prevalence, joint detection, presence similarity, abundance associations, log ratio variance, and abundance contrasts.
-
-The model is logistic regression with balanced class weights and a ridge penalty centred on equal weights for the three network scores. Reference coefficients for abundance features are zero. Training data determine median imputation and standardization; reference coefficients are adjusted to preserve the ranking after scaling.
-
-Inner validation selects the penalty from `0.01`, `0.1`, `1`, and `10` using average precision. When either training class contains fewer than three observations, prediction falls back to the equal mean of the three score percentiles. This check also applies inside inner validation. Outputs are ranking scores; calibrated interaction probabilities have not been established.
-
-The main comparison uses five stratified folds of pair identifiers within each system. Each pair receives a prediction from a model trained without its label. Within a fold, test pairs stay fixed across budgets and training samples are nested. Unsupervised network scores use abundance data without interaction labels and remain fixed across budgets.
-
-The absolute budget experiment uses 20 repetitions of five folds. Budgets begin at 10 measured pairs and increase to all eligible training pairs. The base seed is `20260821`, with derived seeds recorded in the scripts. Average precision, reported as AUPRC, is primary; AUROC is secondary.
-
-These experiments assess prediction within the same system. They do not establish transfer to independent biological systems. Shared taxa and overlapping training sets mean that folds and repetitions are not independent biological replicates.
-
-## Current figures and analyses
-
-- **Figure 1:** OneNet and LENS workflows.
-- **Figure 2:** Partial measurements and the pair validation design.
-- **Figure 3:** Unsupervised AUPRC across external abundance resamples.
-- **Figure 4:** Precision–recall curves at the 80% budget.
-- **Figure 5:** Performance across absolute measurement budgets.
-- **Figure 6:** Carlström interaction selections annotated with experimental signs.
-
-OneNet uses PLNnetwork, SPIEC-EASI, gCoda, EMtree, Magma, and SPRING, with 30 internal resamples, mean frequency aggregation, and a target mean stability of 0.8 for density alignment. ZiLN was excluded after failures involving constant columns. This is a documented adaptation of OneNet.
-
-For Figure 3, external resamples use seed `20260825` and the same sample indices for all methods. Constant taxa are omitted from fitting where necessary; their pairs receive zero scores to retain the original scoring universe.
-
-| System | Successful OneNet refits | Mean AUPRC | SD |
-| --- | ---: | ---: | ---: |
-| Butyrate | 5 | 0.735 | 0.057 |
-| Carlström | 5 | 0.122 | 0.004 |
-| Schäfer | 1 | 0.113 | Unavailable |
-
-Four Schäfer refits failed during Magma with constant taxon columns. Its OneNet bar therefore shows one successful refit, conditional on fitting success. The terminal cap is a graphical endpoint, not a zero SD estimate. Other capped error bars show one SD across successful refits. Failures remain recorded in the CSV results.
-
-Figure 6 uses binary LENS predictions at the 80% budget. Both methods select 125 pairs across the five test folds, using selection counts derived from training interaction frequencies. LENS recovers 40 supported interactions and OneNet recovers 11. Colours show experimental effects, not predicted signs.
-
-The separate [density diagnostic](results/carlstrom_density_recovery/README.md) permits different selection counts. It uses a training F1 threshold for LENS and a fixed mean frequency greater than 0.9 for OneNet. This exploratory diagnostic is not the selection procedure in Figure 6.
-
-The taxon panel analysis uses an earlier fixed L2 model and a different budget denominator. It does not directly evaluate final LENS. Earlier signed classification results also must not be attributed to the current binary model.
-
-## Repository layout
-
-| Directory | Contents |
-| --- | --- |
-| `paper/` | LaTeX source, bibliography, and PNG figures |
-| `scripts/` | Fitting, evaluation, and R plotting scripts |
-| `cleaned_data/` | Prepared abundance tables and experimental labels |
-| `analysis_data/` | Pair features, network scores, and predictions |
-| `results/` | Metrics, audits, metadata, and diagnostic results |
-| `docs/` | Historical analysis notes |
-| `research_ideas/` | Literature search and research idea log |
-| `external_data/`, `interaction_ground_truth/` | Local source material and provenance records |
-| `r_library/`, `python_library/` | Local dependencies, excluded from Git |
-
-## Reproduction
-
-Run commands from the repository root. Python requires NumPy, pandas, SciPy, and scikit-learn. The existing local environment works with Python 3.12. R requires ggplot2, data.table, igraph, and the network packages used by each fitting script. Package records include `results/onenet_package_versions.csv`; a fully pinned portable environment has not yet been provided.
-
-The main model code is in `scripts/optimize_supervised_model.py`. Penalty selection is in `scripts/evaluate_optimized_sparse_logistic.py`; its filename is historical, and its current candidates are centred ridge models. Abundance feature definitions are in `scripts/evaluate_direct_pair_features.py`.
-
-With prepared data and network scores available:
+Python requires NumPy, pandas, SciPy, and scikit-learn.
+The analysis was run with Python 3.12.
+Install dependencies in your own environment, then run these commands from the repository root:
 
 ```sh
-PYTHONPATH=python_library python3.12 scripts/export_final_sparse_pr_predictions.py
-PYTHONPATH=python_library python3.12 scripts/evaluate_butyrate_absolute_pair_budgets.py
-PYTHONPATH=python_library python3.12 scripts/evaluate_carlstrom_absolute_pair_budgets.py
-PYTHONPATH=python_library python3.12 scripts/evaluate_schafer_absolute_pair_budgets.py
+python3 -m pip install -r requirements.txt
+python3 scripts/check_reproduction.py
 ```
 
-Recreate result figures using the existing outputs:
+The check reconstructs all 2,617 predictions at the 80% budget and compares them with the saved results.
+It does not overwrite data or launch network refits.
+If using the existing local package directory, prefix Python commands with `PYTHONPATH=python_library`.
+
+Recreate Figures 3–6 from the saved results:
 
 ```sh
 Rscript scripts/plot_unsupervised_full_auprc.R
@@ -97,23 +30,106 @@ Rscript scripts/plot_butyrate_absolute_pair_budgets.R
 Rscript scripts/plot_carlstrom_signed_network.R
 ```
 
-External OneNet refits are expensive. The runner reuses successful metrics and retries failed fits. Schäfer retries can reproduce the documented Magma error. Replotting existing results does not require refitting.
+Plotting requires R with data.table, ggplot2, and igraph.
+The budget plotting filename is historical: it produces all three panels.
+The network plotting filename refers to colours showing experimental signs; LENS itself predicts binary interaction evidence.
+
+## Data
+
+| System | Evaluated pairs | Supported interactions | Tested neutral pairs |
+| --- | ---: | ---: | ---: |
+| Butyrate assembly | 104 | 76 | 28 |
+| Carlström | 989 | 123 | 866 |
+| Schäfer | 1,524 | 38 | 1,486 |
+
+The counts refer to tested pairs with matching abundance features, after exclusions.
+Source truth tables can contain additional pairs or ambiguous outcomes.
+Untested pairs are never treated as neutral.
+The interaction class combines positive and negative experimental effects.
+
+See [data provenance](external_data/PROVENANCE.md) for sources and preparation scripts.
+Original data remain subject to their source terms.
+
+## Model
+
+[scripts/lens.py](scripts/lens.py) contains feature construction, loading, fitting, fallback, and penalty selection.
+
+Inputs are three score percentiles—PLNNetwork, Poisson GLMNet, and SparCC—and 11 abundance features.
+The features describe prevalence, joint detection, presence similarity, abundance associations, log ratio variance, and abundance contrasts.
+
+LENS fits logistic regression with balanced class weights and a ridge penalty centred on equal weights for the three scores.
+Reference weights for abundance features are zero.
+Median imputation and standardization use training data only.
+Three inner stratified folds select the penalty from 0.01, 0.1, 1, and 10 by average precision.
+If either training class has fewer than three observations, the model returns the mean of the three score percentiles.
+Outputs are used for ranking; probability calibration has not been established.
+
+Five stratified outer folds reserve pair labels within each system.
+Test pairs stay fixed across budgets, and measured training samples are nested.
+The absolute budget experiment repeats the five folds 20 times.
+Unsupervised estimators use abundance data without interaction labels and remain fixed across budgets.
+These experiments assess prediction within a system, not transfer to a new biological system.
+
+## Reproduce the analysis
+
+Export the 80% predictions:
 
 ```sh
+python3 scripts/export_final_sparse_pr_predictions.py
+```
+
+Run the longer budget experiments:
+
+```sh
+python3 scripts/evaluate_butyrate_absolute_pair_budgets.py
+python3 scripts/evaluate_carlstrom_absolute_pair_budgets.py
+python3 scripts/evaluate_schafer_absolute_pair_budgets.py
+```
+
+The scripts overwrite their corresponding result files.
+The base seed is 20260821; preserved seed offsets keep the saved partitions unchanged.
+
+Network scores are already supplied in `analysis_data/`.
+To refit them, use `build_pair_features.R` with a system identifier and `run_onenet_benchmarks.R`.
+Package installation is described by `scripts/install_r_packages.R`; version records are in `analysis_data/package_versions.csv` and `results/onenet_package_versions.csv`.
+A fully pinned portable environment has not yet been supplied.
+
+Use `Rscript scripts/install_r_packages.R` for the individual estimators.
+Set `INSTALL_ONENET=true` before that command to request the recorded OneNet revision as well.
+This optional installer has not been tested in a fresh environment.
+
+For the external abundance resamples in Figure 3:
+
+```sh
+Rscript scripts/bootstrap_abundance_refits.R
 ONENET_EXTERNAL_WORKERS=2 Rscript scripts/bootstrap_onenet_refits.R
 ```
 
-Build the local manuscript with a LaTeX installation providing `latexmk`:
+These refits are expensive.
+OneNet uses six available estimators, 30 internal resamples, mean frequency aggregation, and mean stability 0.8 for density alignment.
+ZiLN was excluded following failures involving constant columns.
+Five external OneNet refits succeeded for Butyrate and Carlström; only one succeeded for Schäfer.
+Four Schäfer refits failed during Magma.
+Their failure records remain in `results/onenet_bootstrap_5/`.
+The Schäfer OneNet bar has no estimated SD; its terminal cap is a graphical endpoint.
 
-```sh
-cd paper
-latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
-```
+## Repository map
 
-These commands do not synchronize Overleaf. Rewrites discussed in chat may require separate application to the manuscript source.
+| Location | Purpose |
+| --- | --- |
+| `scripts/lens.py` | Current LENS implementation |
+| `scripts/check_reproduction.py` | Prediction regression check |
+| `scripts/` | Current evaluation, plotting, and source preparation |
+| `cleaned_data/` | Abundance and experimental truth CSVs |
+| `analysis_data/` | Network scores, pair features, and network display predictions |
+| `results/` | Current predictions, metrics, partitions, and fit failure records |
+| `paper/` | Manuscript, bibliography, and six PNG figures |
+| `external_data/PROVENANCE.md` | Source descriptions |
+| `interaction_ground_truth/` | Butyrate source tables and extraction scripts |
 
-## Git tracking
+Build the manuscript with `cd paper && latexmk -pdf main.tex`.
+This does not update Overleaf.
 
-Track source scripts, manuscript text, bibliography, figure sources, publication PNGs, prepared CSV data, compact results, and provenance notes. The `.gitignore` excludes local dependencies, computational caches, binary fit objects, logs, temporary files, private environment files, and LaTeX build products.
-
-Ignore rules do not remove files already committed. This update does not rewrite history or remove tracked data. Review `git status` and `git diff` before staging a research checkpoint. Third-party datasets remain subject to their original terms.
+Obsolete experiments have been removed from the working tree.
+They remain recoverable from Git commit `b4bb7efb33ecf3634ef2d266ffce7591a514482e`; see [cleanup notes](docs/release_notes.md).
+Local dependencies, caches, downloads, and the separate research idea log are excluded from Git.

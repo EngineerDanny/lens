@@ -1,9 +1,0 @@
-dataset,method,min_occurrence,iterations,n_samples,n_taxa,tested_pairs,positive_pairs,neutral_pairs,random_auprc,average_precision,auroc,native_selected_edges,native_precision,native_recall,native_f1,runtime_seconds,source_file
-omm12,CoNet,20,100,109,11,55,55,0,1.0,,,52,1.0,0.9454545454545454,0.97196261682243,4.148849959,results/omm12_conet_performance.csv
-omm12_keystone_2023,CoNet,20,100,228,10,24,24,0,1.0,,,22,1.0,0.9166666666666666,0.9565217391304348,4.479101333,results/omm12_keystone_2023_conet_performance.csv
-pairinterax,CoNet,20,100,169,97,1687,1441,246,0.8541790160047421,0.8541790160047421,0.5,0,,0.0,,85.81414454200001,results/pairinterax_conet_performance.csv
-butyrate_assembly_2021,CoNet,20,100,537,26,104,76,28,0.7307692307692307,0.727732793522267,0.4532424812030075,4,0.25,0.0131578947368421,0.025,22.677871709,results/butyrate_assembly_2021_conet_performance.csv
-host_fitness_2018,CoNet,20,100,1449,5,10,9,1,0.9,0.9190476190476192,0.5,10,0.9,1.0,0.9473684210526316,11.255701792,results/host_fitness_2018_conet_performance.csv
-carlstrom_phyllosphere_2019,CoNet,20,100,48,33,392,53,339,0.135204081632653,0.1269735345643358,0.4779595925864084,286,0.1538461538461538,0.8301886792452831,0.2595870206489676,18.754300959,results/carlstrom_phyllosphere_2019_conet_performance.csv
-schafer_phyllosphere_2022,CoNet,20,100,662,53,552,23,529,0.0416666666666666,0.0368147233001273,0.3840716692693351,437,0.045766590389016,0.8695652173913043,0.0869565217391304,,results/schafer_phyllosphere_2022_conet_performance.csv
-wortel_syncom_2026,CoNet,20,100,166,9,36,35,1,0.9722222222222222,0.9944444444444444,0.9,28,1.0,0.8,0.888888888888889,3.801432125,results/wortel_syncom_2026_conet_performance.csv

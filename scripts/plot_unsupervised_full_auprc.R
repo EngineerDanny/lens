@@ -247,14 +247,5 @@ ggsave(
   dpi = 300,
   bg = "white"
 )
-ggsave(
-  file.path(figure_dir, "unsupervised_full_tested_pair_pr_curves.png"),
-  curve_plot,
-  width = 10.8,
-  height = 2.20,
-  units = "in",
-  dpi = 300,
-  bg = "white"
-)
 
-message("Wrote full tested-pair AUPRC and precision--recall figures.")
+message("Wrote full tested-pair AUPRC figure.")

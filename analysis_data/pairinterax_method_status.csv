@@ -1,6 +1,0 @@
-dataset,method,status,elapsed_seconds,detail
-pairinterax,pln,complete,6.238,""
-pairinterax,glmnet,complete,18.55,""
-pairinterax,spieceasi,complete,3.833,""
-pairinterax,spring,complete,11.3,""
-pairinterax,sparcc,complete,0.757,""

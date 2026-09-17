@@ -1,6 +1,0 @@
-dataset,method,status,elapsed_seconds,detail
-omm12,pln,complete,1.489,""
-omm12,glmnet,complete,0.366,""
-omm12,spieceasi,complete,0.824,""
-omm12,spring,complete,2.233,""
-omm12,sparcc,complete,0.056,""

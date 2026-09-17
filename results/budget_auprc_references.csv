@@ -1,5 +1,0 @@
-analysis_set,reference_method,reference_auprc,system
-butyrate_assembly_2021,SparCC,0.810549213497218,Butyrate
-carlstrom_phyllosphere_2019,Poisson GLMNet,0.148591594133924,Carlström
-friedman_microcosm_2017,SparCC,0.659327166005291,Friedman
-schafer_phyllosphere_2022,OneNet,0.190888303349203,Schäfer

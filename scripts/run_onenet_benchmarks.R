@@ -8,8 +8,7 @@ root <- normalizePath(getwd())
 systems <- c(
   "butyrate_assembly_2021",
   "carlstrom_phyllosphere_2019",
-  "schafer_phyllosphere_2022",
-  "friedman_microcosm_2017"
+  "schafer_phyllosphere_2022"
 )
 rep_num <- as.integer(Sys.getenv("ONENET_REPS", "30"))
 cores <- as.integer(Sys.getenv("ONENET_CORES", "4"))

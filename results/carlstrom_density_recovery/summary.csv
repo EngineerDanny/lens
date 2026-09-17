@@ -1,3 +1,0 @@
-method,tested_pairs,true_interactions,selected_interactions,predicted_density,absolute_pooled_density_error,mean_fold_absolute_density_error,precision,recall,f1
-LENS,989,123,250,0.2527805864509606,0.12841253791708795,0.1366866635902169,0.22,0.44715447154471544,0.2949061662198391
-OneNet,989,123,1,0.0010111223458038423,0.12335692618806876,0.12335538122340153,0.0,0.0,0.0

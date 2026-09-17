@@ -10,10 +10,8 @@ import pandas as pd
 from sklearn.metrics import average_precision_score, roc_auc_score
 from sklearn.model_selection import StratifiedKFold
 
-from evaluate_optimized_sparse_logistic import select_regularization
-from evaluate_pair_five_fold_cv import REFERENCE_METHODS, SYSTEMS, load_system
-from evaluate_within_system_calibration import ROOT, SEED
-from optimize_supervised_model import fit_score
+from lens import ROOT, SEED, SYSTEMS, SYSTEM_SEED_INDEX, REFERENCE_METHODS, load_system, select_regularization, fit_score
+
 
 
 SYSTEM = "schafer_phyllosphere_2022"
@@ -27,7 +25,7 @@ def main() -> None:
         group_label=("interaction_label", "max")
     )
     _, onenet_column = REFERENCE_METHODS[SYSTEM]
-    system_index = SYSTEMS.index(SYSTEM)
+    system_index = SYSTEM_SEED_INDEX[SYSTEM]
     rows: list[dict] = []
 
     for repeat in range(1, REPEATS + 1):

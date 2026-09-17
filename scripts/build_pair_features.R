@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-local_lib <- normalizePath("r_library", mustWork = TRUE)
+local_lib <- normalizePath("r_library", mustWork = FALSE)
 .libPaths(c(local_lib, .libPaths()))
 
 suppressPackageStartupMessages({
@@ -21,12 +21,12 @@ cache_dir <- file.path(root, "analysis_cache", dataset)
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 dir.create(cache_dir, recursive = TRUE, showWarnings = FALSE)
 
-seed <- 426001L + match(dataset, c(
-  "omm12", "omm12_keystone_2023", "pairinterax",
-  "butyrate_assembly_2021", "host_fitness_2018", "wortel_syncom_2026",
-  "schafer_phyllosphere_2022", "carlstrom_phyllosphere_2019",
-  "friedman_microcosm_2017"
-))
+# Preserve the original seeds for the retained systems.
+seeds <- c(butyrate_assembly_2021 = 426005L,
+           carlstrom_phyllosphere_2019 = 426009L,
+           schafer_phyllosphere_2022 = 426008L)
+if (!dataset %in% names(seeds)) stop("Unknown study system")
+seed <- unname(seeds[[dataset]])
 set.seed(seed)
 
 abundance <- fread(input_path, check.names = FALSE)
@@ -42,18 +42,7 @@ if (any(!is.finite(X_native)) || any(X_native < 0)) stop("Invalid abundance valu
 if (any(rowSums(X_native) <= 0)) stop("Zero-total rows remain")
 if (any(apply(X_native, 2, function(x) length(unique(x)) <= 1))) stop("Constant taxa remain")
 
-measurement <- switch(
-  dataset,
-  omm12 = "absolute_abundance",
-  omm12_keystone_2023 = "absolute_abundance",
-  pairinterax = "relative_abundance",
-  butyrate_assembly_2021 = "proportion",
-  host_fitness_2018 = "cfu_abundance",
-  wortel_syncom_2026 = "qpcr_abundance",
-  schafer_phyllosphere_2022 = "amplicon_count",
-  carlstrom_phyllosphere_2019 = "amplicon_count",
-  friedman_microcosm_2017 = "absolute_abundance"
-)
+measurement <- if (dataset == "butyrate_assembly_2021") "proportion" else "amplicon_count"
 
 prepare_count_like <- function(X, target_depth = 10000L) {
   is_integerish <- all(abs(X - round(X)) < 1e-8)

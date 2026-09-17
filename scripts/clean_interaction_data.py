@@ -18,21 +18,8 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "interaction_ground_truth"
 OUTPUT = ROOT / "cleaned_data"
 
-DATASETS = {
-    "omm12": "community_absabundance_in_vitro.tsv.gz",
-    "omm12_keystone_2023": "community_absabundance_in_vitro.tsv.gz",
-    "pairinterax": "abundance_matrix.tsv.gz",
-    "butyrate_assembly_2021": "abundance_matrix.tsv.gz",
-    "host_fitness_2018": "abundance_matrix.tsv.gz",
-}
+DATASETS = {"butyrate_assembly_2021": "abundance_matrix.tsv.gz"}
 
-PAIRINTERAX_ALIASES = {
-    "Bifidobacterium longum subsp. longum": "Bifidobacterium longum",
-    "Klebsiella pneumoniae subsp. ozaenae": "Klebsiella pneumoniae",
-    "Klebsiella quasipneumoniae subsp. quasipneumoniae": "Klebsiella quasipneumoniae",
-    "Klebsiella variicola subsp. variicola": "Klebsiella variicola",
-    "Streptococcus gallolyticus subsp. pasteurianus": "Streptococcus pasteurianus",
-}
 
 PAIR_FIELDS = [
     "dataset",
@@ -90,163 +77,8 @@ def consensus_sign(values: list[int]) -> str:
 def clean_abundance(dataset: str) -> tuple[list[str], list[dict[str, str]], list[dict[str, str]]]:
     source_path = SOURCE / dataset / "processed" / DATASETS[dataset]
     fields, rows = read_tsv_gz(source_path)
-    taxa = fields[1:]
     exclusions: list[dict[str, str]] = []
-
-    if dataset == "pairinterax":
-        retained = []
-        for row in rows:
-            if row["sample_id"] == "canonical_taxon" or all(numeric(row[taxon]) is None for taxon in taxa):
-                exclusions.append({
-                    "dataset": dataset,
-                    "record_type": "sample",
-                    "record_id": row["sample_id"],
-                    "reason": "malformed all-missing row created by extraction script",
-                })
-            else:
-                retained.append(row)
-        rows = retained
-
-    if dataset == "omm12_keystone_2023":
-        retained_taxa = []
-        for taxon in taxa:
-            values = [numeric(row[taxon]) for row in rows]
-            if values and all(value == 0 for value in values):
-                exclusions.append({
-                    "dataset": dataset,
-                    "record_type": "taxon",
-                    "record_id": taxon,
-                    "reason": "all-zero abundance column; network score is not estimable",
-                })
-            else:
-                retained_taxa.append(taxon)
-        taxa = retained_taxa
-        fields = ["sample_id", *taxa]
-        rows = [{field: row[field] for field in fields} for row in rows]
-
-    if dataset == "host_fitness_2018":
-        retained = []
-        for row in rows:
-            row_sum = sum(numeric(row[taxon]) or 0.0 for taxon in taxa)
-            if row_sum == 0:
-                exclusions.append({
-                    "dataset": dataset,
-                    "record_type": "sample",
-                    "record_id": row["sample_id"],
-                    "reason": "zero-total abundance row; unsuitable for network transformations",
-                })
-            else:
-                retained.append(row)
-        rows = retained
-
     return fields, rows, exclusions
-
-
-def pairinterax_pairs(estimable_taxa: set[str]) -> list[dict[str, object]]:
-    _, raw = read_tsv_gz(SOURCE / "pairinterax" / "processed" / "truth_edges.tsv.gz")
-    grouped: dict[tuple[str, str], list[dict[str, str]]] = defaultdict(list)
-    for row in raw:
-        a = PAIRINTERAX_ALIASES.get(row["canonical_a"], row["canonical_a"])
-        b = PAIRINTERAX_ALIASES.get(row["canonical_b"], row["canonical_b"])
-        if a == b or a not in estimable_taxa or b not in estimable_taxa:
-            continue
-        grouped[pair_key(a, b)].append(row)
-
-    result = []
-    for (a, b), evidence in sorted(grouped.items()):
-        neutral = [row["interaction_label"] == "Neutralism" for row in evidence]
-        if all(neutral):
-            status, label = "tested_neutral", "0"
-        elif any(neutral):
-            status, label = "ambiguous", ""
-        else:
-            status, label = "positive", "1"
-        signs = []
-        for row in evidence:
-            for field in ("phenotype_a", "phenotype_b"):
-                value = numeric(row[field])
-                if value is not None and value != 0:
-                    signs.append(int(math.copysign(1, value)))
-        labels = {row["interaction_label"] for row in evidence}
-        result.append({
-            "dataset": "pairinterax",
-            "taxon_1": a,
-            "taxon_2": b,
-            "tested_status": status,
-            "interaction_label": label,
-            "effect_sign": consensus_sign(signs),
-            "effect_strength": 1 if status == "positive" else "",
-            "n_evidence": len(evidence),
-            "truth_type": "pairwise_coculture",
-            "label_rule": "unanimous non-neutral strain evidence; mixed neutral/non-neutral evidence is ambiguous",
-            "mixed_evidence": bool_text(len(labels) > 1 or len(set(signs)) > 1),
-            "direction_available": "TRUE",
-            "experimental_setting": "PairInteraX coculture assay",
-        })
-    return result
-
-
-def omm12_pairs(estimable_taxa: set[str]) -> list[dict[str, object]]:
-    _, raw = read_tsv_gz(SOURCE / "omm12" / "processed" / "truth_edges.tsv.gz")
-    grouped: dict[tuple[str, str], list[dict[str, str]]] = defaultdict(list)
-    for row in raw:
-        a, b = row["focal_taxon"], row["partner_taxon"]
-        if a != b and a in estimable_taxa and b in estimable_taxa:
-            grouped[pair_key(a, b)].append(row)
-
-    result = []
-    for (a, b), evidence in sorted(grouped.items()):
-        signs = [int(row["effect_sign"]) for row in evidence if row["effect_sign"]]
-        strengths = [abs(value) for row in evidence if (value := numeric(row["log2_rbm"])) is not None]
-        result.append({
-            "dataset": "omm12",
-            "taxon_1": a,
-            "taxon_2": b,
-            "tested_status": "positive",
-            "interaction_label": 1,
-            "effect_sign": consensus_sign(signs),
-            "effect_strength": max(strengths) if strengths else "",
-            "n_evidence": len(evidence),
-            "truth_type": "pairwise_coculture",
-            "label_rule": "every nonzero mean relative biomass effect is positive",
-            "mixed_evidence": bool_text(len(set(signs)) > 1),
-            "direction_available": "TRUE",
-            "experimental_setting": "OMM12 in vitro coculture",
-        })
-    return result
-
-
-def keystone_pairs(estimable_taxa: set[str]) -> list[dict[str, object]]:
-    _, raw = read_tsv_gz(SOURCE / "omm12_keystone_2023" / "processed" / "truth_edges_in_vitro.tsv.gz")
-    grouped: dict[tuple[str, str], list[dict[str, str]]] = defaultdict(list)
-    for row in raw:
-        a, b = row["focal_taxon"], row["partner_taxon"]
-        if a != b and a in estimable_taxa and b in estimable_taxa:
-            grouped[pair_key(a, b)].append(row)
-
-    result = []
-    for (a, b), evidence in sorted(grouped.items()):
-        signs = [int(row["effect_sign"]) for row in evidence if row["effect_sign"]]
-        nonzero = [value for value in signs if value != 0]
-        status = "positive" if nonzero else "tested_neutral"
-        strengths = [abs(value) for row in evidence if (value := numeric(row["log2_ratio"])) is not None]
-        contexts = sorted({row["context"] for row in evidence})
-        result.append({
-            "dataset": "omm12_keystone_2023",
-            "taxon_1": a,
-            "taxon_2": b,
-            "tested_status": status,
-            "interaction_label": 1 if status == "positive" else 0,
-            "effect_sign": consensus_sign(signs),
-            "effect_strength": max(strengths) if strengths else "",
-            "n_evidence": len(evidence),
-            "truth_type": "community_dropout",
-            "label_rule": "positive if any in vitro medium has a nonzero ratio effect",
-            "mixed_evidence": bool_text(len(set(signs)) > 1),
-            "direction_available": "TRUE",
-            "experimental_setting": ";".join(contexts),
-        })
-    return result
 
 
 def threshold_pairs(dataset: str, truth_type: str, context: str) -> list[dict[str, object]]:
@@ -328,23 +160,18 @@ def validate_pairs(rows: list[dict[str, object]], taxa: set[str]) -> dict[str, i
 def main() -> None:
     OUTPUT.mkdir(parents=True, exist_ok=True)
     all_exclusions: list[dict[str, str]] = []
+    manifest_path = OUTPUT / "manifest.csv"
     manifest = []
+    if manifest_path.exists():
+        with manifest_path.open(newline="") as handle:
+            manifest = [row for row in csv.DictReader(handle) if row["dataset"] not in DATASETS]
 
     for dataset in DATASETS:
         fields, abundance, exclusions = clean_abundance(dataset)
         taxa = fields[1:]
         taxa_set = set(taxa)
 
-        if dataset == "pairinterax":
-            pairs = pairinterax_pairs(taxa_set)
-        elif dataset == "omm12":
-            pairs = omm12_pairs(taxa_set)
-        elif dataset == "omm12_keystone_2023":
-            pairs = keystone_pairs(taxa_set)
-        elif dataset == "butyrate_assembly_2021":
-            pairs = threshold_pairs(dataset, "community_assembly", "defined-community assembly")
-        else:
-            pairs = threshold_pairs(dataset, "pairwise_host_colonization", "Drosophila host CFU assay")
+        pairs = threshold_pairs(dataset, "community_assembly", "defined-community assembly")
 
         profile = validate_abundance(fields, abundance)
         label_counts = validate_pairs(pairs, taxa_set)
@@ -373,7 +200,7 @@ def main() -> None:
         [
             {
                 **row,
-                "n_excluded_records": sum(item["dataset"] == row["dataset"] for item in all_exclusions),
+                "n_excluded_records": row.get("n_excluded_records", sum(item["dataset"] == row["dataset"] for item in all_exclusions)),
             }
             for row in manifest
         ],

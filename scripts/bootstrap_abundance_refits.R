@@ -47,11 +47,7 @@ average_precision <- function(labels, scores) {
 }
 
 load_truth <- function(system) {
-  suffix <- if (system == "friedman_microcosm_2017") {
-    "_tested_pairs_directional.csv"
-  } else {
-    "_tested_pairs.csv"
-  }
+  suffix <- "_tested_pairs.csv"
   truth <- fread(file.path(root, "cleaned_data", paste0(system, suffix)))
   truth <- canonicalize(truth)
   truth[!is.na(interaction_label)]

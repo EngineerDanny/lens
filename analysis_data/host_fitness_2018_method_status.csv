@@ -1,6 +1,0 @@
-dataset,method,status,elapsed_seconds,detail
-host_fitness_2018,pln,complete,1.105,""
-host_fitness_2018,glmnet,complete,0.168,""
-host_fitness_2018,spieceasi,complete,0.849,""
-host_fitness_2018,spring,complete,2.085,""
-host_fitness_2018,sparcc,complete,0.367,""

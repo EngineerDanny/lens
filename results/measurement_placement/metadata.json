@@ -1,0 +1,29 @@
+{
+  "seed": 20260821,
+  "repeats": 20,
+  "reserved_taxon_fraction": 0.4,
+  "test": "all observed tested pairs between two reserved taxa",
+  "restricted": "training pairs between two nonreserved taxa",
+  "distributed": "all remaining tested pairs; exact test pairs excluded",
+  "sampling": "shared uniform random priorities; nested; labels never used",
+  "budgets": "grid capped at minimum restricted pool size across all predetermined partitions",
+  "invalid_tests": "recorded without redrawing; no metric if fewer than two test classes",
+  "model": "unchanged centred ridge LENS with existing inner pair CV and fallback",
+  "interval": "boxplots across eligible taxon partitions: median, quartiles, whiskers within 1.5 IQR, and outliers; not confidence intervals",
+  "scope": "within-system taxa without interaction labels, but with abundance observations",
+  "sha256": {
+    "scripts/lens.py": "35cfbef06292d590b2697f7aec84d1ae607cd5df993127e621ad21eaca432380",
+    "cleaned_data/butyrate_assembly_2021_abundance.csv": "a70f2f328aee4de3ced3e0cd92355bfd811cb7e1036fae881f504632d983beaf",
+    "cleaned_data/butyrate_assembly_2021_tested_pairs.csv": "0f7342cbdf5af18e37101cebe2cd7966468dfd2a2cfbb6d8785c02feb8ec4845",
+    "analysis_data/butyrate_assembly_2021_pair_features.csv": "b431ebea6a66b179a9708700fea650a540b5484be7a21b4b074a5dcdde6f4343",
+    "analysis_data/butyrate_assembly_2021_onenet_pair_scores.csv": "fc334361380130c63b7fa3caaaa3df0471703de0b193bbbea7c14dc45fd474e7",
+    "cleaned_data/carlstrom_phyllosphere_2019_abundance.csv": "82794ebfa1ce93bcda2927dd603b9c9f7205d56951f79caab3c1fae8aa93b0f1",
+    "cleaned_data/carlstrom_phyllosphere_2019_tested_pairs.csv": "e3769ad5c28d204519008c84fcfe867e86bcbcd94cffabf3fa17cba47cf89bec",
+    "analysis_data/carlstrom_phyllosphere_2019_pair_features.csv": "8f47bcac24a2c950d0793456cb039adae91c9232dcf1655e4e58dd84300c60f3",
+    "analysis_data/carlstrom_phyllosphere_2019_onenet_pair_scores.csv": "ca0dbd83375a18db09389b918b4ba9237a38f3b503949b39fa88d51253d46f98",
+    "cleaned_data/schafer_phyllosphere_2022_abundance.csv": "76b793dd2e731681e3a2249f7d98e3874980a270e4a9115909c9753d37aff1ec",
+    "cleaned_data/schafer_phyllosphere_2022_tested_pairs.csv": "783894c7f35f4a84308797988998930c4e29d96a54ba1d8c2e7a808cf8a07262",
+    "analysis_data/schafer_phyllosphere_2022_pair_features.csv": "964526aaa626cd275cec6251246b2bca38b856b919ff731a9e69a08361df0f52",
+    "analysis_data/schafer_phyllosphere_2022_onenet_pair_scores.csv": "dcde2260c70e177de12f4dc1e9e0656f34c7890f8656380335a90648fb2882df"
+  }
+}

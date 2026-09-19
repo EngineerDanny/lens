@@ -393,6 +393,29 @@ Three inner pair folds selected the penalty when both outcome classes contained 
 Smaller samples remained on the fixed mean score.
 The budget comparison therefore follows one procedure from its unsupervised reference through increasingly informed supervised updates.
 
+\subsection{Distributed and restricted measurement designs}
+\label{sec:measurement-placement-methods}
+
+We compared the same centred ridge LENS model under two measurement designs using 20 random taxon partitions per system.
+Each partition reserved approximately 40\% of taxa represented in the tested pair table, and the test set contained all tested pairs between two reserved taxa.
+Restricted training used pairs among the remaining taxa, while distributed training could use any pair outside the test set, including pairs connecting reserved taxa to other taxa.
+All abundance measurements remained available to both designs.
+The restricted design therefore evaluated taxa without measured interaction labels but with abundance observations.
+
+Both designs received the same label budget and identical test pairs within each partition.
+Pairs were sampled without consulting their outcomes, with nested training samples across budgets.
+The maximum budget was capped by the smallest restricted training pool across the predetermined partitions, giving 13, 275, and 357 measured pairs in Butyrate, Carlstr\"om, and Sch\"afer, respectively.
+The test sets and unsupervised scores remained fixed across budgets.
+Training data alone supplied imputation, scaling, and penalty selection, using the existing inner pair validation and fallback rule.
+OneNet used no interaction outcomes and was evaluated on the same test pairs.
+We also compared LENS with its fixed reference to distinguish improvement from supervised training from an advantage over OneNet.
+
+Partitions were generated without consulting outcomes and were not redrawn after evaluation.
+One Butyrate partition contained no test pairs and two contained only one outcome class; these were excluded from metric summaries.
+Seventeen Butyrate partitions and all 20 partitions in each other system remained evaluable.
+The boxplots describe variation among these partitions within each system, not uncertainty across independent biological experiments.
+Equal label budgets could produce different class counts and taxon coverage, so the comparison evaluates each sampling design as a whole.
+
 \subsection{Evaluation}
 
 The primary metric was average precision, reported as AUPRC.
@@ -498,6 +521,8 @@ Sch\"afer remained near 0.26 through 200 measured pairs, then increased to 0.317
 The fixed mean score protected the ranking when too few interactions from either class were available for inner validation.
 Once both classes had at least three measured pairs, stratified inner validation selected the ridge penalty.
 This design lets LENS remain close to the unsupervised evidence when labels are weak and learn a new combination when the measured interactions are informative.
+
+\input{measurement_placement}
 
 \subsection{LENS recovered more experimental interactions in Carlstr\"om}
 

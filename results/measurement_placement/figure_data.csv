@@ -1,0 +1,994 @@
+analysis_set,repeat,status,test_pairs,test_interactions,test_neutrals,budget_pairs,method,auprc,auroc,fallback,selected_setting,training_interactions,training_neutrals,test_taxon_coverage,test_pairs_both_taxa_covered,panel,budget
+butyrate_assembly_2021,1,ok,17,5,12,5,OneNet,0.516317016317016,0.625,,"",,,,,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,1,ok,17,5,12,5,LENS restricted,0.283712121212121,0.4,TRUE,lambda=0.01,5,0,0,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,1,ok,17,5,12,5,LENS distributed,0.283712121212121,0.4,TRUE,lambda=0.01,4,1,0.2,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,1,ok,17,5,12,10,OneNet,0.516317016317016,0.625,,"",,,,,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,1,ok,17,5,12,10,LENS restricted,0.283712121212121,0.4,TRUE,lambda=0.01,9,1,0,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,1,ok,17,5,12,10,LENS distributed,0.448135198135198,0.5,FALSE,lambda=10,7,3,0.3,0.117647058823529,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,1,ok,17,5,12,13,OneNet,0.516317016317016,0.625,,"",,,,,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,1,ok,17,5,12,13,LENS restricted,0.283712121212121,0.4,TRUE,lambda=10,11,2,0,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,1,ok,17,5,12,13,LENS distributed,0.453589743589744,0.516666666666667,FALSE,lambda=10,10,3,0.4,0.294117647058823,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,2,ok,30,22,8,5,OneNet,0.807333033379639,0.568181818181818,,"",,,,,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,2,ok,30,22,8,5,LENS restricted,0.702398541859328,0.403409090909091,TRUE,lambda=0.01,4,1,0,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,2,ok,30,22,8,5,LENS distributed,0.702398541859328,0.403409090909091,TRUE,lambda=0.01,5,0,0.3,0.1,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,2,ok,30,22,8,10,OneNet,0.807333033379639,0.568181818181818,,"",,,,,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,2,ok,30,22,8,10,LENS restricted,0.702398541859328,0.403409090909091,TRUE,lambda=0.01,9,1,0,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,2,ok,30,22,8,10,LENS distributed,0.702398541859328,0.403409090909091,TRUE,lambda=0.01,9,1,0.5,0.333333333333333,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,2,ok,30,22,8,13,OneNet,0.807333033379639,0.568181818181818,,"",,,,,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,2,ok,30,22,8,13,LENS restricted,0.702398541859328,0.403409090909091,TRUE,lambda=0.01,12,1,0,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,2,ok,30,22,8,13,LENS distributed,0.702398541859328,0.403409090909091,TRUE,lambda=10,11,2,0.5,0.333333333333333,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,5,ok,9,8,1,5,OneNet,0.986111111111111,0.9375,,"",,,,,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,5,ok,9,8,1,5,LENS restricted,0.970486111111111,0.75,TRUE,lambda=10,2,3,0,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,5,ok,9,8,1,5,LENS distributed,0.970486111111111,0.75,TRUE,lambda=10,3,2,0.2,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,5,ok,9,8,1,10,OneNet,0.986111111111111,0.9375,,"",,,,,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,5,ok,9,8,1,10,LENS restricted,0.931795634920635,0.5,FALSE,lambda=10,6,4,0,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,5,ok,9,8,1,10,LENS distributed,0.931795634920635,0.5,FALSE,lambda=10,7,3,0.5,0.444444444444444,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,5,ok,9,8,1,13,OneNet,0.986111111111111,0.9375,,"",,,,,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,5,ok,9,8,1,13,LENS restricted,0.970486111111111,0.75,FALSE,lambda=10,8,5,0,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,5,ok,9,8,1,13,LENS distributed,0.931795634920635,0.5,FALSE,lambda=10,8,5,0.5,0.444444444444444,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,6,ok,7,3,4,5,OneNet,0.365079365079365,0.166666666666667,,"",,,,,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,6,ok,7,3,4,5,LENS restricted,0.477777777777778,0.5,TRUE,lambda=10,3,2,0,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,6,ok,7,3,4,5,LENS distributed,0.477777777777778,0.5,TRUE,lambda=10,3,2,0.25,0.142857142857143,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,6,ok,7,3,4,10,OneNet,0.365079365079365,0.166666666666667,,"",,,,,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,6,ok,7,3,4,10,LENS restricted,0.533333333333333,0.583333333333333,FALSE,lambda=10,7,3,0,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,6,ok,7,3,4,10,LENS distributed,0.533333333333333,0.583333333333333,FALSE,lambda=10,7,3,0.25,0.142857142857143,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,6,ok,7,3,4,13,OneNet,0.365079365079365,0.166666666666667,,"",,,,,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,6,ok,7,3,4,13,LENS restricted,0.533333333333333,0.583333333333333,FALSE,lambda=1,9,4,0,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,6,ok,7,3,4,13,LENS distributed,0.533333333333333,0.583333333333333,FALSE,lambda=10,9,4,0.375,0.285714285714286,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,7,ok,24,21,3,5,OneNet,0.891364135120265,0.46031746031746,,"",,,,,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,7,ok,24,21,3,5,LENS restricted,0.874678151235033,0.523809523809524,TRUE,lambda=10,3,2,0,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,7,ok,24,21,3,5,LENS distributed,0.874678151235033,0.523809523809524,TRUE,lambda=0.01,4,1,0.3,0.125,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,7,ok,24,21,3,10,OneNet,0.891364135120265,0.46031746031746,,"",,,,,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,7,ok,24,21,3,10,LENS restricted,0.814763817439625,0.380952380952381,FALSE,lambda=1,5,5,0,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,7,ok,24,21,3,10,LENS distributed,0.914020554863151,0.587301587301587,FALSE,lambda=10,7,3,0.4,0.208333333333333,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,7,ok,24,21,3,13,OneNet,0.891364135120265,0.46031746031746,,"",,,,,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,7,ok,24,21,3,13,LENS restricted,0.814763817439625,0.380952380952381,FALSE,lambda=1,8,5,0,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,7,ok,24,21,3,13,LENS distributed,0.824296752611706,0.349206349206349,FALSE,lambda=10,8,5,0.5,0.375,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,8,ok,14,12,2,5,OneNet,0.782924482924483,0.125,,"",,,,,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,8,ok,14,12,2,5,LENS restricted,0.828906278906279,0.270833333333333,TRUE,lambda=10,3,2,0,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,8,ok,14,12,2,5,LENS distributed,0.828906278906279,0.270833333333333,TRUE,lambda=10,3,2,0.111111111111111,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,8,ok,14,12,2,10,OneNet,0.782924482924483,0.125,,"",,,,,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,8,ok,14,12,2,10,LENS restricted,0.838628501128501,0.25,FALSE,lambda=10,6,4,0,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,8,ok,14,12,2,10,LENS distributed,0.817795167795168,0.208333333333333,FALSE,lambda=10,6,4,0.333333333333333,0.142857142857143,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,8,ok,14,12,2,13,OneNet,0.782924482924483,0.125,,"",,,,,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,8,ok,14,12,2,13,LENS restricted,0.769382469382469,0.208333333333333,FALSE,lambda=0.1,8,5,0,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,8,ok,14,12,2,13,LENS distributed,0.748350723350723,0.125,FALSE,lambda=0.1,8,5,0.333333333333333,0.142857142857143,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,9,ok,15,7,8,5,OneNet,0.717460317460317,0.607142857142857,,"",,,,,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,9,ok,15,7,8,5,LENS restricted,0.581432456432457,0.517857142857143,TRUE,lambda=0.01,5,0,0,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,9,ok,15,7,8,5,LENS distributed,0.581432456432457,0.517857142857143,TRUE,lambda=0.01,5,0,0.2,0.0666666666666666,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,9,ok,15,7,8,10,OneNet,0.717460317460317,0.607142857142857,,"",,,,,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,9,ok,15,7,8,10,LENS restricted,0.581432456432457,0.517857142857143,TRUE,lambda=0.01,9,1,0,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,9,ok,15,7,8,10,LENS distributed,0.581432456432457,0.517857142857143,TRUE,lambda=0.01,9,1,0.4,0.333333333333333,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,9,ok,15,7,8,13,OneNet,0.717460317460317,0.607142857142857,,"",,,,,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,9,ok,15,7,8,13,LENS restricted,0.581432456432457,0.517857142857143,TRUE,lambda=0.01,12,1,0,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,9,ok,15,7,8,13,LENS distributed,0.581432456432457,0.517857142857143,TRUE,lambda=0.01,12,1,0.4,0.333333333333333,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,10,ok,22,14,8,5,OneNet,0.642321682077321,0.464285714285714,,"",,,,,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,10,ok,22,14,8,5,LENS restricted,0.742855212260343,0.508928571428571,TRUE,lambda=10,3,2,0,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,10,ok,22,14,8,5,LENS distributed,0.742855212260343,0.508928571428571,TRUE,lambda=0.01,4,1,0.3,0.136363636363636,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,10,ok,22,14,8,10,OneNet,0.642321682077321,0.464285714285714,,"",,,,,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,10,ok,22,14,8,10,LENS restricted,0.742855212260343,0.508928571428571,TRUE,lambda=10,8,2,0,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,10,ok,22,14,8,10,LENS distributed,0.752085396175401,0.535714285714286,FALSE,lambda=10,7,3,0.3,0.136363636363636,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,10,ok,22,14,8,13,OneNet,0.642321682077321,0.464285714285714,,"",,,,,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,10,ok,22,14,8,13,LENS restricted,0.723185199733187,0.473214285714286,FALSE,lambda=10,10,3,0,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,10,ok,22,14,8,13,LENS distributed,0.744972247885782,0.517857142857143,FALSE,lambda=10,10,3,0.4,0.272727272727273,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,11,ok,8,6,2,5,OneNet,0.817857142857143,0.583333333333333,,"",,,,,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,11,ok,8,6,2,5,LENS restricted,0.897222222222222,0.666666666666667,TRUE,lambda=0.01,5,0,0,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,11,ok,8,6,2,5,LENS distributed,0.897222222222222,0.666666666666667,TRUE,lambda=0.01,4,1,0.222222222222222,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,11,ok,8,6,2,10,OneNet,0.817857142857143,0.583333333333333,,"",,,,,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,11,ok,8,6,2,10,LENS restricted,0.976190476190476,0.916666666666667,FALSE,lambda=10,7,3,0,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,11,ok,8,6,2,10,LENS distributed,0.873412698412698,0.666666666666667,FALSE,lambda=0.01,6,4,0.444444444444444,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,11,ok,8,6,2,13,OneNet,0.817857142857143,0.583333333333333,,"",,,,,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,11,ok,8,6,2,13,LENS restricted,0.915079365079365,0.75,FALSE,lambda=1,8,5,0,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,11,ok,8,6,2,13,LENS distributed,0.873412698412698,0.666666666666667,FALSE,lambda=0.01,7,6,0.444444444444444,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,12,ok,20,19,1,5,OneNet,0.981999438741332,0.68421052631579,,"",,,,,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,12,ok,20,19,1,5,LENS restricted,1,1,TRUE,lambda=10,2,3,0,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,12,ok,20,19,1,5,LENS distributed,1,1,TRUE,lambda=10,3,2,0.555555555555556,0.3,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,12,ok,20,19,1,10,OneNet,0.981999438741332,0.68421052631579,,"",,,,,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,12,ok,20,19,1,10,LENS restricted,0.994598337950139,0.894736842105263,FALSE,lambda=10,4,6,0,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,12,ok,20,19,1,10,LENS distributed,0.994598337950139,0.894736842105263,FALSE,lambda=10,6,4,0.666666666666667,0.55,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,12,ok,20,19,1,13,OneNet,0.981999438741332,0.68421052631579,,"",,,,,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,12,ok,20,19,1,13,LENS restricted,1,1,FALSE,lambda=0.1,7,6,0,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,12,ok,20,19,1,13,LENS distributed,0.994598337950139,0.894736842105263,FALSE,lambda=0.1,8,5,0.666666666666667,0.55,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,13,ok,16,14,2,5,OneNet,0.870584375941519,0.535714285714286,,"",,,,,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,13,ok,16,14,2,5,LENS restricted,0.951754792826221,0.678571428571429,TRUE,lambda=10,3,2,0,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,13,ok,16,14,2,5,LENS distributed,0.951754792826221,0.678571428571429,TRUE,lambda=10,2,3,0.3,0.1875,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,13,ok,16,14,2,10,OneNet,0.870584375941519,0.535714285714286,,"",,,,,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,13,ok,16,14,2,10,LENS restricted,0.927526243597672,0.535714285714286,FALSE,lambda=10,5,5,0,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,13,ok,16,14,2,10,LENS distributed,0.912780869923727,0.535714285714286,FALSE,lambda=10,7,3,0.5,0.4375,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,13,ok,16,14,2,13,OneNet,0.870584375941519,0.535714285714286,,"",,,,,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,13,ok,16,14,2,13,LENS restricted,0.902044384187241,0.428571428571429,FALSE,lambda=0.1,8,5,0,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,13,ok,16,14,2,13,LENS distributed,0.93381697667412,0.642857142857143,FALSE,lambda=1,9,4,0.5,0.4375,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,14,ok,8,6,2,5,OneNet,0.621825396825397,0.0833333333333333,,"",,,,,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,14,ok,8,6,2,5,LENS restricted,0.594047619047619,0,TRUE,lambda=10,3,2,0,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,14,ok,8,6,2,5,LENS distributed,0.594047619047619,0,TRUE,lambda=10,3,2,0.111111111111111,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,14,ok,8,6,2,10,OneNet,0.621825396825397,0.0833333333333333,,"",,,,,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,14,ok,8,6,2,10,LENS restricted,0.621825396825397,0.0833333333333333,FALSE,lambda=10,7,3,0,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,14,ok,8,6,2,10,LENS distributed,0.621825396825397,0.0833333333333333,FALSE,lambda=10,7,3,0.111111111111111,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,14,ok,8,6,2,13,OneNet,0.621825396825397,0.0833333333333333,,"",,,,,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,14,ok,8,6,2,13,LENS restricted,0.621825396825397,0.0833333333333333,FALSE,lambda=10,9,4,0,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,14,ok,8,6,2,13,LENS distributed,0.621825396825397,0.0833333333333333,FALSE,lambda=10,9,4,0.333333333333333,0.25,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,15,ok,8,7,1,5,OneNet,0.826020408163265,0.142857142857143,,"",,,,,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,15,ok,8,7,1,5,LENS restricted,0.873639455782313,0.285714285714286,TRUE,lambda=10,3,2,0,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,15,ok,8,7,1,5,LENS distributed,0.873639455782313,0.285714285714286,TRUE,lambda=0.01,4,1,0.222222222222222,0.125,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,15,ok,8,7,1,10,OneNet,0.826020408163265,0.142857142857143,,"",,,,,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,15,ok,8,7,1,10,LENS restricted,0.937925170068027,0.571428571428571,FALSE,lambda=0.01,6,4,0,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,15,ok,8,7,1,10,LENS distributed,0.873639455782313,0.285714285714286,FALSE,lambda=10,7,3,0.333333333333333,0.25,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,15,ok,8,7,1,13,OneNet,0.826020408163265,0.142857142857143,,"",,,,,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,15,ok,8,7,1,13,LENS restricted,0.873639455782313,0.285714285714286,FALSE,lambda=10,9,4,0,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,15,ok,8,7,1,13,LENS distributed,0.909353741496599,0.428571428571428,FALSE,lambda=1,8,5,0.333333333333333,0.25,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,16,ok,29,22,7,5,OneNet,0.796824427377451,0.451298701298701,,"",,,,,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,16,ok,29,22,7,5,LENS restricted,0.740997285525195,0.571428571428571,TRUE,lambda=0.01,5,0,0,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,16,ok,29,22,7,5,LENS distributed,0.740997285525195,0.571428571428571,TRUE,lambda=10,3,2,0.4,0.206896551724138,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,16,ok,29,22,7,10,OneNet,0.796824427377451,0.451298701298701,,"",,,,,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,16,ok,29,22,7,10,LENS restricted,0.740997285525195,0.571428571428571,TRUE,lambda=0.01,10,0,0,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,16,ok,29,22,7,10,LENS distributed,0.710027937320091,0.461038961038961,FALSE,lambda=10,7,3,0.6,0.482758620689655,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,16,ok,29,22,7,13,OneNet,0.796824427377451,0.451298701298701,,"",,,,,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,16,ok,29,22,7,13,LENS restricted,0.740997285525195,0.571428571428571,TRUE,lambda=0.01,13,0,0,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,16,ok,29,22,7,13,LENS distributed,0.710027937320091,0.461038961038961,FALSE,lambda=10,10,3,0.6,0.482758620689655,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,17,ok,28,22,6,5,OneNet,0.827038257530248,0.515151515151515,,"",,,,,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,17,ok,28,22,6,5,LENS restricted,0.759582481620273,0.477272727272727,TRUE,lambda=0.01,5,0,0,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,17,ok,28,22,6,5,LENS distributed,0.759582481620273,0.477272727272727,TRUE,lambda=10,3,2,0.3,0.107142857142857,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,17,ok,28,22,6,10,OneNet,0.827038257530248,0.515151515151515,,"",,,,,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,17,ok,28,22,6,10,LENS restricted,0.759582481620273,0.477272727272727,TRUE,lambda=10,8,2,0,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,17,ok,28,22,6,10,LENS distributed,0.791834424890002,0.560606060606061,FALSE,lambda=10,7,3,0.5,0.321428571428571,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,17,ok,28,22,6,13,OneNet,0.827038257530248,0.515151515151515,,"",,,,,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,17,ok,28,22,6,13,LENS restricted,0.759582481620273,0.477272727272727,TRUE,lambda=10,11,2,0,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,17,ok,28,22,6,13,LENS distributed,0.857688029271275,0.568181818181818,FALSE,lambda=0.01,9,4,0.6,0.464285714285714,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,18,ok,16,11,5,5,OneNet,0.741279553779554,0.445454545454546,,"",,,,,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,18,ok,16,11,5,5,LENS restricted,0.810288196651833,0.618181818181818,TRUE,lambda=0.01,5,0,0,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,18,ok,16,11,5,5,LENS distributed,0.810288196651833,0.618181818181818,TRUE,lambda=0.01,4,1,0.5,0.1875,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,18,ok,16,11,5,10,OneNet,0.741279553779554,0.445454545454546,,"",,,,,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,18,ok,16,11,5,10,LENS restricted,0.810288196651833,0.618181818181818,TRUE,lambda=0.01,9,1,0,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,18,ok,16,11,5,10,LENS distributed,0.810288196651833,0.618181818181818,TRUE,lambda=0.01,9,1,0.6,0.5,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,18,ok,16,11,5,13,OneNet,0.741279553779554,0.445454545454546,,"",,,,,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,18,ok,16,11,5,13,LENS restricted,0.709641116459298,0.418181818181818,FALSE,lambda=10,10,3,0,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,18,ok,16,11,5,13,LENS distributed,0.810288196651833,0.618181818181818,TRUE,lambda=0.01,12,1,0.6,0.5,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,20,ok,13,5,8,5,OneNet,0.639285714285714,0.7375,,"",,,,,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,20,ok,13,5,8,5,LENS restricted,0.419047619047619,0.525,TRUE,lambda=0.01,4,1,0,0,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,20,ok,13,5,8,5,LENS distributed,0.419047619047619,0.525,TRUE,lambda=0.01,4,1,0.2,0.0769230769230769,Butyrate (17/20 partitions),5
+butyrate_assembly_2021,20,ok,13,5,8,10,OneNet,0.639285714285714,0.7375,,"",,,,,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,20,ok,13,5,8,10,LENS restricted,0.347478632478633,0.35,FALSE,lambda=10,7,3,0,0,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,20,ok,13,5,8,10,LENS distributed,0.492222222222222,0.575,FALSE,lambda=1,6,4,0.3,0.153846153846154,Butyrate (17/20 partitions),10
+butyrate_assembly_2021,20,ok,13,5,8,13,OneNet,0.639285714285714,0.7375,,"",,,,,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,20,ok,13,5,8,13,LENS restricted,0.353888888888889,0.375,FALSE,lambda=10,10,3,0,0,Butyrate (17/20 partitions),13
+butyrate_assembly_2021,20,ok,13,5,8,13,LENS distributed,0.427222222222222,0.475,FALSE,lambda=1,9,4,0.4,0.307692307692308,Butyrate (17/20 partitions),13
+carlstrom_phyllosphere_2019,1,ok,186,28,158,5,OneNet,0.159171557313118,0.523395117540687,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,1,ok,186,28,158,5,LENS restricted,0.155020563450115,0.458408679927667,TRUE,lambda=0.01,0,5,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,1,ok,186,28,158,5,LENS distributed,0.155020563450115,0.458408679927667,TRUE,lambda=0.01,0,5,0.227272727272727,0.053763440860215,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,1,ok,186,28,158,10,OneNet,0.159171557313118,0.523395117540687,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,1,ok,186,28,158,10,LENS restricted,0.155020563450115,0.458408679927667,TRUE,lambda=0.01,0,10,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,1,ok,186,28,158,10,LENS distributed,0.155020563450115,0.458408679927667,TRUE,lambda=0.01,0,10,0.272727272727273,0.0806451612903225,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,1,ok,186,28,158,20,OneNet,0.159171557313118,0.523395117540687,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,1,ok,186,28,158,20,LENS restricted,0.155020563450115,0.458408679927667,TRUE,lambda=0.01,1,19,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,1,ok,186,28,158,20,LENS distributed,0.155020563450115,0.458408679927667,TRUE,lambda=0.01,0,20,0.363636363636364,0.145161290322581,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,1,ok,186,28,158,50,OneNet,0.159171557313118,0.523395117540687,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,1,ok,186,28,158,50,LENS restricted,0.141996943310007,0.402350813743219,FALSE,lambda=10,3,47,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,1,ok,186,28,158,50,LENS distributed,0.204616005275354,0.493444846292948,FALSE,lambda=10,5,45,0.727272727272727,0.591397849462366,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,1,ok,186,28,158,100,OneNet,0.159171557313118,0.523395117540687,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,1,ok,186,28,158,100,LENS restricted,0.178803070589053,0.431509945750452,FALSE,lambda=1,11,89,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,1,ok,186,28,158,100,LENS distributed,0.187349620800053,0.470614828209765,FALSE,lambda=10,7,93,0.818181818181818,0.741935483870968,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,1,ok,186,28,158,200,OneNet,0.159171557313118,0.523395117540687,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,1,ok,186,28,158,200,LENS restricted,0.187437690728014,0.435578661844485,FALSE,lambda=0.1,19,181,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,1,ok,186,28,158,200,LENS distributed,0.153752963362159,0.465867992766727,FALSE,lambda=10,28,172,1,1,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,1,ok,186,28,158,275,OneNet,0.159171557313118,0.523395117540687,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,1,ok,186,28,158,275,LENS restricted,0.199180370142091,0.419077757685353,FALSE,lambda=1,28,247,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,1,ok,186,28,158,275,LENS distributed,0.165888593343981,0.496157323688969,FALSE,lambda=10,43,232,1,1,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,2,ok,126,14,112,5,OneNet,0.123373266658591,0.419961734693877,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,2,ok,126,14,112,5,LENS restricted,0.103268444122436,0.396045918367347,TRUE,lambda=0.01,0,5,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,2,ok,126,14,112,5,LENS distributed,0.103268444122436,0.396045918367347,TRUE,lambda=0.01,0,5,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,2,ok,126,14,112,10,OneNet,0.123373266658591,0.419961734693877,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,2,ok,126,14,112,10,LENS restricted,0.103268444122436,0.396045918367347,TRUE,lambda=0.01,0,10,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,2,ok,126,14,112,10,LENS distributed,0.103268444122436,0.396045918367347,TRUE,lambda=0.01,0,10,0.0454545454545454,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,2,ok,126,14,112,20,OneNet,0.123373266658591,0.419961734693877,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,2,ok,126,14,112,20,LENS restricted,0.103268444122436,0.396045918367347,TRUE,lambda=0.01,1,19,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,2,ok,126,14,112,20,LENS distributed,0.103268444122436,0.396045918367347,TRUE,lambda=0.01,0,20,0.227272727272727,0.0714285714285714,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,2,ok,126,14,112,50,OneNet,0.123373266658591,0.419961734693877,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,2,ok,126,14,112,50,LENS restricted,0.159125026107277,0.541454081632653,FALSE,lambda=10,3,47,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,2,ok,126,14,112,50,LENS distributed,0.149602999496091,0.612882653061225,FALSE,lambda=0.01,4,46,0.590909090909091,0.5,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,2,ok,126,14,112,100,OneNet,0.123373266658591,0.419961734693877,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,2,ok,126,14,112,100,LENS restricted,0.167280911728199,0.564413265306123,FALSE,lambda=0.01,12,88,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,2,ok,126,14,112,100,LENS distributed,0.188248856429573,0.696428571428571,FALSE,lambda=1,9,91,0.818181818181818,0.777777777777778,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,2,ok,126,14,112,200,OneNet,0.123373266658591,0.419961734693877,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,2,ok,126,14,112,200,LENS restricted,0.128459431327793,0.505739795918367,FALSE,lambda=1,24,176,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,2,ok,126,14,112,200,LENS distributed,0.163453357437823,0.614795918367347,FALSE,lambda=0.1,30,170,1,1,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,2,ok,126,14,112,275,OneNet,0.123373266658591,0.419961734693877,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,2,ok,126,14,112,275,LENS restricted,0.215316895910357,0.538265306122449,FALSE,lambda=0.01,33,242,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,2,ok,126,14,112,275,LENS distributed,0.174187379499414,0.628826530612245,FALSE,lambda=0.01,40,235,1,1,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,3,ok,126,7,119,5,OneNet,0.0699013570846116,0.356542617046819,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,3,ok,126,7,119,5,LENS restricted,0.0704167031096469,0.512605042016807,TRUE,lambda=10,2,3,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,3,ok,126,7,119,5,LENS distributed,0.0704167031096469,0.512605042016807,TRUE,lambda=0.01,0,5,0.181818181818182,0.0238095238095238,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,3,ok,126,7,119,10,OneNet,0.0699013570846116,0.356542617046819,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,3,ok,126,7,119,10,LENS restricted,0.0746746417142532,0.444177671068427,FALSE,lambda=10,3,7,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,3,ok,126,7,119,10,LENS distributed,0.0704167031096469,0.512605042016807,TRUE,lambda=10,2,8,0.272727272727273,0.0396825396825396,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,3,ok,126,7,119,20,OneNet,0.0699013570846116,0.356542617046819,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,3,ok,126,7,119,20,LENS restricted,0.0886568675798229,0.378151260504202,FALSE,lambda=10,5,15,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,3,ok,126,7,119,20,LENS distributed,0.125049135753042,0.594237695078031,FALSE,lambda=1,4,16,0.5,0.214285714285714,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,3,ok,126,7,119,50,OneNet,0.0699013570846116,0.356542617046819,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,3,ok,126,7,119,50,LENS restricted,0.208901169831307,0.539015606242497,FALSE,lambda=0.01,10,40,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,3,ok,126,7,119,50,LENS distributed,0.198973549712466,0.457382953181272,FALSE,lambda=1,7,43,0.818181818181818,0.690476190476191,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,3,ok,126,7,119,100,OneNet,0.0699013570846116,0.356542617046819,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,3,ok,126,7,119,100,LENS restricted,0.0706432298478622,0.471788715486195,FALSE,lambda=0.1,19,81,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,3,ok,126,7,119,100,LENS distributed,0.103348235846063,0.567827130852341,FALSE,lambda=0.1,16,84,1,1,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,3,ok,126,7,119,200,OneNet,0.0699013570846116,0.356542617046819,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,3,ok,126,7,119,200,LENS restricted,0.103299306638288,0.691476590636255,FALSE,lambda=0.01,36,164,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,3,ok,126,7,119,200,LENS distributed,0.084374868288355,0.470588235294118,FALSE,lambda=1,27,173,1,1,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,3,ok,126,7,119,275,OneNet,0.0699013570846116,0.356542617046819,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,3,ok,126,7,119,275,LENS restricted,0.0946567800016076,0.663865546218487,FALSE,lambda=0.1,42,233,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,3,ok,126,7,119,275,LENS distributed,0.0909264611034646,0.436974789915966,FALSE,lambda=1,34,241,1,1,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,4,ok,195,14,181,5,OneNet,0.0718325194785606,0.440015785319653,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,4,ok,195,14,181,5,LENS restricted,0.0805049270222896,0.477111286503552,TRUE,lambda=0.01,1,4,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,4,ok,195,14,181,5,LENS distributed,0.0805049270222896,0.477111286503552,TRUE,lambda=0.01,1,4,0.181818181818182,0.0256410256410256,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,4,ok,195,14,181,10,OneNet,0.0718325194785606,0.440015785319653,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,4,ok,195,14,181,10,LENS restricted,0.122534043366426,0.586819258089976,FALSE,lambda=10,3,7,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,4,ok,195,14,181,10,LENS distributed,0.0805049270222896,0.477111286503552,TRUE,lambda=0.01,1,9,0.272727272727273,0.0615384615384615,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,4,ok,195,14,181,20,OneNet,0.0718325194785606,0.440015785319653,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,4,ok,195,14,181,20,LENS restricted,0.0900351577498454,0.532359905288082,FALSE,lambda=0.01,5,15,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,4,ok,195,14,181,20,LENS distributed,0.0805049270222896,0.477111286503552,TRUE,lambda=10,2,18,0.5,0.251282051282051,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,4,ok,195,14,181,50,OneNet,0.0718325194785606,0.440015785319653,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,4,ok,195,14,181,50,LENS restricted,0.185558175384818,0.653512233622731,FALSE,lambda=0.01,11,39,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,4,ok,195,14,181,50,LENS distributed,0.198659632472303,0.668508287292818,FALSE,lambda=0.1,8,42,0.818181818181818,0.733333333333333,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,4,ok,195,14,181,100,OneNet,0.0718325194785606,0.440015785319653,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,4,ok,195,14,181,100,LENS restricted,0.302935417288261,0.754538279400158,FALSE,lambda=0.1,19,81,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,4,ok,195,14,181,100,LENS distributed,0.164530874231561,0.648382004735596,FALSE,lambda=0.01,13,87,0.909090909090909,0.866666666666667,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,4,ok,195,14,181,200,OneNet,0.0718325194785606,0.440015785319653,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,4,ok,195,14,181,200,LENS restricted,0.3826047326101,0.737569060773481,FALSE,lambda=0.1,36,164,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,4,ok,195,14,181,200,LENS distributed,0.307083578087952,0.698105761641673,FALSE,lambda=0.1,29,171,1,1,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,4,ok,195,14,181,275,OneNet,0.0718325194785606,0.440015785319653,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,4,ok,195,14,181,275,LENS restricted,0.176260335066837,0.688239936858721,FALSE,lambda=0.01,51,224,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,4,ok,195,14,181,275,LENS distributed,0.21868542002473,0.681136543014996,FALSE,lambda=0.1,40,235,1,1,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,5,ok,165,23,142,5,OneNet,0.136794588650433,0.506123698714023,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,5,ok,165,23,142,5,LENS restricted,0.117777166693929,0.391916717697489,TRUE,lambda=0.01,1,4,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,5,ok,165,23,142,5,LENS distributed,0.117777166693929,0.391916717697489,TRUE,lambda=0.01,1,4,0.0909090909090909,0.006060606060606,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,5,ok,165,23,142,10,OneNet,0.136794588650433,0.506123698714023,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,5,ok,165,23,142,10,LENS restricted,0.117777166693929,0.391916717697489,TRUE,lambda=10,2,8,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,5,ok,165,23,142,10,LENS distributed,0.117777166693929,0.391916717697489,TRUE,lambda=10,2,8,0.181818181818182,0.0363636363636363,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,5,ok,165,23,142,20,OneNet,0.136794588650433,0.506123698714023,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,5,ok,165,23,142,20,LENS restricted,0.257887179168695,0.526944274341702,FALSE,lambda=1,5,15,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,5,ok,165,23,142,20,LENS distributed,0.149902212219514,0.484690753214942,FALSE,lambda=10,3,17,0.272727272727273,0.0909090909090909,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,5,ok,165,23,142,50,OneNet,0.136794588650433,0.506123698714023,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,5,ok,165,23,142,50,LENS restricted,0.303396245347432,0.619105939987753,FALSE,lambda=0.01,8,42,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,5,ok,165,23,142,50,LENS distributed,0.376000819615917,0.73423147581139,FALSE,lambda=0.01,10,40,0.727272727272727,0.6,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,5,ok,165,23,142,100,OneNet,0.136794588650433,0.506123698714023,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,5,ok,165,23,142,100,LENS restricted,0.287218106187615,0.528169014084507,FALSE,lambda=1,14,86,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,5,ok,165,23,142,100,LENS distributed,0.37085682662327,0.681261481935089,FALSE,lambda=0.01,15,85,1,1,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,5,ok,165,23,142,200,OneNet,0.136794588650433,0.506123698714023,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,5,ok,165,23,142,200,LENS restricted,0.328102192425953,0.663808940600123,FALSE,lambda=0.1,28,172,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,5,ok,165,23,142,200,LENS distributed,0.378968296593408,0.708205756276791,FALSE,lambda=0.1,27,173,1,1,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,5,ok,165,23,142,275,OneNet,0.136794588650433,0.506123698714023,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,5,ok,165,23,142,275,LENS restricted,0.278187143935394,0.695039804041641,FALSE,lambda=0.01,36,239,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,5,ok,165,23,142,275,LENS distributed,0.404860163654719,0.723821187997551,FALSE,lambda=0.01,34,241,1,1,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,6,ok,165,31,134,5,OneNet,0.183490493460881,0.48302840635532,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,6,ok,165,31,134,5,LENS restricted,0.204746150583274,0.491092922484352,TRUE,lambda=0.01,0,5,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,6,ok,165,31,134,5,LENS distributed,0.204746150583274,0.491092922484352,TRUE,lambda=0.01,0,5,0.136363636363636,0.0181818181818181,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,6,ok,165,31,134,10,OneNet,0.183490493460881,0.48302840635532,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,6,ok,165,31,134,10,LENS restricted,0.204746150583274,0.491092922484352,TRUE,lambda=0.01,0,10,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,6,ok,165,31,134,10,LENS distributed,0.204746150583274,0.491092922484352,TRUE,lambda=0.01,0,10,0.181818181818182,0.0303030303030303,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,6,ok,165,31,134,20,OneNet,0.183490493460881,0.48302840635532,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,6,ok,165,31,134,20,LENS restricted,0.204746150583274,0.491092922484352,TRUE,lambda=0.01,0,20,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,6,ok,165,31,134,20,LENS distributed,0.204746150583274,0.491092922484352,TRUE,lambda=0.01,0,20,0.454545454545455,0.236363636363636,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,6,ok,165,31,134,50,OneNet,0.183490493460881,0.48302840635532,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,6,ok,165,31,134,50,LENS restricted,0.325271644796727,0.567404910929225,FALSE,lambda=0.01,4,46,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,6,ok,165,31,134,50,LENS distributed,0.216334445656349,0.464853153586904,FALSE,lambda=10,4,46,0.727272727272727,0.636363636363636,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,6,ok,165,31,134,100,OneNet,0.183490493460881,0.48302840635532,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,6,ok,165,31,134,100,LENS restricted,0.266195688511913,0.51564756860857,FALSE,lambda=0.1,7,93,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,6,ok,165,31,134,100,LENS distributed,0.32397071713844,0.592441020702937,FALSE,lambda=0.1,8,92,0.909090909090909,0.878787878787879,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,6,ok,165,31,134,200,OneNet,0.183490493460881,0.48302840635532,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,6,ok,165,31,134,200,LENS restricted,0.242503877567255,0.538035628310063,FALSE,lambda=0.1,13,187,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,6,ok,165,31,134,200,LENS distributed,0.313587110682857,0.607607125662013,FALSE,lambda=0.1,21,179,1,1,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,6,ok,165,31,134,275,OneNet,0.183490493460881,0.48302840635532,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,6,ok,165,31,134,275,LENS restricted,0.191836815570653,0.502166586422725,FALSE,lambda=0.01,17,258,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,6,ok,165,31,134,275,LENS distributed,0.320940855267559,0.606162734713529,FALSE,lambda=0.1,28,247,1,1,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,7,ok,186,27,159,5,OneNet,0.130262270615538,0.439669228977405,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,7,ok,186,27,159,5,LENS restricted,0.180876226986933,0.548800372699744,TRUE,lambda=0.01,0,5,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,7,ok,186,27,159,5,LENS distributed,0.180876226986933,0.548800372699744,TRUE,lambda=0.01,0,5,0.0454545454545454,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,7,ok,186,27,159,10,OneNet,0.130262270615538,0.439669228977405,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,7,ok,186,27,159,10,LENS restricted,0.180876226986933,0.548800372699744,TRUE,lambda=0.01,0,10,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,7,ok,186,27,159,10,LENS distributed,0.180876226986933,0.548800372699744,TRUE,lambda=0.01,1,9,0.227272727272727,0.0483870967741935,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,7,ok,186,27,159,20,OneNet,0.130262270615538,0.439669228977405,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,7,ok,186,27,159,20,LENS restricted,0.180876226986933,0.548800372699744,TRUE,lambda=0.01,0,20,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,7,ok,186,27,159,20,LENS distributed,0.180876226986933,0.548800372699744,TRUE,lambda=10,2,18,0.318181818181818,0.10752688172043,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,7,ok,186,27,159,50,OneNet,0.130262270615538,0.439669228977405,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,7,ok,186,27,159,50,LENS restricted,0.216053193895591,0.571395294665735,FALSE,lambda=10,6,44,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,7,ok,186,27,159,50,LENS distributed,0.190097547222517,0.562776613091079,FALSE,lambda=1,5,45,0.727272727272727,0.591397849462366,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,7,ok,186,27,159,100,OneNet,0.130262270615538,0.439669228977405,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,7,ok,186,27,159,100,LENS restricted,0.175975434105619,0.471232238527836,FALSE,lambda=0.01,11,89,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,7,ok,186,27,159,100,LENS distributed,0.206486362695708,0.638714185883997,FALSE,lambda=1,12,88,0.863636363636364,0.806451612903226,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,7,ok,186,27,159,200,OneNet,0.130262270615538,0.439669228977405,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,7,ok,186,27,159,200,LENS restricted,0.219048458374089,0.542976939203354,FALSE,lambda=0.01,22,178,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,7,ok,186,27,159,200,LENS distributed,0.200622713535497,0.608432331702772,FALSE,lambda=1,21,179,0.954545454545455,0.935483870967742,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,7,ok,186,27,159,275,OneNet,0.130262270615538,0.439669228977405,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,7,ok,186,27,159,275,LENS restricted,0.224805691433341,0.584905660377359,FALSE,lambda=0.01,32,243,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,7,ok,186,27,159,275,LENS distributed,0.206025063696561,0.57745166550198,FALSE,lambda=0.1,30,245,1,1,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,8,ok,176,20,156,5,OneNet,0.0889136819813733,0.355608974358974,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,8,ok,176,20,156,5,LENS restricted,0.0986991489265685,0.419230769230769,TRUE,lambda=0.01,1,4,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,8,ok,176,20,156,5,LENS distributed,0.0986991489265685,0.419230769230769,TRUE,lambda=0.01,1,4,0.227272727272727,0.0568181818181818,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,8,ok,176,20,156,10,OneNet,0.0889136819813733,0.355608974358974,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,8,ok,176,20,156,10,LENS restricted,0.102057865940448,0.442948717948718,FALSE,lambda=1,4,6,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,8,ok,176,20,156,10,LENS distributed,0.0986991489265685,0.419230769230769,TRUE,lambda=10,2,8,0.318181818181818,0.119318181818182,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,8,ok,176,20,156,20,OneNet,0.0889136819813733,0.355608974358974,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,8,ok,176,20,156,20,LENS restricted,0.0960405724483885,0.42948717948718,FALSE,lambda=0.01,6,14,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,8,ok,176,20,156,20,LENS distributed,0.0960354488893124,0.423717948717949,FALSE,lambda=1,6,14,0.454545454545455,0.25,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,8,ok,176,20,156,50,OneNet,0.0889136819813733,0.355608974358974,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,8,ok,176,20,156,50,LENS restricted,0.325526146895549,0.768589743589744,FALSE,lambda=0.01,11,39,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,8,ok,176,20,156,50,LENS distributed,0.154549949278259,0.648397435897436,FALSE,lambda=0.01,11,39,0.636363636363636,0.482954545454545,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,8,ok,176,20,156,100,OneNet,0.0889136819813733,0.355608974358974,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,8,ok,176,20,156,100,LENS restricted,0.205196398163514,0.742628205128205,FALSE,lambda=1,18,82,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,8,ok,176,20,156,100,LENS distributed,0.27804122839196,0.725961538461539,FALSE,lambda=0.1,20,80,0.863636363636364,0.8125,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,8,ok,176,20,156,200,OneNet,0.0889136819813733,0.355608974358974,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,8,ok,176,20,156,200,LENS restricted,0.301203184979471,0.750961538461539,FALSE,lambda=0.1,30,170,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,8,ok,176,20,156,200,LENS distributed,0.221827800998994,0.725641025641026,FALSE,lambda=1,33,167,0.954545454545455,0.9375,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,8,ok,176,20,156,275,OneNet,0.0889136819813733,0.355608974358974,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,8,ok,176,20,156,275,LENS restricted,0.296952920720717,0.757692307692308,FALSE,lambda=0.01,36,239,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,8,ok,176,20,156,275,LENS distributed,0.381256410077588,0.783012820512821,FALSE,lambda=0.01,40,235,0.954545454545455,0.9375,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,9,ok,176,28,148,5,OneNet,0.234574287473973,0.561896718146718,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,9,ok,176,28,148,5,LENS restricted,0.162788328427995,0.462837837837838,TRUE,lambda=0.01,1,4,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,9,ok,176,28,148,5,LENS distributed,0.162788328427995,0.462837837837838,TRUE,lambda=0.01,1,4,0.227272727272727,0.0397727272727272,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,9,ok,176,28,148,10,OneNet,0.234574287473973,0.561896718146718,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,9,ok,176,28,148,10,LENS restricted,0.162788328427995,0.462837837837838,TRUE,lambda=0.01,1,9,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,9,ok,176,28,148,10,LENS distributed,0.162788328427995,0.462837837837838,TRUE,lambda=0.01,1,9,0.318181818181818,0.0852272727272727,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,9,ok,176,28,148,20,OneNet,0.234574287473973,0.561896718146718,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,9,ok,176,28,148,20,LENS restricted,0.162788328427995,0.462837837837838,TRUE,lambda=0.01,1,19,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,9,ok,176,28,148,20,LENS distributed,0.162788328427995,0.462837837837838,TRUE,lambda=10,2,18,0.5,0.227272727272727,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,9,ok,176,28,148,50,OneNet,0.234574287473973,0.561896718146718,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,9,ok,176,28,148,50,LENS restricted,0.285276879275391,0.58976833976834,FALSE,lambda=0.01,4,46,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,9,ok,176,28,148,50,LENS distributed,0.282207428243756,0.655405405405405,FALSE,lambda=0.1,5,45,0.818181818181818,0.664772727272727,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,9,ok,176,28,148,100,OneNet,0.234574287473973,0.561896718146718,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,9,ok,176,28,148,100,LENS restricted,0.241021904427965,0.586389961389961,FALSE,lambda=1,10,90,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,9,ok,176,28,148,100,LENS distributed,0.253610934521641,0.656370656370656,FALSE,lambda=1,11,89,0.909090909090909,0.875,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,9,ok,176,28,148,200,OneNet,0.234574287473973,0.561896718146718,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,9,ok,176,28,148,200,LENS restricted,0.217078268805377,0.558397683397683,FALSE,lambda=0.01,23,177,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,9,ok,176,28,148,200,LENS distributed,0.28109488317001,0.695704633204633,FALSE,lambda=0.1,21,179,0.954545454545455,0.9375,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,9,ok,176,28,148,275,OneNet,0.234574287473973,0.561896718146718,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,9,ok,176,28,148,275,LENS restricted,0.304589258591453,0.655646718146718,FALSE,lambda=0.1,30,245,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,9,ok,176,28,148,275,LENS distributed,0.259469262021864,0.666264478764479,FALSE,lambda=1,38,237,1,1,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,10,ok,186,27,159,5,OneNet,0.127339431283826,0.440251572327044,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,10,ok,186,27,159,5,LENS restricted,0.159968751020545,0.487304914977871,TRUE,lambda=10,2,3,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,10,ok,186,27,159,5,LENS distributed,0.159968751020545,0.487304914977871,TRUE,lambda=10,2,3,0.136363636363636,0.0161290322580645,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,10,ok,186,27,159,10,OneNet,0.127339431283826,0.440251572327044,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,10,ok,186,27,159,10,LENS restricted,0.159968751020545,0.487304914977871,TRUE,lambda=10,2,8,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,10,ok,186,27,159,10,LENS distributed,0.12363970031117,0.410901467505241,FALSE,lambda=10,3,7,0.181818181818182,0.032258064516129,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,10,ok,186,27,159,20,OneNet,0.127339431283826,0.440251572327044,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,10,ok,186,27,159,20,LENS restricted,0.232158753248915,0.547635686000466,FALSE,lambda=1,5,15,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,10,ok,186,27,159,20,LENS distributed,0.148212781612516,0.474959235965525,FALSE,lambda=10,4,16,0.318181818181818,0.112903225806452,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,10,ok,186,27,159,50,OneNet,0.127339431283826,0.440251572327044,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,10,ok,186,27,159,50,LENS restricted,0.178558410003356,0.49895178197065,FALSE,lambda=10,6,44,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,10,ok,186,27,159,50,LENS distributed,0.194909619985093,0.522944327975774,FALSE,lambda=10,9,41,0.636363636363636,0.456989247311828,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,10,ok,186,27,159,100,OneNet,0.127339431283826,0.440251572327044,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,10,ok,186,27,159,100,LENS restricted,0.201342340127117,0.652923363615187,FALSE,lambda=0.01,11,89,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,10,ok,186,27,159,100,LENS distributed,0.190328572854793,0.515956207780107,FALSE,lambda=10,12,88,0.818181818181818,0.709677419354839,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,10,ok,186,27,159,200,OneNet,0.127339431283826,0.440251572327044,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,10,ok,186,27,159,200,LENS restricted,0.244725258607643,0.606335895644072,FALSE,lambda=0.01,23,177,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,10,ok,186,27,159,200,LENS distributed,0.205874986621728,0.541346377824365,FALSE,lambda=10,25,175,1,1,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,10,ok,186,27,159,275,OneNet,0.127339431283826,0.440251572327044,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,10,ok,186,27,159,275,LENS restricted,0.242415315495771,0.626834381551363,FALSE,lambda=0.1,30,245,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,10,ok,186,27,159,275,LENS distributed,0.3171622071243,0.677381784300023,FALSE,lambda=0.01,36,239,1,1,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,11,ok,165,30,135,5,OneNet,0.15710412089536,0.411728395061728,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,11,ok,165,30,135,5,LENS restricted,0.168388944306096,0.438765432098765,TRUE,lambda=0.01,1,4,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,11,ok,165,30,135,5,LENS distributed,0.168388944306096,0.438765432098765,TRUE,lambda=0.01,1,4,0.0454545454545454,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,11,ok,165,30,135,10,OneNet,0.15710412089536,0.411728395061728,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,11,ok,165,30,135,10,LENS restricted,0.168388944306096,0.438765432098765,TRUE,lambda=0.01,1,9,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,11,ok,165,30,135,10,LENS distributed,0.168388944306096,0.438765432098765,TRUE,lambda=10,2,8,0.136363636363636,0.0181818181818181,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,11,ok,165,30,135,20,OneNet,0.15710412089536,0.411728395061728,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,11,ok,165,30,135,20,LENS restricted,0.168388944306096,0.438765432098765,TRUE,lambda=0.01,1,19,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,11,ok,165,30,135,20,LENS distributed,0.168388944306096,0.438765432098765,TRUE,lambda=10,2,18,0.318181818181818,0.109090909090909,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,11,ok,165,30,135,50,OneNet,0.15710412089536,0.411728395061728,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,11,ok,165,30,135,50,LENS restricted,0.200212405938796,0.460740740740741,FALSE,lambda=10,3,47,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,11,ok,165,30,135,50,LENS distributed,0.168388944306096,0.438765432098765,TRUE,lambda=10,2,48,0.590909090909091,0.381818181818182,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,11,ok,165,30,135,100,OneNet,0.15710412089536,0.411728395061728,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,11,ok,165,30,135,100,LENS restricted,0.251153205286729,0.548395061728395,FALSE,lambda=0.01,9,91,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,11,ok,165,30,135,100,LENS distributed,0.260179948679813,0.614320987654321,FALSE,lambda=0.01,8,92,0.818181818181818,0.757575757575758,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,11,ok,165,30,135,200,OneNet,0.15710412089536,0.411728395061728,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,11,ok,165,30,135,200,LENS restricted,0.223062879954071,0.560246913580247,FALSE,lambda=0.1,14,186,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,11,ok,165,30,135,200,LENS distributed,0.21173965282362,0.475308641975309,FALSE,lambda=10,18,182,1,1,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,11,ok,165,30,135,275,OneNet,0.15710412089536,0.411728395061728,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,11,ok,165,30,135,275,LENS restricted,0.236967096165361,0.576543209876543,FALSE,lambda=0.1,22,253,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,11,ok,165,30,135,275,LENS distributed,0.256241317026974,0.602469135802469,FALSE,lambda=0.1,26,249,1,1,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,12,ok,153,13,140,5,OneNet,0.0849677704803235,0.41510989010989,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,12,ok,153,13,140,5,LENS restricted,0.087662712404598,0.485164835164835,TRUE,lambda=0.01,0,5,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,12,ok,153,13,140,5,LENS distributed,0.087662712404598,0.485164835164835,TRUE,lambda=0.01,1,4,0.136363636363636,0.0196078431372549,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,12,ok,153,13,140,10,OneNet,0.0849677704803235,0.41510989010989,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,12,ok,153,13,140,10,LENS restricted,0.087662712404598,0.485164835164835,TRUE,lambda=0.01,1,9,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,12,ok,153,13,140,10,LENS distributed,0.087662712404598,0.485164835164835,TRUE,lambda=0.01,1,9,0.272727272727273,0.0588235294117647,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,12,ok,153,13,140,20,OneNet,0.0849677704803235,0.41510989010989,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,12,ok,153,13,140,20,LENS restricted,0.087662712404598,0.485164835164835,TRUE,lambda=10,2,18,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,12,ok,153,13,140,20,LENS distributed,0.0942862763449283,0.513186813186813,FALSE,lambda=10,3,17,0.409090909090909,0.169934640522876,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,12,ok,153,13,140,50,OneNet,0.0849677704803235,0.41510989010989,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,12,ok,153,13,140,50,LENS restricted,0.160105731239146,0.446703296703297,FALSE,lambda=1,5,45,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,12,ok,153,13,140,50,LENS distributed,0.0844939450068586,0.497802197802198,FALSE,lambda=10,5,45,0.727272727272727,0.549019607843137,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,12,ok,153,13,140,100,OneNet,0.0849677704803235,0.41510989010989,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,12,ok,153,13,140,100,LENS restricted,0.0987058284454231,0.46043956043956,FALSE,lambda=1,13,87,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,12,ok,153,13,140,100,LENS distributed,0.0816320135988883,0.477472527472528,FALSE,lambda=10,11,89,0.818181818181818,0.705882352941177,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,12,ok,153,13,140,200,OneNet,0.0849677704803235,0.41510989010989,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,12,ok,153,13,140,200,LENS restricted,0.15002540173304,0.618131868131868,FALSE,lambda=0.01,27,173,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,12,ok,153,13,140,200,LENS distributed,0.229274549365181,0.639010989010989,FALSE,lambda=0.1,27,173,0.954545454545455,0.941176470588235,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,12,ok,153,13,140,275,OneNet,0.0849677704803235,0.41510989010989,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,12,ok,153,13,140,275,LENS restricted,0.106529838135469,0.585164835164835,FALSE,lambda=1,35,240,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,12,ok,153,13,140,275,LENS distributed,0.1979362252038,0.685714285714286,FALSE,lambda=0.01,39,236,0.954545454545455,0.941176470588235,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,13,ok,176,13,163,5,OneNet,0.0891064494760607,0.431571495988674,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,13,ok,176,13,163,5,LENS restricted,0.197277549648402,0.488437942425673,TRUE,lambda=0.01,0,5,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,13,ok,176,13,163,5,LENS distributed,0.197277549648402,0.488437942425673,TRUE,lambda=0.01,1,4,0.181818181818182,0.0284090909090909,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,13,ok,176,13,163,10,OneNet,0.0891064494760607,0.431571495988674,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,13,ok,176,13,163,10,LENS restricted,0.197277549648402,0.488437942425673,TRUE,lambda=0.01,0,10,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,13,ok,176,13,163,10,LENS distributed,0.197277549648402,0.488437942425673,TRUE,lambda=10,2,8,0.318181818181818,0.0852272727272727,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,13,ok,176,13,163,20,OneNet,0.0891064494760607,0.431571495988674,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,13,ok,176,13,163,20,LENS restricted,0.197277549648402,0.488437942425673,TRUE,lambda=10,2,18,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,13,ok,176,13,163,20,LENS distributed,0.197277549648402,0.488437942425673,TRUE,lambda=10,2,18,0.454545454545455,0.170454545454545,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,13,ok,176,13,163,50,OneNet,0.0891064494760607,0.431571495988674,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,13,ok,176,13,163,50,LENS restricted,0.160497535207434,0.710240679565833,FALSE,lambda=0.01,7,43,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,13,ok,176,13,163,50,LENS distributed,0.107542182412965,0.549787635677206,FALSE,lambda=0.1,4,46,0.772727272727273,0.653409090909091,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,13,ok,176,13,163,100,OneNet,0.0891064494760607,0.431571495988674,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,13,ok,176,13,163,100,LENS restricted,0.130960080966208,0.66682397357244,FALSE,lambda=0.01,15,85,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,13,ok,176,13,163,100,LENS distributed,0.166210076094949,0.600755073147711,FALSE,lambda=1,11,89,0.909090909090909,0.875,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,13,ok,176,13,163,200,OneNet,0.0891064494760607,0.431571495988674,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,13,ok,176,13,163,200,LENS restricted,0.142878942782188,0.678150070788108,FALSE,lambda=0.1,25,175,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,13,ok,176,13,163,200,LENS distributed,0.264222274424844,0.739499764039641,FALSE,lambda=1,25,175,1,1,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,13,ok,176,13,163,275,OneNet,0.0891064494760607,0.431571495988674,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,13,ok,176,13,163,275,LENS restricted,0.113761002842889,0.653610193487494,FALSE,lambda=0.01,36,239,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,13,ok,176,13,163,275,LENS distributed,0.174369060242221,0.727701746106654,FALSE,lambda=0.1,39,236,1,1,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,14,ok,176,33,143,5,OneNet,0.156727116817599,0.407819453273999,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,14,ok,176,33,143,5,LENS restricted,0.149373409988348,0.396270396270396,TRUE,lambda=0.01,0,5,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,14,ok,176,33,143,5,LENS distributed,0.149373409988348,0.396270396270396,TRUE,lambda=0.01,1,4,0.136363636363636,0.0170454545454545,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,14,ok,176,33,143,10,OneNet,0.156727116817599,0.407819453273999,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,14,ok,176,33,143,10,LENS restricted,0.149373409988348,0.396270396270396,TRUE,lambda=0.01,0,10,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,14,ok,176,33,143,10,LENS distributed,0.149373409988348,0.396270396270396,TRUE,lambda=0.01,1,9,0.227272727272727,0.0568181818181818,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,14,ok,176,33,143,20,OneNet,0.156727116817599,0.407819453273999,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,14,ok,176,33,143,20,LENS restricted,0.149373409988348,0.396270396270396,TRUE,lambda=0.01,0,20,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,14,ok,176,33,143,20,LENS distributed,0.149373409988348,0.396270396270396,TRUE,lambda=0.01,1,19,0.409090909090909,0.204545454545455,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,14,ok,176,33,143,50,OneNet,0.156727116817599,0.407819453273999,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,14,ok,176,33,143,50,LENS restricted,0.149373409988348,0.396270396270396,TRUE,lambda=10,2,48,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,14,ok,176,33,143,50,LENS distributed,0.162826347422537,0.453273998728544,FALSE,lambda=10,4,46,0.636363636363636,0.460227272727273,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,14,ok,176,33,143,100,OneNet,0.156727116817599,0.407819453273999,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,14,ok,176,33,143,100,LENS restricted,0.192642453860851,0.532739987285442,FALSE,lambda=1,10,90,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,14,ok,176,33,143,100,LENS distributed,0.154759756763249,0.419792328883238,FALSE,lambda=10,12,88,0.909090909090909,0.875,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,14,ok,176,33,143,200,OneNet,0.156727116817599,0.407819453273999,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,14,ok,176,33,143,200,LENS restricted,0.224840568592593,0.569612205975842,FALSE,lambda=0.1,16,184,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,14,ok,176,33,143,200,LENS distributed,0.242430466877872,0.591226954863318,FALSE,lambda=0.1,23,177,1,1,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,14,ok,176,33,143,275,OneNet,0.156727116817599,0.407819453273999,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,14,ok,176,33,143,275,LENS restricted,0.24386875593458,0.575121847849121,FALSE,lambda=0.01,20,255,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,14,ok,176,33,143,275,LENS distributed,0.214326624596974,0.570247933884298,FALSE,lambda=0.01,39,236,1,1,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,15,ok,153,17,136,5,OneNet,0.125543890432728,0.53568339100346,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,15,ok,153,17,136,5,LENS restricted,0.119120865400955,0.502595155709343,TRUE,lambda=0.01,1,4,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,15,ok,153,17,136,5,LENS distributed,0.119120865400955,0.502595155709343,TRUE,lambda=0.01,1,4,0.0909090909090909,0.0065359477124183,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,15,ok,153,17,136,10,OneNet,0.125543890432728,0.53568339100346,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,15,ok,153,17,136,10,LENS restricted,0.119120865400955,0.502595155709343,TRUE,lambda=0.01,1,9,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,15,ok,153,17,136,10,LENS distributed,0.119120865400955,0.502595155709343,TRUE,lambda=0.01,1,9,0.181818181818182,0.0392156862745098,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,15,ok,153,17,136,20,OneNet,0.125543890432728,0.53568339100346,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,15,ok,153,17,136,20,LENS restricted,0.134679273322513,0.542820069204152,FALSE,lambda=10,3,17,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,15,ok,153,17,136,20,LENS distributed,0.0952580315780786,0.408304498269896,FALSE,lambda=10,4,16,0.409090909090909,0.196078431372549,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,15,ok,153,17,136,50,OneNet,0.125543890432728,0.53568339100346,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,15,ok,153,17,136,50,LENS restricted,0.113929143472946,0.482698961937716,FALSE,lambda=10,6,44,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,15,ok,153,17,136,50,LENS distributed,0.105252247402038,0.447664359861592,FALSE,lambda=0.1,9,41,0.863636363636364,0.823529411764706,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,15,ok,153,17,136,100,OneNet,0.125543890432728,0.53568339100346,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,15,ok,153,17,136,100,LENS restricted,0.192225532969349,0.589532871972318,FALSE,lambda=0.01,14,86,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,15,ok,153,17,136,100,LENS distributed,0.107457173041929,0.44939446366782,FALSE,lambda=0.01,11,89,0.954545454545455,0.941176470588235,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,15,ok,153,17,136,200,OneNet,0.125543890432728,0.53568339100346,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,15,ok,153,17,136,200,LENS restricted,0.162521466625039,0.619377162629758,FALSE,lambda=1,32,168,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,15,ok,153,17,136,200,LENS distributed,0.12467050987376,0.52378892733564,FALSE,lambda=0.01,26,174,1,1,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,15,ok,153,17,136,275,OneNet,0.125543890432728,0.53568339100346,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,15,ok,153,17,136,275,LENS restricted,0.170410502386838,0.60423875432526,FALSE,lambda=0.1,38,237,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,15,ok,153,17,136,275,LENS distributed,0.208736110181098,0.571799307958478,FALSE,lambda=0.01,38,237,1,1,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,16,ok,140,7,133,5,OneNet,0.0515454343983611,0.411385606874329,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,16,ok,140,7,133,5,LENS restricted,0.0557441118761965,0.511278195488722,TRUE,lambda=10,2,3,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,16,ok,140,7,133,5,LENS distributed,0.0557441118761965,0.511278195488722,TRUE,lambda=10,2,3,0.136363636363636,0.0214285714285714,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,16,ok,140,7,133,10,OneNet,0.0515454343983611,0.411385606874329,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,16,ok,140,7,133,10,LENS restricted,0.0497776794091468,0.467239527389903,FALSE,lambda=10,4,6,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,16,ok,140,7,133,10,LENS distributed,0.0557441118761965,0.511278195488722,TRUE,lambda=10,2,8,0.272727272727273,0.0857142857142857,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,16,ok,140,7,133,20,OneNet,0.0515454343983611,0.411385606874329,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,16,ok,140,7,133,20,LENS restricted,0.0727379781568408,0.590762620837809,FALSE,lambda=10,5,15,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,16,ok,140,7,133,20,LENS distributed,0.0654295033922316,0.585392051557465,FALSE,lambda=10,4,16,0.454545454545455,0.214285714285714,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,16,ok,140,7,133,50,OneNet,0.0515454343983611,0.411385606874329,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,16,ok,140,7,133,50,LENS restricted,0.0701154639475728,0.578947368421053,FALSE,lambda=10,12,38,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,16,ok,140,7,133,50,LENS distributed,0.0699872772645138,0.576799140708915,FALSE,lambda=10,8,42,0.772727272727273,0.714285714285714,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,16,ok,140,7,133,100,OneNet,0.0515454343983611,0.411385606874329,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,16,ok,140,7,133,100,LENS restricted,0.115346331092262,0.686358754027927,FALSE,lambda=1,17,83,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,16,ok,140,7,133,100,LENS distributed,0.0635521556846764,0.561761546723953,FALSE,lambda=10,16,84,0.909090909090909,0.885714285714286,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,16,ok,140,7,133,200,OneNet,0.0515454343983611,0.411385606874329,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,16,ok,140,7,133,200,LENS restricted,0.111827064658947,0.638023630504834,FALSE,lambda=0.01,32,168,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,16,ok,140,7,133,200,LENS distributed,0.105239348516104,0.700322234156821,FALSE,lambda=1,27,173,1,1,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,16,ok,140,7,133,275,OneNet,0.0515454343983611,0.411385606874329,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,16,ok,140,7,133,275,LENS restricted,0.113994181062589,0.627282491944146,FALSE,lambda=0.01,47,228,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,16,ok,140,7,133,275,LENS distributed,0.134425541778483,0.758324382384533,FALSE,lambda=0.01,33,242,1,1,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,17,ok,176,24,152,5,OneNet,0.125029240092056,0.452850877192982,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,17,ok,176,24,152,5,LENS restricted,0.158885132839344,0.510142543859649,TRUE,lambda=10,2,3,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,17,ok,176,24,152,5,LENS distributed,0.158885132839344,0.510142543859649,TRUE,lambda=0.01,1,4,0.136363636363636,0.0170454545454545,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,17,ok,176,24,152,10,OneNet,0.125029240092056,0.452850877192982,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,17,ok,176,24,152,10,LENS restricted,0.180204628609734,0.583333333333333,FALSE,lambda=10,3,7,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,17,ok,176,24,152,10,LENS distributed,0.158885132839344,0.510142543859649,TRUE,lambda=0.01,1,9,0.227272727272727,0.0568181818181818,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,17,ok,176,24,152,20,OneNet,0.125029240092056,0.452850877192982,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,17,ok,176,24,152,20,LENS restricted,0.206913296514747,0.660635964912281,FALSE,lambda=1,4,16,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,17,ok,176,24,152,20,LENS distributed,0.153476200943029,0.520559210526316,FALSE,lambda=10,3,17,0.409090909090909,0.204545454545455,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,17,ok,176,24,152,50,OneNet,0.125029240092056,0.452850877192982,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,17,ok,176,24,152,50,LENS restricted,0.16287015840709,0.530427631578947,FALSE,lambda=10,7,43,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,17,ok,176,24,152,50,LENS distributed,0.169517933268929,0.55921052631579,FALSE,lambda=0.01,4,46,0.636363636363636,0.482954545454545,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,17,ok,176,24,152,100,OneNet,0.125029240092056,0.452850877192982,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,17,ok,176,24,152,100,LENS restricted,0.180341507139054,0.558662280701754,FALSE,lambda=0.01,13,87,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,17,ok,176,24,152,100,LENS distributed,0.161441819556302,0.516447368421053,FALSE,lambda=10,10,90,0.818181818181818,0.75,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,17,ok,176,24,152,200,OneNet,0.125029240092056,0.452850877192982,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,17,ok,176,24,152,200,LENS restricted,0.166268210458649,0.542763157894737,FALSE,lambda=0.01,22,178,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,17,ok,176,24,152,200,LENS distributed,0.19133064395286,0.61156798245614,FALSE,lambda=0.1,26,174,1,1,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,17,ok,176,24,152,275,OneNet,0.125029240092056,0.452850877192982,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,17,ok,176,24,152,275,LENS restricted,0.222125748707326,0.647752192982456,FALSE,lambda=0.01,31,244,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,17,ok,176,24,152,275,LENS distributed,0.177500796848136,0.606085526315789,FALSE,lambda=0.1,32,243,1,1,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,18,ok,186,28,158,5,OneNet,0.140182258590393,0.467224231464738,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,18,ok,186,28,158,5,LENS restricted,0.140135790387988,0.436030741410488,TRUE,lambda=0.01,0,5,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,18,ok,186,28,158,5,LENS distributed,0.140135790387988,0.436030741410488,TRUE,lambda=0.01,1,4,0.0909090909090909,0.0053763440860215,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,18,ok,186,28,158,10,OneNet,0.140182258590393,0.467224231464738,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,18,ok,186,28,158,10,LENS restricted,0.140135790387988,0.436030741410488,TRUE,lambda=0.01,0,10,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,18,ok,186,28,158,10,LENS distributed,0.140135790387988,0.436030741410488,TRUE,lambda=10,2,8,0.272727272727273,0.0806451612903225,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,18,ok,186,28,158,20,OneNet,0.140182258590393,0.467224231464738,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,18,ok,186,28,158,20,LENS restricted,0.140135790387988,0.436030741410488,TRUE,lambda=0.01,1,19,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,18,ok,186,28,158,20,LENS distributed,0.140135790387988,0.436030741410488,TRUE,lambda=10,2,18,0.409090909090909,0.188172043010753,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,18,ok,186,28,158,50,OneNet,0.140182258590393,0.467224231464738,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,18,ok,186,28,158,50,LENS restricted,0.131860032317656,0.426084990958409,FALSE,lambda=10,3,47,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,18,ok,186,28,158,50,LENS distributed,0.146364394422907,0.476717902350814,FALSE,lambda=10,4,46,0.681818181818182,0.483870967741936,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,18,ok,186,28,158,100,OneNet,0.140182258590393,0.467224231464738,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,18,ok,186,28,158,100,LENS restricted,0.1260634746551,0.409358047016275,FALSE,lambda=0.01,6,94,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,18,ok,186,28,158,100,LENS distributed,0.180244478677837,0.59629294755877,FALSE,lambda=0.01,7,93,0.954545454545455,0.935483870967742,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,18,ok,186,28,158,200,OneNet,0.140182258590393,0.467224231464738,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,18,ok,186,28,158,200,LENS restricted,0.206804238750775,0.614150090415913,FALSE,lambda=0.01,15,185,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,18,ok,186,28,158,200,LENS distributed,0.175217387112027,0.577983725135624,FALSE,lambda=1,21,179,1,1,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,18,ok,186,28,158,275,OneNet,0.140182258590393,0.467224231464738,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,18,ok,186,28,158,275,LENS restricted,0.226289575617845,0.643987341772152,FALSE,lambda=0.01,20,255,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,18,ok,186,28,158,275,LENS distributed,0.19156922697268,0.632233273056058,FALSE,lambda=0.01,32,243,1,1,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,19,ok,176,23,153,5,OneNet,0.119026567842716,0.446717817561807,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,19,ok,176,23,153,5,LENS restricted,0.189297901603744,0.493037794828076,TRUE,lambda=0.01,0,5,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,19,ok,176,23,153,5,LENS distributed,0.189297901603744,0.493037794828076,TRUE,lambda=0.01,0,5,0.0909090909090909,0.0056818181818181,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,19,ok,176,23,153,10,OneNet,0.119026567842716,0.446717817561807,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,19,ok,176,23,153,10,LENS restricted,0.189297901603744,0.493037794828076,TRUE,lambda=0.01,1,9,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,19,ok,176,23,153,10,LENS distributed,0.189297901603744,0.493037794828076,TRUE,lambda=0.01,1,9,0.181818181818182,0.034090909090909,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,19,ok,176,23,153,20,OneNet,0.119026567842716,0.446717817561807,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,19,ok,176,23,153,20,LENS restricted,0.189297901603744,0.493037794828076,TRUE,lambda=0.01,1,19,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,19,ok,176,23,153,20,LENS distributed,0.189297901603744,0.493037794828076,TRUE,lambda=10,2,18,0.318181818181818,0.113636363636364,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,19,ok,176,23,153,50,OneNet,0.119026567842716,0.446717817561807,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,19,ok,176,23,153,50,LENS restricted,0.122181863072384,0.385336743393009,FALSE,lambda=0.01,5,45,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,19,ok,176,23,153,50,LENS distributed,0.324678678618498,0.753054845126456,FALSE,lambda=1,8,42,0.545454545454545,0.340909090909091,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,19,ok,176,23,153,100,OneNet,0.119026567842716,0.446717817561807,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,19,ok,176,23,153,100,LENS restricted,0.104807119421219,0.38590508667235,FALSE,lambda=0.1,12,88,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,19,ok,176,23,153,100,LENS distributed,0.279594545113204,0.61409491332765,FALSE,lambda=0.1,15,85,0.818181818181818,0.75,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,19,ok,176,23,153,200,OneNet,0.119026567842716,0.446717817561807,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,19,ok,176,23,153,200,LENS restricted,0.228761626943799,0.712702472293265,FALSE,lambda=1,22,178,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,19,ok,176,23,153,200,LENS distributed,0.320017343627514,0.699346405228758,FALSE,lambda=0.1,26,174,0.909090909090909,0.875,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,19,ok,176,23,153,275,OneNet,0.119026567842716,0.446717817561807,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,19,ok,176,23,153,275,LENS restricted,0.335631473020134,0.766695083830634,FALSE,lambda=0.1,30,245,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,19,ok,176,23,153,275,LENS distributed,0.326996703658889,0.744529695936346,FALSE,lambda=0.1,34,241,1,1,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,20,ok,176,23,153,5,OneNet,0.127816322332703,0.489485649332197,,"",,,,,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,20,ok,176,23,153,5,LENS restricted,0.137846901031037,0.439045183290708,TRUE,lambda=0.01,0,5,0,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,20,ok,176,23,153,5,LENS distributed,0.137846901031037,0.439045183290708,TRUE,lambda=0.01,1,4,0.0454545454545454,0,Carlström (20/20 partitions),5
+carlstrom_phyllosphere_2019,20,ok,176,23,153,10,OneNet,0.127816322332703,0.489485649332197,,"",,,,,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,20,ok,176,23,153,10,LENS restricted,0.137846901031037,0.439045183290708,TRUE,lambda=0.01,0,10,0,0,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,20,ok,176,23,153,10,LENS distributed,0.137846901031037,0.439045183290708,TRUE,lambda=10,2,8,0.136363636363636,0.0170454545454545,Carlström (20/20 partitions),10
+carlstrom_phyllosphere_2019,20,ok,176,23,153,20,OneNet,0.127816322332703,0.489485649332197,,"",,,,,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,20,ok,176,23,153,20,LENS restricted,0.137846901031037,0.439045183290708,TRUE,lambda=10,2,18,0,0,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,20,ok,176,23,153,20,LENS distributed,0.138526284263139,0.531400966183575,FALSE,lambda=1,4,16,0.409090909090909,0.1875,Carlström (20/20 partitions),20
+carlstrom_phyllosphere_2019,20,ok,176,23,153,50,OneNet,0.127816322332703,0.489485649332197,,"",,,,,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,20,ok,176,23,153,50,LENS restricted,0.125503812185408,0.47229326513214,FALSE,lambda=1,5,45,0,0,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,20,ok,176,23,153,50,LENS distributed,0.133468152262734,0.489343563512361,FALSE,lambda=1,8,42,0.772727272727273,0.653409090909091,Carlström (20/20 partitions),50
+carlstrom_phyllosphere_2019,20,ok,176,23,153,100,OneNet,0.127816322332703,0.489485649332197,,"",,,,,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,20,ok,176,23,153,100,LENS restricted,0.146605718623635,0.516624040920716,FALSE,lambda=1,9,91,0,0,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,20,ok,176,23,153,100,LENS distributed,0.212443954927016,0.660414890593919,FALSE,lambda=0.1,13,87,0.818181818181818,0.75,Carlström (20/20 partitions),100
+carlstrom_phyllosphere_2019,20,ok,176,23,153,200,OneNet,0.127816322332703,0.489485649332197,,"",,,,,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,20,ok,176,23,153,200,LENS restricted,0.188024023358455,0.554134697357204,FALSE,lambda=1,20,180,0,0,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,20,ok,176,23,153,200,LENS distributed,0.217693659981269,0.678033532253481,FALSE,lambda=0.1,29,171,0.954545454545455,0.9375,Carlström (20/20 partitions),200
+carlstrom_phyllosphere_2019,20,ok,176,23,153,275,OneNet,0.127816322332703,0.489485649332197,,"",,,,,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,20,ok,176,23,153,275,LENS restricted,0.228571533641993,0.596476271668088,FALSE,lambda=0.1,28,247,0,0,Carlström (20/20 partitions),275
+carlstrom_phyllosphere_2019,20,ok,176,23,153,275,LENS distributed,0.218533208249088,0.691673770957659,FALSE,lambda=0.1,31,244,1,1,Carlström (20/20 partitions),275
+schafer_phyllosphere_2022,1,ok,279,17,262,5,OneNet,0.304999136758622,0.873821284238886,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,1,ok,279,17,262,5,LENS restricted,0.350112209523625,0.891558149977548,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,1,ok,279,17,262,5,LENS distributed,0.350112209523625,0.891558149977548,TRUE,lambda=0.01,0,5,0.0392156862745098,0.003584229390681,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,1,ok,279,17,262,10,OneNet,0.304999136758622,0.873821284238886,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,1,ok,279,17,262,10,LENS restricted,0.350112209523625,0.891558149977548,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,1,ok,279,17,262,10,LENS distributed,0.350112209523625,0.891558149977548,TRUE,lambda=0.01,0,10,0.0784313725490196,0.017921146953405,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,1,ok,279,17,262,20,OneNet,0.304999136758622,0.873821284238886,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,1,ok,279,17,262,20,LENS restricted,0.350112209523625,0.891558149977548,TRUE,lambda=0.01,1,19,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,1,ok,279,17,262,20,LENS distributed,0.350112209523625,0.891558149977548,TRUE,lambda=0.01,0,20,0.196078431372549,0.10752688172043,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,1,ok,279,17,262,50,OneNet,0.304999136758622,0.873821284238886,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,1,ok,279,17,262,50,LENS restricted,0.350112209523625,0.891558149977548,TRUE,lambda=0.01,1,49,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,1,ok,279,17,262,50,LENS distributed,0.350112209523625,0.891558149977548,TRUE,lambda=0.01,1,49,0.372549019607843,0.326164874551971,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,1,ok,279,17,262,100,OneNet,0.304999136758622,0.873821284238886,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,1,ok,279,17,262,100,LENS restricted,0.350112209523625,0.891558149977548,TRUE,lambda=0.01,1,99,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,1,ok,279,17,262,100,LENS distributed,0.350112209523625,0.891558149977548,TRUE,lambda=0.01,1,99,0.568627450980392,0.537634408602151,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,1,ok,279,17,262,200,OneNet,0.304999136758622,0.873821284238886,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,1,ok,279,17,262,200,LENS restricted,0.350112209523625,0.891558149977548,TRUE,lambda=0.01,1,199,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,1,ok,279,17,262,200,LENS distributed,0.350112209523625,0.891558149977548,TRUE,lambda=0.01,1,199,0.803921568627451,0.788530465949821,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,1,ok,279,17,262,357,OneNet,0.304999136758622,0.873821284238886,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,1,ok,279,17,262,357,LENS restricted,0.358430602041543,0.887067804220925,FALSE,lambda=10,3,354,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,1,ok,279,17,262,357,LENS distributed,0.436919870242029,0.89178266726538,FALSE,lambda=0.01,8,349,0.941176470588235,0.935483870967742,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,2,ok,96,2,94,5,OneNet,0.833333333333333,0.99468085106383,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,2,ok,96,2,94,5,LENS restricted,0.416666666666667,0.978723404255319,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,2,ok,96,2,94,5,LENS distributed,0.416666666666667,0.978723404255319,TRUE,lambda=0.01,0,5,0.0588235294117647,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,2,ok,96,2,94,10,OneNet,0.833333333333333,0.99468085106383,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,2,ok,96,2,94,10,LENS restricted,0.416666666666667,0.978723404255319,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,2,ok,96,2,94,10,LENS distributed,0.416666666666667,0.978723404255319,TRUE,lambda=0.01,0,10,0.137254901960784,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,2,ok,96,2,94,20,OneNet,0.833333333333333,0.99468085106383,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,2,ok,96,2,94,20,LENS restricted,0.416666666666667,0.978723404255319,TRUE,lambda=0.01,0,20,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,2,ok,96,2,94,20,LENS distributed,0.416666666666667,0.978723404255319,TRUE,lambda=0.01,0,20,0.176470588235294,0.0729166666666666,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,2,ok,96,2,94,50,OneNet,0.833333333333333,0.99468085106383,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,2,ok,96,2,94,50,LENS restricted,0.416666666666667,0.978723404255319,TRUE,lambda=10,2,48,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,2,ok,96,2,94,50,LENS distributed,0.416666666666667,0.978723404255319,TRUE,lambda=10,2,48,0.411764705882353,0.395833333333333,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,2,ok,96,2,94,100,OneNet,0.833333333333333,0.99468085106383,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,2,ok,96,2,94,100,LENS restricted,0.225,0.946808510638298,FALSE,lambda=10,3,97,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,2,ok,96,2,94,100,LENS distributed,0.211111111111111,0.941489361702128,FALSE,lambda=10,5,95,0.647058823529412,0.635416666666667,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,2,ok,96,2,94,200,OneNet,0.833333333333333,0.99468085106383,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,2,ok,96,2,94,200,LENS restricted,0.25,0.952127659574468,FALSE,lambda=10,7,193,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,2,ok,96,2,94,200,LENS distributed,0.11063829787234,0.48936170212766,FALSE,lambda=0.01,8,192,0.843137254901961,0.833333333333333,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,2,ok,96,2,94,357,OneNet,0.833333333333333,0.99468085106383,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,2,ok,96,2,94,357,LENS restricted,0.0439716312056737,0.436170212765957,FALSE,lambda=0.01,9,348,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,2,ok,96,2,94,357,LENS distributed,0.242857142857143,0.952127659574468,FALSE,lambda=10,15,342,1,1,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,3,ok,279,8,271,5,OneNet,0.120898977425099,0.851706642066421,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,3,ok,279,8,271,5,LENS restricted,0.276559186427607,0.914667896678967,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,3,ok,279,8,271,5,LENS distributed,0.276559186427607,0.914667896678967,TRUE,lambda=0.01,0,5,0.0392156862745098,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,3,ok,279,8,271,10,OneNet,0.120898977425099,0.851706642066421,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,3,ok,279,8,271,10,LENS restricted,0.276559186427607,0.914667896678967,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,3,ok,279,8,271,10,LENS distributed,0.276559186427607,0.914667896678967,TRUE,lambda=0.01,0,10,0.117647058823529,0.046594982078853,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,3,ok,279,8,271,20,OneNet,0.120898977425099,0.851706642066421,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,3,ok,279,8,271,20,LENS restricted,0.276559186427607,0.914667896678967,TRUE,lambda=0.01,0,20,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,3,ok,279,8,271,20,LENS distributed,0.276559186427607,0.914667896678967,TRUE,lambda=0.01,1,19,0.176470588235294,0.0931899641577061,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,3,ok,279,8,271,50,OneNet,0.120898977425099,0.851706642066421,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,3,ok,279,8,271,50,LENS restricted,0.276559186427607,0.914667896678967,TRUE,lambda=0.01,0,50,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,3,ok,279,8,271,50,LENS distributed,0.276559186427607,0.914667896678967,TRUE,lambda=0.01,1,49,0.392156862745098,0.336917562724014,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,3,ok,279,8,271,100,OneNet,0.120898977425099,0.851706642066421,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,3,ok,279,8,271,100,LENS restricted,0.276559186427607,0.914667896678967,TRUE,lambda=0.01,1,99,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,3,ok,279,8,271,100,LENS distributed,0.276559186427607,0.914667896678967,TRUE,lambda=0.01,1,99,0.529411764705882,0.483870967741936,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,3,ok,279,8,271,200,OneNet,0.120898977425099,0.851706642066421,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,3,ok,279,8,271,200,LENS restricted,0.292990939329143,0.918357933579336,FALSE,lambda=10,3,197,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,3,ok,279,8,271,200,LENS distributed,0.291751998001998,0.912361623616236,FALSE,lambda=10,3,197,0.745098039215686,0.720430107526882,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,3,ok,279,8,271,357,OneNet,0.120898977425099,0.851706642066421,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,3,ok,279,8,271,357,LENS restricted,0.354292582417582,0.849630996309963,FALSE,lambda=0.1,7,350,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,3,ok,279,8,271,357,LENS distributed,0.31603914913273,0.925738007380074,FALSE,lambda=10,10,347,0.92156862745098,0.913978494623656,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,4,ok,237,6,231,5,OneNet,0.176002528089642,0.835858585858586,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,4,ok,237,6,231,5,LENS restricted,0.446983866557287,0.916305916305916,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,4,ok,237,6,231,5,LENS distributed,0.446983866557287,0.916305916305916,TRUE,lambda=0.01,0,5,0.0588235294117647,0.0126582278481012,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,4,ok,237,6,231,10,OneNet,0.176002528089642,0.835858585858586,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,4,ok,237,6,231,10,LENS restricted,0.446983866557287,0.916305916305916,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,4,ok,237,6,231,10,LENS distributed,0.446983866557287,0.916305916305916,TRUE,lambda=0.01,0,10,0.0980392156862745,0.0379746835443038,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,4,ok,237,6,231,20,OneNet,0.176002528089642,0.835858585858586,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,4,ok,237,6,231,20,LENS restricted,0.446983866557287,0.916305916305916,TRUE,lambda=0.01,0,20,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,4,ok,237,6,231,20,LENS distributed,0.446983866557287,0.916305916305916,TRUE,lambda=0.01,0,20,0.137254901960784,0.0632911392405063,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,4,ok,237,6,231,50,OneNet,0.176002528089642,0.835858585858586,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,4,ok,237,6,231,50,LENS restricted,0.446983866557287,0.916305916305916,TRUE,lambda=10,2,48,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,4,ok,237,6,231,50,LENS distributed,0.446983866557287,0.916305916305916,TRUE,lambda=0.01,0,50,0.313725490196078,0.227848101265823,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,4,ok,237,6,231,100,OneNet,0.176002528089642,0.835858585858586,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,4,ok,237,6,231,100,LENS restricted,0.274414442233354,0.884559884559885,FALSE,lambda=10,3,97,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,4,ok,237,6,231,100,LENS distributed,0.425762321980938,0.896825396825397,FALSE,lambda=10,3,97,0.607843137254902,0.582278481012658,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,4,ok,237,6,231,200,OneNet,0.176002528089642,0.835858585858586,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,4,ok,237,6,231,200,LENS restricted,0.0943234869705458,0.826839826839827,FALSE,lambda=0.01,5,195,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,4,ok,237,6,231,200,LENS distributed,0.428914141414141,0.907647907647908,FALSE,lambda=10,6,194,0.882352941176471,0.877637130801688,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,4,ok,237,6,231,357,OneNet,0.176002528089642,0.835858585858586,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,4,ok,237,6,231,357,LENS restricted,0.447802556498209,0.928571428571429,FALSE,lambda=0.1,10,347,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,4,ok,237,6,231,357,LENS distributed,0.418417366946779,0.911976911976912,FALSE,lambda=0.1,10,347,1,1,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,5,ok,145,6,139,5,OneNet,0.0833147709438385,0.58273381294964,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,5,ok,145,6,139,5,LENS restricted,0.238019971311928,0.87410071942446,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,5,ok,145,6,139,5,LENS distributed,0.238019971311928,0.87410071942446,TRUE,lambda=0.01,0,5,0.0588235294117647,0.0137931034482758,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,5,ok,145,6,139,10,OneNet,0.0833147709438385,0.58273381294964,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,5,ok,145,6,139,10,LENS restricted,0.238019971311928,0.87410071942446,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,5,ok,145,6,139,10,LENS distributed,0.238019971311928,0.87410071942446,TRUE,lambda=0.01,0,10,0.117647058823529,0.0620689655172413,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,5,ok,145,6,139,20,OneNet,0.0833147709438385,0.58273381294964,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,5,ok,145,6,139,20,LENS restricted,0.238019971311928,0.87410071942446,TRUE,lambda=0.01,0,20,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,5,ok,145,6,139,20,LENS distributed,0.238019971311928,0.87410071942446,TRUE,lambda=0.01,0,20,0.235294117647059,0.206896551724138,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,5,ok,145,6,139,50,OneNet,0.0833147709438385,0.58273381294964,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,5,ok,145,6,139,50,LENS restricted,0.238019971311928,0.87410071942446,TRUE,lambda=0.01,1,49,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,5,ok,145,6,139,50,LENS distributed,0.238019971311928,0.87410071942446,TRUE,lambda=0.01,0,50,0.313725490196078,0.282758620689655,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,5,ok,145,6,139,100,OneNet,0.0833147709438385,0.58273381294964,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,5,ok,145,6,139,100,LENS restricted,0.238019971311928,0.87410071942446,TRUE,lambda=0.01,1,99,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,5,ok,145,6,139,100,LENS distributed,0.238019971311928,0.87410071942446,TRUE,lambda=0.01,1,99,0.549019607843137,0.524137931034483,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,5,ok,145,6,139,200,OneNet,0.0833147709438385,0.58273381294964,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,5,ok,145,6,139,200,LENS restricted,0.223254486979977,0.863309352517986,FALSE,lambda=0.01,4,196,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,5,ok,145,6,139,200,LENS distributed,0.238019971311928,0.87410071942446,TRUE,lambda=10,2,198,0.725490196078431,0.710344827586207,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,5,ok,145,6,139,357,OneNet,0.0833147709438385,0.58273381294964,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,5,ok,145,6,139,357,LENS restricted,0.315376984126984,0.925659472422062,FALSE,lambda=10,6,351,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,5,ok,145,6,139,357,LENS distributed,0.26937134502924,0.905275779376499,FALSE,lambda=0.01,4,353,0.901960784313726,0.896551724137931,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,6,ok,329,4,325,5,OneNet,0.122034549585672,0.935769230769231,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,6,ok,329,4,325,5,LENS restricted,0.30961674587926,0.918461538461538,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,6,ok,329,4,325,5,LENS distributed,0.30961674587926,0.918461538461538,TRUE,lambda=0.01,0,5,0.0784313725490196,0.0091185410334346,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,6,ok,329,4,325,10,OneNet,0.122034549585672,0.935769230769231,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,6,ok,329,4,325,10,LENS restricted,0.30961674587926,0.918461538461538,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,6,ok,329,4,325,10,LENS distributed,0.30961674587926,0.918461538461538,TRUE,lambda=0.01,0,10,0.117647058823529,0.0273556231003039,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,6,ok,329,4,325,20,OneNet,0.122034549585672,0.935769230769231,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,6,ok,329,4,325,20,LENS restricted,0.30961674587926,0.918461538461538,TRUE,lambda=0.01,1,19,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,6,ok,329,4,325,20,LENS distributed,0.30961674587926,0.918461538461538,TRUE,lambda=0.01,0,20,0.176470588235294,0.0790273556231003,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,6,ok,329,4,325,50,OneNet,0.122034549585672,0.935769230769231,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,6,ok,329,4,325,50,LENS restricted,0.30961674587926,0.918461538461538,TRUE,lambda=10,2,48,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,6,ok,329,4,325,50,LENS distributed,0.30961674587926,0.918461538461538,TRUE,lambda=0.01,1,49,0.411764705882353,0.361702127659575,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,6,ok,329,4,325,100,OneNet,0.122034549585672,0.935769230769231,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,6,ok,329,4,325,100,LENS restricted,0.30961674587926,0.918461538461538,TRUE,lambda=10,2,98,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,6,ok,329,4,325,100,LENS distributed,0.30961674587926,0.918461538461538,TRUE,lambda=10,2,98,0.509803921568627,0.468085106382979,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,6,ok,329,4,325,200,OneNet,0.122034549585672,0.935769230769231,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,6,ok,329,4,325,200,LENS restricted,0.361794414735591,0.950769230769231,FALSE,lambda=10,5,195,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,6,ok,329,4,325,200,LENS distributed,0.0300862560593099,0.656153846153846,FALSE,lambda=0.01,4,196,0.705882352941177,0.680851063829787,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,6,ok,329,4,325,357,OneNet,0.122034549585672,0.935769230769231,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,6,ok,329,4,325,357,LENS restricted,0.0213821451064818,0.617692307692308,FALSE,lambda=0.01,12,345,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,6,ok,329,4,325,357,LENS distributed,0.359818262411348,0.949230769230769,FALSE,lambda=10,9,348,0.882352941176471,0.872340425531915,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,7,ok,234,2,232,5,OneNet,0.069047619047619,0.915948275862069,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,7,ok,234,2,232,5,LENS restricted,0.297619047619048,0.956896551724138,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,7,ok,234,2,232,5,LENS distributed,0.297619047619048,0.956896551724138,TRUE,lambda=0.01,0,5,0.0392156862745098,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,7,ok,234,2,232,10,OneNet,0.069047619047619,0.915948275862069,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,7,ok,234,2,232,10,LENS restricted,0.297619047619048,0.956896551724138,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,7,ok,234,2,232,10,LENS distributed,0.297619047619048,0.956896551724138,TRUE,lambda=0.01,0,10,0.117647058823529,0.0384615384615384,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,7,ok,234,2,232,20,OneNet,0.069047619047619,0.915948275862069,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,7,ok,234,2,232,20,LENS restricted,0.297619047619048,0.956896551724138,TRUE,lambda=0.01,0,20,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,7,ok,234,2,232,20,LENS distributed,0.297619047619048,0.956896551724138,TRUE,lambda=0.01,0,20,0.176470588235294,0.0854700854700854,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,7,ok,234,2,232,50,OneNet,0.069047619047619,0.915948275862069,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,7,ok,234,2,232,50,LENS restricted,0.297619047619048,0.956896551724138,TRUE,lambda=0.01,1,49,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,7,ok,234,2,232,50,LENS distributed,0.297619047619048,0.956896551724138,TRUE,lambda=0.01,0,50,0.333333333333333,0.290598290598291,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,7,ok,234,2,232,100,OneNet,0.069047619047619,0.915948275862069,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,7,ok,234,2,232,100,LENS restricted,0.0146090945353011,0.573275862068966,FALSE,lambda=0.01,5,95,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,7,ok,234,2,232,100,LENS distributed,0.297619047619048,0.956896551724138,TRUE,lambda=0.01,1,99,0.490196078431373,0.461538461538462,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,7,ok,234,2,232,200,OneNet,0.069047619047619,0.915948275862069,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,7,ok,234,2,232,200,LENS restricted,0.0244745575221238,0.693965517241379,FALSE,lambda=10,6,194,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,7,ok,234,2,232,200,LENS distributed,0.0181056293485135,0.65948275862069,FALSE,lambda=0.1,6,194,0.803921568627451,0.794871794871795,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,7,ok,234,2,232,357,OneNet,0.069047619047619,0.915948275862069,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,7,ok,234,2,232,357,LENS restricted,0.216666666666667,0.956896551724138,FALSE,lambda=0.1,10,347,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,7,ok,234,2,232,357,LENS distributed,0.0564387917329093,0.890086206896552,FALSE,lambda=0.01,9,348,0.96078431372549,0.961538461538461,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,8,ok,187,14,173,5,OneNet,0.338750935120679,0.81626754748142,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,8,ok,187,14,173,5,LENS restricted,0.33654478866049,0.818744838976053,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,8,ok,187,14,173,5,LENS distributed,0.33654478866049,0.818744838976053,TRUE,lambda=0.01,0,5,0.0588235294117647,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,8,ok,187,14,173,10,OneNet,0.338750935120679,0.81626754748142,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,8,ok,187,14,173,10,LENS restricted,0.33654478866049,0.818744838976053,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,8,ok,187,14,173,10,LENS distributed,0.33654478866049,0.818744838976053,TRUE,lambda=0.01,0,10,0.137254901960784,0.0320855614973262,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,8,ok,187,14,173,20,OneNet,0.338750935120679,0.81626754748142,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,8,ok,187,14,173,20,LENS restricted,0.33654478866049,0.818744838976053,TRUE,lambda=0.01,0,20,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,8,ok,187,14,173,20,LENS distributed,0.33654478866049,0.818744838976053,TRUE,lambda=0.01,0,20,0.196078431372549,0.0481283422459893,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,8,ok,187,14,173,50,OneNet,0.338750935120679,0.81626754748142,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,8,ok,187,14,173,50,LENS restricted,0.33654478866049,0.818744838976053,TRUE,lambda=0.01,0,50,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,8,ok,187,14,173,50,LENS distributed,0.33654478866049,0.818744838976053,TRUE,lambda=0.01,1,49,0.411764705882353,0.390374331550802,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,8,ok,187,14,173,100,OneNet,0.338750935120679,0.81626754748142,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,8,ok,187,14,173,100,LENS restricted,0.229519582357142,0.793559042113956,FALSE,lambda=10,3,97,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,8,ok,187,14,173,100,LENS distributed,0.33654478866049,0.818744838976053,TRUE,lambda=10,2,98,0.607843137254902,0.593582887700535,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,8,ok,187,14,173,200,OneNet,0.338750935120679,0.81626754748142,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,8,ok,187,14,173,200,LENS restricted,0.225618333119344,0.777043765483072,FALSE,lambda=1,4,196,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,8,ok,187,14,173,200,LENS distributed,0.297844428267877,0.848059454995871,FALSE,lambda=1,6,194,0.862745098039216,0.855614973262032,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,8,ok,187,14,173,357,OneNet,0.338750935120679,0.81626754748142,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,8,ok,187,14,173,357,LENS restricted,0.223985521729253,0.728736581337738,FALSE,lambda=0.1,6,351,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,8,ok,187,14,173,357,LENS distributed,0.260643491754966,0.833608587943848,FALSE,lambda=1,11,346,0.96078431372549,0.962566844919786,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,9,ok,183,8,175,5,OneNet,0.0583575056313485,0.551428571428572,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,9,ok,183,8,175,5,LENS restricted,0.264081134466309,0.926428571428572,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,9,ok,183,8,175,5,LENS distributed,0.264081134466309,0.926428571428572,TRUE,lambda=0.01,0,5,0.0784313725490196,0.0273224043715847,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,9,ok,183,8,175,10,OneNet,0.0583575056313485,0.551428571428572,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,9,ok,183,8,175,10,LENS restricted,0.264081134466309,0.926428571428572,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,9,ok,183,8,175,10,LENS distributed,0.264081134466309,0.926428571428572,TRUE,lambda=0.01,0,10,0.0980392156862745,0.0491803278688524,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,9,ok,183,8,175,20,OneNet,0.0583575056313485,0.551428571428572,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,9,ok,183,8,175,20,LENS restricted,0.264081134466309,0.926428571428572,TRUE,lambda=0.01,0,20,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,9,ok,183,8,175,20,LENS distributed,0.264081134466309,0.926428571428572,TRUE,lambda=0.01,0,20,0.156862745098039,0.114754098360656,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,9,ok,183,8,175,50,OneNet,0.0583575056313485,0.551428571428572,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,9,ok,183,8,175,50,LENS restricted,0.264081134466309,0.926428571428572,TRUE,lambda=0.01,0,50,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,9,ok,183,8,175,50,LENS distributed,0.264081134466309,0.926428571428572,TRUE,lambda=0.01,0,50,0.254901960784314,0.224043715846995,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,9,ok,183,8,175,100,OneNet,0.0583575056313485,0.551428571428572,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,9,ok,183,8,175,100,LENS restricted,0.366150670794634,0.948571428571429,FALSE,lambda=10,4,96,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,9,ok,183,8,175,100,LENS distributed,0.264081134466309,0.926428571428572,TRUE,lambda=10,2,98,0.450980392156863,0.431693989071038,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,9,ok,183,8,175,200,OneNet,0.0583575056313485,0.551428571428572,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,9,ok,183,8,175,200,LENS restricted,0.332146873594242,0.937857142857143,FALSE,lambda=10,5,195,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,9,ok,183,8,175,200,LENS distributed,0.195161782661783,0.900714285714286,FALSE,lambda=10,4,196,0.705882352941177,0.693989071038251,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,9,ok,183,8,175,357,OneNet,0.0583575056313485,0.551428571428572,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,9,ok,183,8,175,357,LENS restricted,0.340839679326521,0.940714285714286,FALSE,lambda=10,8,349,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,9,ok,183,8,175,357,LENS distributed,0.436165060429766,0.952142857142857,FALSE,lambda=0.01,10,347,0.941176470588235,0.934426229508197,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,10,ok,323,5,318,5,OneNet,0.101842468490066,0.835534591194969,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,10,ok,323,5,318,5,LENS restricted,0.150385599055676,0.931446540880503,TRUE,lambda=0.01,1,4,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,10,ok,323,5,318,5,LENS distributed,0.150385599055676,0.931446540880503,TRUE,lambda=0.01,0,5,0.0392156862745098,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,10,ok,323,5,318,10,OneNet,0.101842468490066,0.835534591194969,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,10,ok,323,5,318,10,LENS restricted,0.150385599055676,0.931446540880503,TRUE,lambda=0.01,1,9,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,10,ok,323,5,318,10,LENS distributed,0.150385599055676,0.931446540880503,TRUE,lambda=0.01,1,9,0.0980392156862745,0.0247678018575851,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,10,ok,323,5,318,20,OneNet,0.101842468490066,0.835534591194969,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,10,ok,323,5,318,20,LENS restricted,0.150385599055676,0.931446540880503,TRUE,lambda=10,2,18,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,10,ok,323,5,318,20,LENS distributed,0.150385599055676,0.931446540880503,TRUE,lambda=10,2,18,0.156862745098039,0.0650154798761609,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,10,ok,323,5,318,50,OneNet,0.101842468490066,0.835534591194969,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,10,ok,323,5,318,50,LENS restricted,0.168483660130719,0.90251572327044,FALSE,lambda=10,4,46,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,10,ok,323,5,318,50,LENS distributed,0.271617938346816,0.905660377358491,FALSE,lambda=10,3,47,0.333333333333333,0.244582043343653,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,10,ok,323,5,318,100,OneNet,0.101842468490066,0.835534591194969,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,10,ok,323,5,318,100,LENS restricted,0.276589521054323,0.910691823899371,FALSE,lambda=10,6,94,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,10,ok,323,5,318,100,LENS distributed,0.140845256438477,0.910691823899371,FALSE,lambda=10,4,96,0.490196078431373,0.448916408668731,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,10,ok,323,5,318,200,OneNet,0.101842468490066,0.835534591194969,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,10,ok,323,5,318,200,LENS restricted,0.290587274774775,0.815094339622642,FALSE,lambda=0.01,9,191,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,10,ok,323,5,318,200,LENS distributed,0.274337224641484,0.908176100628931,FALSE,lambda=1,9,191,0.764705882352941,0.752321981424149,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,10,ok,323,5,318,357,OneNet,0.101842468490066,0.835534591194969,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,10,ok,323,5,318,357,LENS restricted,0.126524137684121,0.738364779874214,FALSE,lambda=0.01,18,339,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,10,ok,323,5,318,357,LENS distributed,0.295162509448224,0.818238993710692,FALSE,lambda=0.01,11,346,0.92156862745098,0.919504643962848,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,11,ok,232,14,218,5,OneNet,0.196067626094931,0.747214941022281,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,11,ok,232,14,218,5,LENS restricted,0.228967692668028,0.88040629095675,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,11,ok,232,14,218,5,LENS distributed,0.228967692668028,0.88040629095675,TRUE,lambda=0.01,0,5,0.0588235294117647,0.0086206896551724,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,11,ok,232,14,218,10,OneNet,0.196067626094931,0.747214941022281,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,11,ok,232,14,218,10,LENS restricted,0.228967692668028,0.88040629095675,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,11,ok,232,14,218,10,LENS distributed,0.228967692668028,0.88040629095675,TRUE,lambda=0.01,0,10,0.117647058823529,0.0474137931034482,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,11,ok,232,14,218,20,OneNet,0.196067626094931,0.747214941022281,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,11,ok,232,14,218,20,LENS restricted,0.228967692668028,0.88040629095675,TRUE,lambda=0.01,0,20,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,11,ok,232,14,218,20,LENS distributed,0.228967692668028,0.88040629095675,TRUE,lambda=0.01,0,20,0.176470588235294,0.103448275862069,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,11,ok,232,14,218,50,OneNet,0.196067626094931,0.747214941022281,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,11,ok,232,14,218,50,LENS restricted,0.249205464616607,0.885976408912189,FALSE,lambda=10,3,47,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,11,ok,232,14,218,50,LENS distributed,0.228967692668028,0.88040629095675,TRUE,lambda=0.01,0,50,0.313725490196078,0.224137931034483,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,11,ok,232,14,218,100,OneNet,0.196067626094931,0.747214941022281,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,11,ok,232,14,218,100,LENS restricted,0.216743715605392,0.869593709043251,FALSE,lambda=10,3,97,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,11,ok,232,14,218,100,LENS distributed,0.250068029235594,0.886959370904325,FALSE,lambda=10,3,97,0.529411764705882,0.491379310344828,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,11,ok,232,14,218,200,OneNet,0.196067626094931,0.747214941022281,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,11,ok,232,14,218,200,LENS restricted,0.206889305283241,0.833879423328965,FALSE,lambda=0.1,5,195,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,11,ok,232,14,218,200,LENS distributed,0.267672785900422,0.794560943643512,FALSE,lambda=0.1,7,193,0.784313725490196,0.762931034482759,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,11,ok,232,14,218,357,OneNet,0.196067626094931,0.747214941022281,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,11,ok,232,14,218,357,LENS restricted,0.252282845197637,0.893512450851901,FALSE,lambda=10,6,351,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,11,ok,232,14,218,357,LENS distributed,0.293906647509664,0.843709043250328,FALSE,lambda=1,9,348,0.901960784313726,0.892241379310345,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,12,ok,316,11,305,5,OneNet,0.201611552391952,0.910879284649776,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,12,ok,316,11,305,5,LENS restricted,0.322416043552407,0.920715350223547,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,12,ok,316,11,305,5,LENS distributed,0.322416043552407,0.920715350223547,TRUE,lambda=0.01,0,5,0.0588235294117647,0.0031645569620253,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,12,ok,316,11,305,10,OneNet,0.201611552391952,0.910879284649776,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,12,ok,316,11,305,10,LENS restricted,0.322416043552407,0.920715350223547,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,12,ok,316,11,305,10,LENS distributed,0.322416043552407,0.920715350223547,TRUE,lambda=0.01,0,10,0.117647058823529,0.0379746835443038,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,12,ok,316,11,305,20,OneNet,0.201611552391952,0.910879284649776,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,12,ok,316,11,305,20,LENS restricted,0.322416043552407,0.920715350223547,TRUE,lambda=0.01,0,20,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,12,ok,316,11,305,20,LENS distributed,0.322416043552407,0.920715350223547,TRUE,lambda=0.01,1,19,0.156862745098039,0.060126582278481,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,12,ok,316,11,305,50,OneNet,0.201611552391952,0.910879284649776,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,12,ok,316,11,305,50,LENS restricted,0.322416043552407,0.920715350223547,TRUE,lambda=0.01,0,50,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,12,ok,316,11,305,50,LENS distributed,0.322416043552407,0.920715350223547,TRUE,lambda=0.01,1,49,0.294117647058823,0.227848101265823,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,12,ok,316,11,305,100,OneNet,0.201611552391952,0.910879284649776,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,12,ok,316,11,305,100,LENS restricted,0.322416043552407,0.920715350223547,TRUE,lambda=0.01,1,99,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,12,ok,316,11,305,100,LENS distributed,0.394275035981107,0.907600596125186,FALSE,lambda=10,3,97,0.411764705882353,0.35126582278481,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,12,ok,316,11,305,200,OneNet,0.201611552391952,0.910879284649776,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,12,ok,316,11,305,200,LENS restricted,0.322416043552407,0.920715350223547,TRUE,lambda=0.01,1,199,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,12,ok,316,11,305,200,LENS distributed,0.382473254049664,0.888524590163934,FALSE,lambda=1,6,194,0.607843137254902,0.566455696202532,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,12,ok,316,11,305,357,OneNet,0.201611552391952,0.910879284649776,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,12,ok,316,11,305,357,LENS restricted,0.322416043552407,0.920715350223547,TRUE,lambda=10,2,355,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,12,ok,316,11,305,357,LENS distributed,0.398145459285731,0.914157973174367,FALSE,lambda=1,10,347,0.823529411764706,0.806962025316456,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,13,ok,275,10,265,5,OneNet,0.17037817867895,0.775849056603774,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,13,ok,275,10,265,5,LENS restricted,0.263454687765398,0.894716981132076,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,13,ok,275,10,265,5,LENS distributed,0.263454687765398,0.894716981132076,TRUE,lambda=0.01,0,5,0.0784313725490196,0.0181818181818181,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,13,ok,275,10,265,10,OneNet,0.17037817867895,0.775849056603774,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,13,ok,275,10,265,10,LENS restricted,0.263454687765398,0.894716981132076,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,13,ok,275,10,265,10,LENS distributed,0.263454687765398,0.894716981132076,TRUE,lambda=0.01,0,10,0.0980392156862745,0.0327272727272727,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,13,ok,275,10,265,20,OneNet,0.17037817867895,0.775849056603774,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,13,ok,275,10,265,20,LENS restricted,0.263454687765398,0.894716981132076,TRUE,lambda=10,2,18,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,13,ok,275,10,265,20,LENS distributed,0.263454687765398,0.894716981132076,TRUE,lambda=0.01,0,20,0.137254901960784,0.0654545454545454,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,13,ok,275,10,265,50,OneNet,0.17037817867895,0.775849056603774,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,13,ok,275,10,265,50,LENS restricted,0.263454687765398,0.894716981132076,TRUE,lambda=10,2,48,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,13,ok,275,10,265,50,LENS distributed,0.263454687765398,0.894716981132076,TRUE,lambda=10,2,48,0.294117647058823,0.24,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,13,ok,275,10,265,100,OneNet,0.17037817867895,0.775849056603774,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,13,ok,275,10,265,100,LENS restricted,0.128585415076906,0.846415094339623,FALSE,lambda=10,3,97,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,13,ok,275,10,265,100,LENS distributed,0.263454687765398,0.894716981132076,TRUE,lambda=10,2,98,0.568627450980392,0.534545454545455,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,13,ok,275,10,265,200,OneNet,0.17037817867895,0.775849056603774,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,13,ok,275,10,265,200,LENS restricted,0.0992463039629467,0.765283018867924,FALSE,lambda=0.1,4,196,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,13,ok,275,10,265,200,LENS distributed,0.223525857226769,0.900377358490566,FALSE,lambda=10,3,197,0.803921568627451,0.792727272727273,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,13,ok,275,10,265,357,OneNet,0.17037817867895,0.775849056603774,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,13,ok,275,10,265,357,LENS restricted,0.226850609756098,0.858490566037736,FALSE,lambda=0.01,7,350,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,13,ok,275,10,265,357,LENS distributed,0.3162825755384,0.933207547169811,FALSE,lambda=10,9,348,0.901960784313726,0.898181818181818,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,14,ok,278,7,271,5,OneNet,0.154581749639096,0.893779652082235,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,14,ok,278,7,271,5,LENS restricted,0.0980042878230511,0.835002635740643,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,14,ok,278,7,271,5,LENS distributed,0.0980042878230511,0.835002635740643,TRUE,lambda=0.01,0,5,0.0588235294117647,0.0107913669064748,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,14,ok,278,7,271,10,OneNet,0.154581749639096,0.893779652082235,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,14,ok,278,7,271,10,LENS restricted,0.0980042878230511,0.835002635740643,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,14,ok,278,7,271,10,LENS distributed,0.0980042878230511,0.835002635740643,TRUE,lambda=0.01,1,9,0.117647058823529,0.0323741007194244,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,14,ok,278,7,271,20,OneNet,0.154581749639096,0.893779652082235,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,14,ok,278,7,271,20,LENS restricted,0.0980042878230511,0.835002635740643,TRUE,lambda=0.01,0,20,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,14,ok,278,7,271,20,LENS distributed,0.0980042878230511,0.835002635740643,TRUE,lambda=0.01,1,19,0.176470588235294,0.0719424460431654,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,14,ok,278,7,271,50,OneNet,0.154581749639096,0.893779652082235,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,14,ok,278,7,271,50,LENS restricted,0.0980042878230511,0.835002635740643,TRUE,lambda=0.01,0,50,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,14,ok,278,7,271,50,LENS distributed,0.0980042878230511,0.835002635740643,TRUE,lambda=0.01,1,49,0.431372549019608,0.388489208633094,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,14,ok,278,7,271,100,OneNet,0.154581749639096,0.893779652082235,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,14,ok,278,7,271,100,LENS restricted,0.0980042878230511,0.835002635740643,TRUE,lambda=0.01,0,100,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,14,ok,278,7,271,100,LENS distributed,0.258453427460869,0.875593041644702,FALSE,lambda=10,3,97,0.549019607843137,0.514388489208633,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,14,ok,278,7,271,200,OneNet,0.154581749639096,0.893779652082235,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,14,ok,278,7,271,200,LENS restricted,0.0980042878230511,0.835002635740643,TRUE,lambda=0.01,1,199,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,14,ok,278,7,271,200,LENS distributed,0.261961172675458,0.88297311544544,FALSE,lambda=10,3,197,0.803921568627451,0.784172661870504,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,14,ok,278,7,271,357,OneNet,0.154581749639096,0.893779652082235,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,14,ok,278,7,271,357,LENS restricted,0.0539962785907888,0.544016868740116,FALSE,lambda=0.1,7,350,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,14,ok,278,7,271,357,LENS distributed,0.190092931759598,0.892988929889299,FALSE,lambda=10,5,352,0.901960784313726,0.892086330935252,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,15,ok,327,4,323,5,OneNet,0.106309523809524,0.85797213622291,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,15,ok,327,4,323,5,LENS restricted,0.305357142857143,0.913312693498452,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,15,ok,327,4,323,5,LENS distributed,0.305357142857143,0.913312693498452,TRUE,lambda=0.01,0,5,0.0588235294117647,0.0091743119266055,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,15,ok,327,4,323,10,OneNet,0.106309523809524,0.85797213622291,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,15,ok,327,4,323,10,LENS restricted,0.305357142857143,0.913312693498452,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,15,ok,327,4,323,10,LENS distributed,0.305357142857143,0.913312693498452,TRUE,lambda=0.01,0,10,0.0980392156862745,0.0275229357798165,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,15,ok,327,4,323,20,OneNet,0.106309523809524,0.85797213622291,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,15,ok,327,4,323,20,LENS restricted,0.305357142857143,0.913312693498452,TRUE,lambda=0.01,0,20,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,15,ok,327,4,323,20,LENS distributed,0.305357142857143,0.913312693498452,TRUE,lambda=10,2,18,0.215686274509804,0.137614678899083,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,15,ok,327,4,323,50,OneNet,0.106309523809524,0.85797213622291,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,15,ok,327,4,323,50,LENS restricted,0.305357142857143,0.913312693498452,TRUE,lambda=0.01,1,49,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,15,ok,327,4,323,50,LENS distributed,0.305357142857143,0.913312693498452,TRUE,lambda=10,2,48,0.313725490196078,0.256880733944954,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,15,ok,327,4,323,100,OneNet,0.106309523809524,0.85797213622291,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,15,ok,327,4,323,100,LENS restricted,0.30108838185156,0.904024767801858,FALSE,lambda=10,4,96,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,15,ok,327,4,323,100,LENS distributed,0.222563281284755,0.811919504643963,FALSE,lambda=1,4,96,0.490196078431373,0.443425076452599,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,15,ok,327,4,323,200,OneNet,0.106309523809524,0.85797213622291,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,15,ok,327,4,323,200,LENS restricted,0.330725853094274,0.89938080495356,FALSE,lambda=1,6,194,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,15,ok,327,4,323,200,LENS distributed,0.400607638888889,0.898606811145511,FALSE,lambda=10,9,191,0.784313725490196,0.764525993883792,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,15,ok,327,4,323,357,OneNet,0.106309523809524,0.85797213622291,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,15,ok,327,4,323,357,LENS restricted,0.378282828282828,0.941950464396285,FALSE,lambda=0.1,12,345,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,15,ok,327,4,323,357,LENS distributed,0.412412587412587,0.931114551083591,FALSE,lambda=0.01,14,343,0.882352941176471,0.871559633027523,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,16,ok,282,5,277,5,OneNet,0.124898785425101,0.884837545126354,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,16,ok,282,5,277,5,LENS restricted,0.274834368530021,0.902527075812274,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,16,ok,282,5,277,5,LENS distributed,0.274834368530021,0.902527075812274,TRUE,lambda=0.01,0,5,0.0588235294117647,0.0070921985815602,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,16,ok,282,5,277,10,OneNet,0.124898785425101,0.884837545126354,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,16,ok,282,5,277,10,LENS restricted,0.274834368530021,0.902527075812274,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,16,ok,282,5,277,10,LENS distributed,0.274834368530021,0.902527075812274,TRUE,lambda=0.01,0,10,0.137254901960784,0.0602836879432624,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,16,ok,282,5,277,20,OneNet,0.124898785425101,0.884837545126354,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,16,ok,282,5,277,20,LENS restricted,0.274834368530021,0.902527075812274,TRUE,lambda=0.01,1,19,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,16,ok,282,5,277,20,LENS distributed,0.274834368530021,0.902527075812274,TRUE,lambda=0.01,0,20,0.176470588235294,0.0886524822695035,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,16,ok,282,5,277,50,OneNet,0.124898785425101,0.884837545126354,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,16,ok,282,5,277,50,LENS restricted,0.274834368530021,0.902527075812274,TRUE,lambda=10,2,48,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,16,ok,282,5,277,50,LENS distributed,0.274834368530021,0.902527075812274,TRUE,lambda=0.01,1,49,0.372549019607843,0.326241134751773,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,16,ok,282,5,277,100,OneNet,0.124898785425101,0.884837545126354,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,16,ok,282,5,277,100,LENS restricted,0.170343514163739,0.856317689530686,FALSE,lambda=0.01,4,96,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,16,ok,282,5,277,100,LENS distributed,0.274834368530021,0.902527075812274,TRUE,lambda=0.01,1,99,0.588235294117647,0.556737588652482,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,16,ok,282,5,277,200,OneNet,0.124898785425101,0.884837545126354,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,16,ok,282,5,277,200,LENS restricted,0.314181818181818,0.897472924187726,FALSE,lambda=10,8,192,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,16,ok,282,5,277,200,LENS distributed,0.298792969759628,0.897472924187726,FALSE,lambda=0.01,4,196,0.725490196078431,0.705673758865248,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,16,ok,282,5,277,357,OneNet,0.124898785425101,0.884837545126354,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,16,ok,282,5,277,357,LENS restricted,0.376847041847042,0.888808664259928,FALSE,lambda=0.01,13,344,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,16,ok,282,5,277,357,LENS distributed,0.175545043192102,0.875812274368231,FALSE,lambda=0.01,11,346,0.823529411764706,0.812056737588653,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,17,ok,319,4,315,5,OneNet,0.198951310014028,0.892460317460317,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,17,ok,319,4,315,5,LENS restricted,0.398809523809524,0.954761904761905,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,17,ok,319,4,315,5,LENS distributed,0.398809523809524,0.954761904761905,TRUE,lambda=0.01,0,5,0.0196078431372549,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,17,ok,319,4,315,10,OneNet,0.198951310014028,0.892460317460317,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,17,ok,319,4,315,10,LENS restricted,0.398809523809524,0.954761904761905,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,17,ok,319,4,315,10,LENS distributed,0.398809523809524,0.954761904761905,TRUE,lambda=0.01,0,10,0.0784313725490196,0.0156739811912225,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,17,ok,319,4,315,20,OneNet,0.198951310014028,0.892460317460317,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,17,ok,319,4,315,20,LENS restricted,0.398809523809524,0.954761904761905,TRUE,lambda=0.01,1,19,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,17,ok,319,4,315,20,LENS distributed,0.398809523809524,0.954761904761905,TRUE,lambda=0.01,1,19,0.156862745098039,0.0595611285266457,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,17,ok,319,4,315,50,OneNet,0.198951310014028,0.892460317460317,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,17,ok,319,4,315,50,LENS restricted,0.398809523809524,0.954761904761905,TRUE,lambda=0.01,1,49,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,17,ok,319,4,315,50,LENS distributed,0.398809523809524,0.954761904761905,TRUE,lambda=10,2,48,0.254901960784314,0.188087774294671,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,17,ok,319,4,315,100,OneNet,0.198951310014028,0.892460317460317,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,17,ok,319,4,315,100,LENS restricted,0.591666666666667,0.969047619047619,FALSE,lambda=10,3,97,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,17,ok,319,4,315,100,LENS distributed,0.647142857142857,0.98015873015873,FALSE,lambda=10,4,96,0.392156862745098,0.338557993730408,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,17,ok,319,4,315,200,OneNet,0.198951310014028,0.892460317460317,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,17,ok,319,4,315,200,LENS restricted,0.596969696969697,0.974603174603175,FALSE,lambda=10,6,194,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,17,ok,319,4,315,200,LENS distributed,0.524242424242424,0.987301587301587,FALSE,lambda=0.01,7,193,0.607843137254902,0.567398119122257,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,17,ok,319,4,315,357,OneNet,0.198951310014028,0.892460317460317,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,17,ok,319,4,315,357,LENS restricted,0.629464285714286,0.976984126984127,FALSE,lambda=10,7,350,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,17,ok,319,4,315,357,LENS distributed,0.556089743589744,0.984920634920635,FALSE,lambda=0.01,10,347,0.843137254901961,0.827586206896552,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,18,ok,234,13,221,5,OneNet,0.368280830883238,0.830490776192134,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,18,ok,234,13,221,5,LENS restricted,0.478476160736578,0.92481726418378,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,18,ok,234,13,221,5,LENS distributed,0.478476160736578,0.92481726418378,TRUE,lambda=0.01,0,5,0.0392156862745098,0.0042735042735042,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,18,ok,234,13,221,10,OneNet,0.368280830883238,0.830490776192134,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,18,ok,234,13,221,10,LENS restricted,0.478476160736578,0.92481726418378,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,18,ok,234,13,221,10,LENS distributed,0.478476160736578,0.92481726418378,TRUE,lambda=0.01,0,10,0.0980392156862745,0.0299145299145299,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,18,ok,234,13,221,20,OneNet,0.368280830883238,0.830490776192134,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,18,ok,234,13,221,20,LENS restricted,0.478476160736578,0.92481726418378,TRUE,lambda=0.01,0,20,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,18,ok,234,13,221,20,LENS distributed,0.478476160736578,0.92481726418378,TRUE,lambda=0.01,0,20,0.137254901960784,0.0641025641025641,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,18,ok,234,13,221,50,OneNet,0.368280830883238,0.830490776192134,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,18,ok,234,13,221,50,LENS restricted,0.478476160736578,0.92481726418378,TRUE,lambda=0.01,0,50,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,18,ok,234,13,221,50,LENS distributed,0.478476160736578,0.92481726418378,TRUE,lambda=0.01,0,50,0.274509803921569,0.183760683760684,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,18,ok,234,13,221,100,OneNet,0.368280830883238,0.830490776192134,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,18,ok,234,13,221,100,LENS restricted,0.478476160736578,0.92481726418378,TRUE,lambda=0.01,1,99,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,18,ok,234,13,221,100,LENS distributed,0.478476160736578,0.92481726418378,TRUE,lambda=0.01,1,99,0.568627450980392,0.538461538461538,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,18,ok,234,13,221,200,OneNet,0.368280830883238,0.830490776192134,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,18,ok,234,13,221,200,LENS restricted,0.478476160736578,0.92481726418378,TRUE,lambda=10,2,198,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,18,ok,234,13,221,200,LENS distributed,0.44006501116869,0.906717716672468,FALSE,lambda=10,3,197,0.823529411764706,0.811965811965812,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,18,ok,234,13,221,357,OneNet,0.368280830883238,0.830490776192134,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,18,ok,234,13,221,357,LENS restricted,0.351327533021736,0.873303167420815,FALSE,lambda=10,5,352,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,18,ok,234,13,221,357,LENS distributed,0.454506533984641,0.905325443786982,FALSE,lambda=0.01,6,351,0.941176470588235,0.935897435897436,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,19,ok,359,10,349,5,OneNet,0.139732246538234,0.83567335243553,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,19,ok,359,10,349,5,LENS restricted,0.237541781319506,0.925501432664756,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,19,ok,359,10,349,5,LENS distributed,0.237541781319506,0.925501432664756,TRUE,lambda=0.01,0,5,0.0588235294117647,0.0083565459610027,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,19,ok,359,10,349,10,OneNet,0.139732246538234,0.83567335243553,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,19,ok,359,10,349,10,LENS restricted,0.237541781319506,0.925501432664756,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,19,ok,359,10,349,10,LENS distributed,0.237541781319506,0.925501432664756,TRUE,lambda=0.01,0,10,0.117647058823529,0.0417827298050139,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,19,ok,359,10,349,20,OneNet,0.139732246538234,0.83567335243553,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,19,ok,359,10,349,20,LENS restricted,0.237541781319506,0.925501432664756,TRUE,lambda=0.01,0,20,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,19,ok,359,10,349,20,LENS distributed,0.237541781319506,0.925501432664756,TRUE,lambda=0.01,0,20,0.137254901960784,0.0557103064066852,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,19,ok,359,10,349,50,OneNet,0.139732246538234,0.83567335243553,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,19,ok,359,10,349,50,LENS restricted,0.237541781319506,0.925501432664756,TRUE,lambda=0.01,1,49,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,19,ok,359,10,349,50,LENS distributed,0.237541781319506,0.925501432664756,TRUE,lambda=0.01,1,49,0.254901960784314,0.183844011142061,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,19,ok,359,10,349,100,OneNet,0.139732246538234,0.83567335243553,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,19,ok,359,10,349,100,LENS restricted,0.237541781319506,0.925501432664756,TRUE,lambda=10,2,98,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,19,ok,359,10,349,100,LENS distributed,0.237541781319506,0.925501432664756,TRUE,lambda=0.01,1,99,0.431372549019608,0.381615598885794,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,19,ok,359,10,349,200,OneNet,0.139732246538234,0.83567335243553,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,19,ok,359,10,349,200,LENS restricted,0.151325034247773,0.846991404011461,FALSE,lambda=1,9,191,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,19,ok,359,10,349,200,LENS distributed,0.261483767836238,0.912607449856734,FALSE,lambda=10,5,195,0.647058823529412,0.62116991643454,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,19,ok,359,10,349,357,OneNet,0.139732246538234,0.83567335243553,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,19,ok,359,10,349,357,LENS restricted,0.169075364980241,0.786819484240688,FALSE,lambda=0.1,12,345,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,19,ok,359,10,349,357,LENS distributed,0.207501970041266,0.844985673352436,FALSE,lambda=1,8,349,0.803921568627451,0.788300835654596,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,20,ok,189,10,179,5,OneNet,0.395954569774795,0.920949720670391,,"",,,,,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,20,ok,189,10,179,5,LENS restricted,0.232671927796151,0.857541899441341,TRUE,lambda=0.01,0,5,0,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,20,ok,189,10,179,5,LENS distributed,0.232671927796151,0.857541899441341,TRUE,lambda=0.01,0,5,0.0196078431372549,0,Schäfer (20/20 partitions),5
+schafer_phyllosphere_2022,20,ok,189,10,179,10,OneNet,0.395954569774795,0.920949720670391,,"",,,,,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,20,ok,189,10,179,10,LENS restricted,0.232671927796151,0.857541899441341,TRUE,lambda=0.01,0,10,0,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,20,ok,189,10,179,10,LENS distributed,0.232671927796151,0.857541899441341,TRUE,lambda=0.01,0,10,0.0588235294117647,0,Schäfer (20/20 partitions),10
+schafer_phyllosphere_2022,20,ok,189,10,179,20,OneNet,0.395954569774795,0.920949720670391,,"",,,,,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,20,ok,189,10,179,20,LENS restricted,0.232671927796151,0.857541899441341,TRUE,lambda=0.01,0,20,0,0,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,20,ok,189,10,179,20,LENS distributed,0.232671927796151,0.857541899441341,TRUE,lambda=0.01,0,20,0.137254901960784,0.0529100529100529,Schäfer (20/20 partitions),20
+schafer_phyllosphere_2022,20,ok,189,10,179,50,OneNet,0.395954569774795,0.920949720670391,,"",,,,,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,20,ok,189,10,179,50,LENS restricted,0.232671927796151,0.857541899441341,TRUE,lambda=0.01,1,49,0,0,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,20,ok,189,10,179,50,LENS distributed,0.232671927796151,0.857541899441341,TRUE,lambda=0.01,1,49,0.333333333333333,0.301587301587302,Schäfer (20/20 partitions),50
+schafer_phyllosphere_2022,20,ok,189,10,179,100,OneNet,0.395954569774795,0.920949720670391,,"",,,,,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,20,ok,189,10,179,100,LENS restricted,0.232671927796151,0.857541899441341,TRUE,lambda=0.01,1,99,0,0,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,20,ok,189,10,179,100,LENS distributed,0.364167040423207,0.850837988826816,FALSE,lambda=10,3,97,0.470588235294118,0.444444444444444,Schäfer (20/20 partitions),100
+schafer_phyllosphere_2022,20,ok,189,10,179,200,OneNet,0.395954569774795,0.920949720670391,,"",,,,,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,20,ok,189,10,179,200,LENS restricted,0.300546956530938,0.868156424581006,FALSE,lambda=10,3,197,0,0,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,20,ok,189,10,179,200,LENS distributed,0.329710592174418,0.725139664804469,FALSE,lambda=1,4,196,0.686274509803922,0.666666666666667,Schäfer (20/20 partitions),200
+schafer_phyllosphere_2022,20,ok,189,10,179,357,OneNet,0.395954569774795,0.920949720670391,,"",,,,,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,20,ok,189,10,179,357,LENS restricted,0.204289469680255,0.693854748603352,FALSE,lambda=0.01,5,352,0,0,Schäfer (20/20 partitions),357
+schafer_phyllosphere_2022,20,ok,189,10,179,357,LENS distributed,0.35375663358465,0.870391061452514,FALSE,lambda=10,5,352,0.92156862745098,0.920634920634921,Schäfer (20/20 partitions),357

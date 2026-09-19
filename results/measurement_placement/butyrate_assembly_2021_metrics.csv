@@ -1,0 +1,409 @@
+analysis_set,repeat,status,test_pairs,test_interactions,test_neutrals,budget_pairs,method,auprc,auroc,fallback,selected_setting,training_interactions,training_neutrals,test_taxon_coverage,test_pairs_both_taxa_covered
+butyrate_assembly_2021,1,ok,17,5,12,5,OneNet,0.5163170163170163,0.625,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,5,Fixed mean,0.2837121212121212,0.4,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,5,PLNNetwork,0.27361344537815124,0.375,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,5,Poisson GLMNet,0.5054901960784315,0.5666666666666667,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,5,SparCC,0.4292997198879552,0.4166666666666667,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,5,SPIEC-EASI,0.29411764705882354,0.5,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,5,LENS restricted,0.2837121212121212,0.4,True,lambda=0.01,5.0,0.0,0.0,0.0
+butyrate_assembly_2021,1,ok,17,5,12,5,LENS distributed,0.2837121212121212,0.4,True,lambda=0.01,4.0,1.0,0.2,0.0
+butyrate_assembly_2021,1,ok,17,5,12,10,OneNet,0.5163170163170163,0.625,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,10,Fixed mean,0.2837121212121212,0.4,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,10,PLNNetwork,0.27361344537815124,0.375,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,10,Poisson GLMNet,0.5054901960784315,0.5666666666666667,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,10,SparCC,0.4292997198879552,0.4166666666666667,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,10,SPIEC-EASI,0.29411764705882354,0.5,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,10,LENS restricted,0.2837121212121212,0.4,True,lambda=0.01,9.0,1.0,0.0,0.0
+butyrate_assembly_2021,1,ok,17,5,12,10,LENS distributed,0.44813519813519814,0.5,False,lambda=10,7.0,3.0,0.3,0.11764705882352941
+butyrate_assembly_2021,1,ok,17,5,12,13,OneNet,0.5163170163170163,0.625,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,13,Fixed mean,0.2837121212121212,0.4,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,13,PLNNetwork,0.27361344537815124,0.375,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,13,Poisson GLMNet,0.5054901960784315,0.5666666666666667,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,13,SparCC,0.4292997198879552,0.4166666666666667,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,13,SPIEC-EASI,0.29411764705882354,0.5,,,,,,
+butyrate_assembly_2021,1,ok,17,5,12,13,LENS restricted,0.2837121212121212,0.4,True,lambda=10,11.0,2.0,0.0,0.0
+butyrate_assembly_2021,1,ok,17,5,12,13,LENS distributed,0.4535897435897436,0.5166666666666666,False,lambda=10,10.0,3.0,0.4,0.29411764705882354
+butyrate_assembly_2021,2,ok,30,22,8,5,OneNet,0.8073330333796391,0.5681818181818181,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,5,Fixed mean,0.702398541859328,0.4034090909090909,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,5,PLNNetwork,0.7348244261680089,0.4431818181818182,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,5,Poisson GLMNet,0.6692534032005268,0.34659090909090906,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,5,SparCC,0.7916140016580823,0.5284090909090908,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,5,SPIEC-EASI,0.7454545454545454,0.5227272727272727,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,5,LENS restricted,0.702398541859328,0.4034090909090909,True,lambda=0.01,4.0,1.0,0.0,0.0
+butyrate_assembly_2021,2,ok,30,22,8,5,LENS distributed,0.702398541859328,0.4034090909090909,True,lambda=0.01,5.0,0.0,0.3,0.1
+butyrate_assembly_2021,2,ok,30,22,8,10,OneNet,0.8073330333796391,0.5681818181818181,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,10,Fixed mean,0.702398541859328,0.4034090909090909,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,10,PLNNetwork,0.7348244261680089,0.4431818181818182,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,10,Poisson GLMNet,0.6692534032005268,0.34659090909090906,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,10,SparCC,0.7916140016580823,0.5284090909090908,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,10,SPIEC-EASI,0.7454545454545454,0.5227272727272727,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,10,LENS restricted,0.702398541859328,0.4034090909090909,True,lambda=0.01,9.0,1.0,0.0,0.0
+butyrate_assembly_2021,2,ok,30,22,8,10,LENS distributed,0.702398541859328,0.4034090909090909,True,lambda=0.01,9.0,1.0,0.5,0.3333333333333333
+butyrate_assembly_2021,2,ok,30,22,8,13,OneNet,0.8073330333796391,0.5681818181818181,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,13,Fixed mean,0.702398541859328,0.4034090909090909,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,13,PLNNetwork,0.7348244261680089,0.4431818181818182,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,13,Poisson GLMNet,0.6692534032005268,0.34659090909090906,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,13,SparCC,0.7916140016580823,0.5284090909090908,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,13,SPIEC-EASI,0.7454545454545454,0.5227272727272727,,,,,,
+butyrate_assembly_2021,2,ok,30,22,8,13,LENS restricted,0.702398541859328,0.4034090909090909,True,lambda=0.01,12.0,1.0,0.0,0.0
+butyrate_assembly_2021,2,ok,30,22,8,13,LENS distributed,0.702398541859328,0.4034090909090909,True,lambda=10,11.0,2.0,0.5,0.3333333333333333
+butyrate_assembly_2021,5,ok,9,8,1,5,OneNet,0.9861111111111112,0.9375,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,5,Fixed mean,0.9704861111111112,0.75,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,5,PLNNetwork,0.8755456349206349,0.25,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,5,Poisson GLMNet,0.9704861111111112,0.75,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,5,SparCC,0.9526289682539683,0.625,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,5,SPIEC-EASI,0.8888888888888888,0.5,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,5,LENS restricted,0.9704861111111112,0.75,True,lambda=10,2.0,3.0,0.0,0.0
+butyrate_assembly_2021,5,ok,9,8,1,5,LENS distributed,0.9704861111111112,0.75,True,lambda=10,3.0,2.0,0.2,0.0
+butyrate_assembly_2021,5,ok,9,8,1,10,OneNet,0.9861111111111112,0.9375,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,10,Fixed mean,0.9704861111111112,0.75,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,10,PLNNetwork,0.8755456349206349,0.25,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,10,Poisson GLMNet,0.9704861111111112,0.75,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,10,SparCC,0.9526289682539683,0.625,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,10,SPIEC-EASI,0.8888888888888888,0.5,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,10,LENS restricted,0.9317956349206349,0.5,False,lambda=10,6.0,4.0,0.0,0.0
+butyrate_assembly_2021,5,ok,9,8,1,10,LENS distributed,0.9317956349206349,0.5,False,lambda=10,7.0,3.0,0.5,0.4444444444444444
+butyrate_assembly_2021,5,ok,9,8,1,13,OneNet,0.9861111111111112,0.9375,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,13,Fixed mean,0.9704861111111112,0.75,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,13,PLNNetwork,0.8755456349206349,0.25,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,13,Poisson GLMNet,0.9704861111111112,0.75,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,13,SparCC,0.9526289682539683,0.625,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,13,SPIEC-EASI,0.8888888888888888,0.5,,,,,,
+butyrate_assembly_2021,5,ok,9,8,1,13,LENS restricted,0.9704861111111112,0.75,False,lambda=10,8.0,5.0,0.0,0.0
+butyrate_assembly_2021,5,ok,9,8,1,13,LENS distributed,0.9317956349206349,0.5,False,lambda=10,8.0,5.0,0.5,0.4444444444444444
+butyrate_assembly_2021,6,ok,7,3,4,5,OneNet,0.36507936507936506,0.16666666666666666,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,5,Fixed mean,0.4777777777777778,0.5,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,5,PLNNetwork,0.42063492063492064,0.41666666666666663,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,5,Poisson GLMNet,0.5333333333333333,0.5833333333333334,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,5,SparCC,0.44285714285714284,0.3333333333333333,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,5,SPIEC-EASI,0.42857142857142855,0.5,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,5,LENS restricted,0.4777777777777778,0.5,True,lambda=10,3.0,2.0,0.0,0.0
+butyrate_assembly_2021,6,ok,7,3,4,5,LENS distributed,0.4777777777777778,0.5,True,lambda=10,3.0,2.0,0.25,0.14285714285714285
+butyrate_assembly_2021,6,ok,7,3,4,10,OneNet,0.36507936507936506,0.16666666666666666,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,10,Fixed mean,0.4777777777777778,0.5,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,10,PLNNetwork,0.42063492063492064,0.41666666666666663,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,10,Poisson GLMNet,0.5333333333333333,0.5833333333333334,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,10,SparCC,0.44285714285714284,0.3333333333333333,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,10,SPIEC-EASI,0.42857142857142855,0.5,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,10,LENS restricted,0.5333333333333333,0.5833333333333334,False,lambda=10,7.0,3.0,0.0,0.0
+butyrate_assembly_2021,6,ok,7,3,4,10,LENS distributed,0.5333333333333333,0.5833333333333334,False,lambda=10,7.0,3.0,0.25,0.14285714285714285
+butyrate_assembly_2021,6,ok,7,3,4,13,OneNet,0.36507936507936506,0.16666666666666666,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,13,Fixed mean,0.4777777777777778,0.5,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,13,PLNNetwork,0.42063492063492064,0.41666666666666663,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,13,Poisson GLMNet,0.5333333333333333,0.5833333333333334,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,13,SparCC,0.44285714285714284,0.3333333333333333,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,13,SPIEC-EASI,0.42857142857142855,0.5,,,,,,
+butyrate_assembly_2021,6,ok,7,3,4,13,LENS restricted,0.5333333333333333,0.5833333333333334,False,lambda=1,9.0,4.0,0.0,0.0
+butyrate_assembly_2021,6,ok,7,3,4,13,LENS distributed,0.5333333333333333,0.5833333333333334,False,lambda=10,9.0,4.0,0.375,0.2857142857142857
+butyrate_assembly_2021,7,ok,24,21,3,5,OneNet,0.8913641351202648,0.46031746031746035,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,5,Fixed mean,0.8746781512350326,0.5238095238095238,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,5,PLNNetwork,0.8670368924570606,0.5,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,5,Poisson GLMNet,0.8410275008461652,0.4761904761904762,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,5,SparCC,0.9412595711501544,0.6190476190476191,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,5,SPIEC-EASI,0.875,0.5,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,5,LENS restricted,0.8746781512350326,0.5238095238095238,True,lambda=10,3.0,2.0,0.0,0.0
+butyrate_assembly_2021,7,ok,24,21,3,5,LENS distributed,0.8746781512350326,0.5238095238095238,True,lambda=0.01,4.0,1.0,0.3,0.125
+butyrate_assembly_2021,7,ok,24,21,3,10,OneNet,0.8913641351202648,0.46031746031746035,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,10,Fixed mean,0.8746781512350326,0.5238095238095238,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,10,PLNNetwork,0.8670368924570606,0.5,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,10,Poisson GLMNet,0.8410275008461652,0.4761904761904762,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,10,SparCC,0.9412595711501544,0.6190476190476191,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,10,SPIEC-EASI,0.875,0.5,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,10,LENS restricted,0.8147638174396246,0.380952380952381,False,lambda=1,5.0,5.0,0.0,0.0
+butyrate_assembly_2021,7,ok,24,21,3,10,LENS distributed,0.9140205548631506,0.5873015873015873,False,lambda=10,7.0,3.0,0.4,0.20833333333333334
+butyrate_assembly_2021,7,ok,24,21,3,13,OneNet,0.8913641351202648,0.46031746031746035,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,13,Fixed mean,0.8746781512350326,0.5238095238095238,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,13,PLNNetwork,0.8670368924570606,0.5,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,13,Poisson GLMNet,0.8410275008461652,0.4761904761904762,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,13,SparCC,0.9412595711501544,0.6190476190476191,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,13,SPIEC-EASI,0.875,0.5,,,,,,
+butyrate_assembly_2021,7,ok,24,21,3,13,LENS restricted,0.8147638174396246,0.380952380952381,False,lambda=1,8.0,5.0,0.0,0.0
+butyrate_assembly_2021,7,ok,24,21,3,13,LENS distributed,0.8242967526117055,0.3492063492063492,False,lambda=10,8.0,5.0,0.5,0.375
+butyrate_assembly_2021,8,ok,14,12,2,5,OneNet,0.7829244829244829,0.125,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,5,Fixed mean,0.8289062789062789,0.2708333333333333,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,5,PLNNetwork,0.8318061568061569,0.25,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,5,Poisson GLMNet,0.8991443741443742,0.45833333333333337,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,5,SparCC,0.8632647445147446,0.41666666666666663,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,5,SPIEC-EASI,0.8571428571428571,0.5,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,5,LENS restricted,0.8289062789062789,0.2708333333333333,True,lambda=10,3.0,2.0,0.0,0.0
+butyrate_assembly_2021,8,ok,14,12,2,5,LENS distributed,0.8289062789062789,0.2708333333333333,True,lambda=10,3.0,2.0,0.1111111111111111,0.0
+butyrate_assembly_2021,8,ok,14,12,2,10,OneNet,0.7829244829244829,0.125,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,10,Fixed mean,0.8289062789062789,0.2708333333333333,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,10,PLNNetwork,0.8318061568061569,0.25,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,10,Poisson GLMNet,0.8991443741443742,0.45833333333333337,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,10,SparCC,0.8632647445147446,0.41666666666666663,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,10,SPIEC-EASI,0.8571428571428571,0.5,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,10,LENS restricted,0.8386285011285012,0.25,False,lambda=10,6.0,4.0,0.0,0.0
+butyrate_assembly_2021,8,ok,14,12,2,10,LENS distributed,0.8177951677951678,0.20833333333333331,False,lambda=10,6.0,4.0,0.3333333333333333,0.14285714285714285
+butyrate_assembly_2021,8,ok,14,12,2,13,OneNet,0.7829244829244829,0.125,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,13,Fixed mean,0.8289062789062789,0.2708333333333333,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,13,PLNNetwork,0.8318061568061569,0.25,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,13,Poisson GLMNet,0.8991443741443742,0.45833333333333337,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,13,SparCC,0.8632647445147446,0.41666666666666663,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,13,SPIEC-EASI,0.8571428571428571,0.5,,,,,,
+butyrate_assembly_2021,8,ok,14,12,2,13,LENS restricted,0.7693824693824693,0.20833333333333334,False,lambda=0.1,8.0,5.0,0.0,0.0
+butyrate_assembly_2021,8,ok,14,12,2,13,LENS distributed,0.7483507233507233,0.125,False,lambda=0.1,8.0,5.0,0.3333333333333333,0.14285714285714285
+butyrate_assembly_2021,9,ok,15,7,8,5,OneNet,0.7174603174603174,0.6071428571428571,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,5,Fixed mean,0.5814324564324564,0.5178571428571428,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,5,PLNNetwork,0.49523809523809514,0.5535714285714286,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,5,Poisson GLMNet,0.4929181929181929,0.5,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,5,SparCC,0.5587301587301587,0.4821428571428571,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,5,SPIEC-EASI,0.4666666666666667,0.5,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,5,LENS restricted,0.5814324564324564,0.5178571428571428,True,lambda=0.01,5.0,0.0,0.0,0.0
+butyrate_assembly_2021,9,ok,15,7,8,5,LENS distributed,0.5814324564324564,0.5178571428571428,True,lambda=0.01,5.0,0.0,0.2,0.06666666666666667
+butyrate_assembly_2021,9,ok,15,7,8,10,OneNet,0.7174603174603174,0.6071428571428571,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,10,Fixed mean,0.5814324564324564,0.5178571428571428,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,10,PLNNetwork,0.49523809523809514,0.5535714285714286,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,10,Poisson GLMNet,0.4929181929181929,0.5,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,10,SparCC,0.5587301587301587,0.4821428571428571,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,10,SPIEC-EASI,0.4666666666666667,0.5,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,10,LENS restricted,0.5814324564324564,0.5178571428571428,True,lambda=0.01,9.0,1.0,0.0,0.0
+butyrate_assembly_2021,9,ok,15,7,8,10,LENS distributed,0.5814324564324564,0.5178571428571428,True,lambda=0.01,9.0,1.0,0.4,0.3333333333333333
+butyrate_assembly_2021,9,ok,15,7,8,13,OneNet,0.7174603174603174,0.6071428571428571,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,13,Fixed mean,0.5814324564324564,0.5178571428571428,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,13,PLNNetwork,0.49523809523809514,0.5535714285714286,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,13,Poisson GLMNet,0.4929181929181929,0.5,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,13,SparCC,0.5587301587301587,0.4821428571428571,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,13,SPIEC-EASI,0.4666666666666667,0.5,,,,,,
+butyrate_assembly_2021,9,ok,15,7,8,13,LENS restricted,0.5814324564324564,0.5178571428571428,True,lambda=0.01,12.0,1.0,0.0,0.0
+butyrate_assembly_2021,9,ok,15,7,8,13,LENS distributed,0.5814324564324564,0.5178571428571428,True,lambda=0.01,12.0,1.0,0.4,0.3333333333333333
+butyrate_assembly_2021,10,ok,22,14,8,5,OneNet,0.6423216820773211,0.4642857142857143,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,5,Fixed mean,0.7428552122603427,0.5089285714285714,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,5,PLNNetwork,0.6973484848484849,0.5178571428571428,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,5,Poisson GLMNet,0.6257287880187039,0.5133928571428571,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,5,SparCC,0.7384798257420989,0.4910714285714286,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,5,SPIEC-EASI,0.6363636363636364,0.5,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,5,LENS restricted,0.7428552122603427,0.5089285714285714,True,lambda=10,3.0,2.0,0.0,0.0
+butyrate_assembly_2021,10,ok,22,14,8,5,LENS distributed,0.7428552122603427,0.5089285714285714,True,lambda=0.01,4.0,1.0,0.3,0.13636363636363635
+butyrate_assembly_2021,10,ok,22,14,8,10,OneNet,0.6423216820773211,0.4642857142857143,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,10,Fixed mean,0.7428552122603427,0.5089285714285714,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,10,PLNNetwork,0.6973484848484849,0.5178571428571428,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,10,Poisson GLMNet,0.6257287880187039,0.5133928571428571,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,10,SparCC,0.7384798257420989,0.4910714285714286,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,10,SPIEC-EASI,0.6363636363636364,0.5,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,10,LENS restricted,0.7428552122603427,0.5089285714285714,True,lambda=10,8.0,2.0,0.0,0.0
+butyrate_assembly_2021,10,ok,22,14,8,10,LENS distributed,0.7520853961754005,0.5357142857142857,False,lambda=10,7.0,3.0,0.3,0.13636363636363635
+butyrate_assembly_2021,10,ok,22,14,8,13,OneNet,0.6423216820773211,0.4642857142857143,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,13,Fixed mean,0.7428552122603427,0.5089285714285714,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,13,PLNNetwork,0.6973484848484849,0.5178571428571428,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,13,Poisson GLMNet,0.6257287880187039,0.5133928571428571,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,13,SparCC,0.7384798257420989,0.4910714285714286,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,13,SPIEC-EASI,0.6363636363636364,0.5,,,,,,
+butyrate_assembly_2021,10,ok,22,14,8,13,LENS restricted,0.7231851997331873,0.4732142857142857,False,lambda=10,10.0,3.0,0.0,0.0
+butyrate_assembly_2021,10,ok,22,14,8,13,LENS distributed,0.7449722478857816,0.5178571428571429,False,lambda=10,10.0,3.0,0.4,0.2727272727272727
+butyrate_assembly_2021,11,ok,8,6,2,5,OneNet,0.8178571428571428,0.5833333333333334,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,5,Fixed mean,0.8972222222222223,0.6666666666666667,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,5,PLNNetwork,0.6496031746031745,0.16666666666666666,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,5,Poisson GLMNet,0.6968253968253968,0.3333333333333333,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,5,SparCC,1.0,1.0,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,5,SPIEC-EASI,0.75,0.5,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,5,LENS restricted,0.8972222222222223,0.6666666666666667,True,lambda=0.01,5.0,0.0,0.0,0.0
+butyrate_assembly_2021,11,ok,8,6,2,5,LENS distributed,0.8972222222222223,0.6666666666666667,True,lambda=0.01,4.0,1.0,0.2222222222222222,0.0
+butyrate_assembly_2021,11,ok,8,6,2,10,OneNet,0.8178571428571428,0.5833333333333334,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,10,Fixed mean,0.8972222222222223,0.6666666666666667,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,10,PLNNetwork,0.6496031746031745,0.16666666666666666,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,10,Poisson GLMNet,0.6968253968253968,0.3333333333333333,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,10,SparCC,1.0,1.0,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,10,SPIEC-EASI,0.75,0.5,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,10,LENS restricted,0.9761904761904762,0.9166666666666667,False,lambda=10,7.0,3.0,0.0,0.0
+butyrate_assembly_2021,11,ok,8,6,2,10,LENS distributed,0.8734126984126984,0.6666666666666666,False,lambda=0.01,6.0,4.0,0.4444444444444444,0.0
+butyrate_assembly_2021,11,ok,8,6,2,13,OneNet,0.8178571428571428,0.5833333333333334,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,13,Fixed mean,0.8972222222222223,0.6666666666666667,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,13,PLNNetwork,0.6496031746031745,0.16666666666666666,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,13,Poisson GLMNet,0.6968253968253968,0.3333333333333333,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,13,SparCC,1.0,1.0,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,13,SPIEC-EASI,0.75,0.5,,,,,,
+butyrate_assembly_2021,11,ok,8,6,2,13,LENS restricted,0.915079365079365,0.75,False,lambda=1,8.0,5.0,0.0,0.0
+butyrate_assembly_2021,11,ok,8,6,2,13,LENS distributed,0.8734126984126984,0.6666666666666666,False,lambda=0.01,7.0,6.0,0.4444444444444444,0.0
+butyrate_assembly_2021,12,ok,20,19,1,5,OneNet,0.9819994387413322,0.6842105263157895,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,5,Fixed mean,0.9999999999999998,1.0,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,5,PLNNetwork,0.9842105263157892,0.8421052631578947,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,5,Poisson GLMNet,0.9890092879256964,0.7894736842105263,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,5,SparCC,0.9973684210526315,0.9473684210526315,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,5,SPIEC-EASI,0.95,0.5,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,5,LENS restricted,0.9999999999999998,1.0,True,lambda=10,2.0,3.0,0.0,0.0
+butyrate_assembly_2021,12,ok,20,19,1,5,LENS distributed,0.9999999999999998,1.0,True,lambda=10,3.0,2.0,0.5555555555555556,0.3
+butyrate_assembly_2021,12,ok,20,19,1,10,OneNet,0.9819994387413322,0.6842105263157895,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,10,Fixed mean,0.9999999999999998,1.0,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,10,PLNNetwork,0.9842105263157892,0.8421052631578947,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,10,Poisson GLMNet,0.9890092879256964,0.7894736842105263,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,10,SparCC,0.9973684210526315,0.9473684210526315,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,10,SPIEC-EASI,0.95,0.5,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,10,LENS restricted,0.9945983379501384,0.8947368421052632,False,lambda=10,4.0,6.0,0.0,0.0
+butyrate_assembly_2021,12,ok,20,19,1,10,LENS distributed,0.9945983379501384,0.8947368421052632,False,lambda=10,6.0,4.0,0.6666666666666666,0.55
+butyrate_assembly_2021,12,ok,20,19,1,13,OneNet,0.9819994387413322,0.6842105263157895,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,13,Fixed mean,0.9999999999999998,1.0,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,13,PLNNetwork,0.9842105263157892,0.8421052631578947,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,13,Poisson GLMNet,0.9890092879256964,0.7894736842105263,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,13,SparCC,0.9973684210526315,0.9473684210526315,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,13,SPIEC-EASI,0.95,0.5,,,,,,
+butyrate_assembly_2021,12,ok,20,19,1,13,LENS restricted,0.9999999999999998,1.0,False,lambda=0.1,7.0,6.0,0.0,0.0
+butyrate_assembly_2021,12,ok,20,19,1,13,LENS distributed,0.9945983379501384,0.8947368421052632,False,lambda=0.1,8.0,5.0,0.6666666666666666,0.55
+butyrate_assembly_2021,13,ok,16,14,2,5,OneNet,0.8705843759415188,0.5357142857142857,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,5,Fixed mean,0.9517547928262213,0.6785714285714286,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,5,PLNNetwork,0.8474438260152546,0.3214285714285714,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,5,Poisson GLMNet,0.9484497645211931,0.6428571428571429,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,5,SparCC,0.9517547928262213,0.6785714285714286,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,5,SPIEC-EASI,0.875,0.5,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,5,LENS restricted,0.9517547928262213,0.6785714285714286,True,lambda=10,3.0,2.0,0.0,0.0
+butyrate_assembly_2021,13,ok,16,14,2,5,LENS distributed,0.9517547928262213,0.6785714285714286,True,lambda=10,2.0,3.0,0.3,0.1875
+butyrate_assembly_2021,13,ok,16,14,2,10,OneNet,0.8705843759415188,0.5357142857142857,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,10,Fixed mean,0.9517547928262213,0.6785714285714286,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,10,PLNNetwork,0.8474438260152546,0.3214285714285714,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,10,Poisson GLMNet,0.9484497645211931,0.6428571428571429,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,10,SparCC,0.9517547928262213,0.6785714285714286,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,10,SPIEC-EASI,0.875,0.5,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,10,LENS restricted,0.9275262435976721,0.5357142857142857,False,lambda=10,5.0,5.0,0.0,0.0
+butyrate_assembly_2021,13,ok,16,14,2,10,LENS distributed,0.9127808699237271,0.5357142857142857,False,lambda=10,7.0,3.0,0.5,0.4375
+butyrate_assembly_2021,13,ok,16,14,2,13,OneNet,0.8705843759415188,0.5357142857142857,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,13,Fixed mean,0.9517547928262213,0.6785714285714286,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,13,PLNNetwork,0.8474438260152546,0.3214285714285714,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,13,Poisson GLMNet,0.9484497645211931,0.6428571428571429,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,13,SparCC,0.9517547928262213,0.6785714285714286,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,13,SPIEC-EASI,0.875,0.5,,,,,,
+butyrate_assembly_2021,13,ok,16,14,2,13,LENS restricted,0.9020443841872413,0.4285714285714286,False,lambda=0.1,8.0,5.0,0.0,0.0
+butyrate_assembly_2021,13,ok,16,14,2,13,LENS distributed,0.9338169766741196,0.6428571428571429,False,lambda=1,9.0,4.0,0.5,0.4375
+butyrate_assembly_2021,14,ok,8,6,2,5,OneNet,0.6218253968253968,0.08333333333333333,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,5,Fixed mean,0.594047619047619,0.0,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,5,PLNNetwork,0.638888888888889,0.0,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,5,Poisson GLMNet,0.6218253968253968,0.08333333333333333,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,5,SparCC,0.6218253968253968,0.08333333333333333,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,5,SPIEC-EASI,0.75,0.5,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,5,LENS restricted,0.594047619047619,0.0,True,lambda=10,3.0,2.0,0.0,0.0
+butyrate_assembly_2021,14,ok,8,6,2,5,LENS distributed,0.594047619047619,0.0,True,lambda=10,3.0,2.0,0.1111111111111111,0.0
+butyrate_assembly_2021,14,ok,8,6,2,10,OneNet,0.6218253968253968,0.08333333333333333,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,10,Fixed mean,0.594047619047619,0.0,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,10,PLNNetwork,0.638888888888889,0.0,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,10,Poisson GLMNet,0.6218253968253968,0.08333333333333333,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,10,SparCC,0.6218253968253968,0.08333333333333333,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,10,SPIEC-EASI,0.75,0.5,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,10,LENS restricted,0.6218253968253968,0.08333333333333333,False,lambda=10,7.0,3.0,0.0,0.0
+butyrate_assembly_2021,14,ok,8,6,2,10,LENS distributed,0.6218253968253968,0.08333333333333333,False,lambda=10,7.0,3.0,0.1111111111111111,0.0
+butyrate_assembly_2021,14,ok,8,6,2,13,OneNet,0.6218253968253968,0.08333333333333333,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,13,Fixed mean,0.594047619047619,0.0,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,13,PLNNetwork,0.638888888888889,0.0,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,13,Poisson GLMNet,0.6218253968253968,0.08333333333333333,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,13,SparCC,0.6218253968253968,0.08333333333333333,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,13,SPIEC-EASI,0.75,0.5,,,,,,
+butyrate_assembly_2021,14,ok,8,6,2,13,LENS restricted,0.6218253968253968,0.08333333333333333,False,lambda=10,9.0,4.0,0.0,0.0
+butyrate_assembly_2021,14,ok,8,6,2,13,LENS distributed,0.6218253968253968,0.08333333333333333,False,lambda=10,9.0,4.0,0.3333333333333333,0.25
+butyrate_assembly_2021,15,ok,8,7,1,5,OneNet,0.8260204081632654,0.14285714285714285,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,5,Fixed mean,0.8736394557823131,0.2857142857142857,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,5,PLNNetwork,0.8260204081632654,0.14285714285714285,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,5,Poisson GLMNet,0.8928571428571428,0.5714285714285714,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,5,SparCC,0.9093537414965986,0.42857142857142855,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,5,SPIEC-EASI,0.875,0.5,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,5,LENS restricted,0.8736394557823131,0.2857142857142857,True,lambda=10,3.0,2.0,0.0,0.0
+butyrate_assembly_2021,15,ok,8,7,1,5,LENS distributed,0.8736394557823131,0.2857142857142857,True,lambda=0.01,4.0,1.0,0.2222222222222222,0.125
+butyrate_assembly_2021,15,ok,8,7,1,10,OneNet,0.8260204081632654,0.14285714285714285,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,10,Fixed mean,0.8736394557823131,0.2857142857142857,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,10,PLNNetwork,0.8260204081632654,0.14285714285714285,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,10,Poisson GLMNet,0.8928571428571428,0.5714285714285714,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,10,SparCC,0.9093537414965986,0.42857142857142855,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,10,SPIEC-EASI,0.875,0.5,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,10,LENS restricted,0.9379251700680272,0.5714285714285714,False,lambda=0.01,6.0,4.0,0.0,0.0
+butyrate_assembly_2021,15,ok,8,7,1,10,LENS distributed,0.8736394557823131,0.2857142857142857,False,lambda=10,7.0,3.0,0.3333333333333333,0.25
+butyrate_assembly_2021,15,ok,8,7,1,13,OneNet,0.8260204081632654,0.14285714285714285,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,13,Fixed mean,0.8736394557823131,0.2857142857142857,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,13,PLNNetwork,0.8260204081632654,0.14285714285714285,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,13,Poisson GLMNet,0.8928571428571428,0.5714285714285714,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,13,SparCC,0.9093537414965986,0.42857142857142855,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,13,SPIEC-EASI,0.875,0.5,,,,,,
+butyrate_assembly_2021,15,ok,8,7,1,13,LENS restricted,0.8736394557823131,0.2857142857142857,False,lambda=10,9.0,4.0,0.0,0.0
+butyrate_assembly_2021,15,ok,8,7,1,13,LENS distributed,0.9093537414965986,0.42857142857142855,False,lambda=1,8.0,5.0,0.3333333333333333,0.25
+butyrate_assembly_2021,16,ok,29,22,7,5,OneNet,0.7968244273774514,0.4512987012987013,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,5,Fixed mean,0.7409972855251952,0.5714285714285714,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,5,PLNNetwork,0.7791802785337267,0.525974025974026,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,5,Poisson GLMNet,0.7186986617242475,0.38961038961038963,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,5,SparCC,0.8268780688759834,0.6038961038961039,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,5,SPIEC-EASI,0.7695924764890282,0.5227272727272727,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,5,LENS restricted,0.7409972855251952,0.5714285714285714,True,lambda=0.01,5.0,0.0,0.0,0.0
+butyrate_assembly_2021,16,ok,29,22,7,5,LENS distributed,0.7409972855251952,0.5714285714285714,True,lambda=10,3.0,2.0,0.4,0.20689655172413793
+butyrate_assembly_2021,16,ok,29,22,7,10,OneNet,0.7968244273774514,0.4512987012987013,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,10,Fixed mean,0.7409972855251952,0.5714285714285714,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,10,PLNNetwork,0.7791802785337267,0.525974025974026,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,10,Poisson GLMNet,0.7186986617242475,0.38961038961038963,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,10,SparCC,0.8268780688759834,0.6038961038961039,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,10,SPIEC-EASI,0.7695924764890282,0.5227272727272727,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,10,LENS restricted,0.7409972855251952,0.5714285714285714,True,lambda=0.01,10.0,0.0,0.0,0.0
+butyrate_assembly_2021,16,ok,29,22,7,10,LENS distributed,0.7100279373200908,0.461038961038961,False,lambda=10,7.0,3.0,0.6,0.4827586206896552
+butyrate_assembly_2021,16,ok,29,22,7,13,OneNet,0.7968244273774514,0.4512987012987013,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,13,Fixed mean,0.7409972855251952,0.5714285714285714,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,13,PLNNetwork,0.7791802785337267,0.525974025974026,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,13,Poisson GLMNet,0.7186986617242475,0.38961038961038963,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,13,SparCC,0.8268780688759834,0.6038961038961039,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,13,SPIEC-EASI,0.7695924764890282,0.5227272727272727,,,,,,
+butyrate_assembly_2021,16,ok,29,22,7,13,LENS restricted,0.7409972855251952,0.5714285714285714,True,lambda=0.01,13.0,0.0,0.0,0.0
+butyrate_assembly_2021,16,ok,29,22,7,13,LENS distributed,0.7100279373200908,0.461038961038961,False,lambda=10,10.0,3.0,0.6,0.4827586206896552
+butyrate_assembly_2021,17,ok,28,22,6,5,OneNet,0.8270382575302484,0.5151515151515151,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,5,Fixed mean,0.7595824816202726,0.4772727272727273,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,5,PLNNetwork,0.8297339795879761,0.5265151515151515,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,5,Poisson GLMNet,0.7650171501107329,0.3181818181818182,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,5,SparCC,0.8681683601603387,0.6136363636363635,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,5,SPIEC-EASI,0.7857142857142857,0.5,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,5,LENS restricted,0.7595824816202726,0.4772727272727273,True,lambda=0.01,5.0,0.0,0.0,0.0
+butyrate_assembly_2021,17,ok,28,22,6,5,LENS distributed,0.7595824816202726,0.4772727272727273,True,lambda=10,3.0,2.0,0.3,0.10714285714285714
+butyrate_assembly_2021,17,ok,28,22,6,10,OneNet,0.8270382575302484,0.5151515151515151,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,10,Fixed mean,0.7595824816202726,0.4772727272727273,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,10,PLNNetwork,0.8297339795879761,0.5265151515151515,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,10,Poisson GLMNet,0.7650171501107329,0.3181818181818182,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,10,SparCC,0.8681683601603387,0.6136363636363635,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,10,SPIEC-EASI,0.7857142857142857,0.5,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,10,LENS restricted,0.7595824816202726,0.4772727272727273,True,lambda=10,8.0,2.0,0.0,0.0
+butyrate_assembly_2021,17,ok,28,22,6,10,LENS distributed,0.7918344248900024,0.5606060606060606,False,lambda=10,7.0,3.0,0.5,0.32142857142857145
+butyrate_assembly_2021,17,ok,28,22,6,13,OneNet,0.8270382575302484,0.5151515151515151,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,13,Fixed mean,0.7595824816202726,0.4772727272727273,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,13,PLNNetwork,0.8297339795879761,0.5265151515151515,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,13,Poisson GLMNet,0.7650171501107329,0.3181818181818182,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,13,SparCC,0.8681683601603387,0.6136363636363635,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,13,SPIEC-EASI,0.7857142857142857,0.5,,,,,,
+butyrate_assembly_2021,17,ok,28,22,6,13,LENS restricted,0.7595824816202726,0.4772727272727273,True,lambda=10,11.0,2.0,0.0,0.0
+butyrate_assembly_2021,17,ok,28,22,6,13,LENS distributed,0.8576880292712747,0.5681818181818182,False,lambda=0.01,9.0,4.0,0.6,0.4642857142857143
+butyrate_assembly_2021,18,ok,16,11,5,5,OneNet,0.7412795537795539,0.4454545454545455,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,5,Fixed mean,0.8102881966518329,0.6181818181818182,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,5,PLNNetwork,0.9715909090909092,0.9545454545454546,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,5,Poisson GLMNet,0.6063131313131312,0.1818181818181818,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,5,SparCC,0.8669981533617898,0.6909090909090909,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,5,SPIEC-EASI,0.6875,0.5,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,5,LENS restricted,0.8102881966518329,0.6181818181818182,True,lambda=0.01,5.0,0.0,0.0,0.0
+butyrate_assembly_2021,18,ok,16,11,5,5,LENS distributed,0.8102881966518329,0.6181818181818182,True,lambda=0.01,4.0,1.0,0.5,0.1875
+butyrate_assembly_2021,18,ok,16,11,5,10,OneNet,0.7412795537795539,0.4454545454545455,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,10,Fixed mean,0.8102881966518329,0.6181818181818182,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,10,PLNNetwork,0.9715909090909092,0.9545454545454546,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,10,Poisson GLMNet,0.6063131313131312,0.1818181818181818,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,10,SparCC,0.8669981533617898,0.6909090909090909,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,10,SPIEC-EASI,0.6875,0.5,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,10,LENS restricted,0.8102881966518329,0.6181818181818182,True,lambda=0.01,9.0,1.0,0.0,0.0
+butyrate_assembly_2021,18,ok,16,11,5,10,LENS distributed,0.8102881966518329,0.6181818181818182,True,lambda=0.01,9.0,1.0,0.6,0.5
+butyrate_assembly_2021,18,ok,16,11,5,13,OneNet,0.7412795537795539,0.4454545454545455,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,13,Fixed mean,0.8102881966518329,0.6181818181818182,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,13,PLNNetwork,0.9715909090909092,0.9545454545454546,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,13,Poisson GLMNet,0.6063131313131312,0.1818181818181818,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,13,SparCC,0.8669981533617898,0.6909090909090909,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,13,SPIEC-EASI,0.6875,0.5,,,,,,
+butyrate_assembly_2021,18,ok,16,11,5,13,LENS restricted,0.7096411164592982,0.41818181818181815,False,lambda=10,10.0,3.0,0.0,0.0
+butyrate_assembly_2021,18,ok,16,11,5,13,LENS distributed,0.8102881966518329,0.6181818181818182,True,lambda=0.01,12.0,1.0,0.6,0.5
+butyrate_assembly_2021,20,ok,13,5,8,5,OneNet,0.6392857142857142,0.7375,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,5,Fixed mean,0.419047619047619,0.525,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,5,PLNNetwork,0.6491452991452992,0.6625000000000001,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,5,Poisson GLMNet,0.36553446553446556,0.25,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,5,SparCC,0.7133333333333334,0.65,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,5,SPIEC-EASI,0.38461538461538464,0.5,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,5,LENS restricted,0.419047619047619,0.525,True,lambda=0.01,4.0,1.0,0.0,0.0
+butyrate_assembly_2021,20,ok,13,5,8,5,LENS distributed,0.419047619047619,0.525,True,lambda=0.01,4.0,1.0,0.2,0.07692307692307693
+butyrate_assembly_2021,20,ok,13,5,8,10,OneNet,0.6392857142857142,0.7375,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,10,Fixed mean,0.419047619047619,0.525,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,10,PLNNetwork,0.6491452991452992,0.6625000000000001,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,10,Poisson GLMNet,0.36553446553446556,0.25,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,10,SparCC,0.7133333333333334,0.65,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,10,SPIEC-EASI,0.38461538461538464,0.5,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,10,LENS restricted,0.34747863247863253,0.35000000000000003,False,lambda=10,7.0,3.0,0.0,0.0
+butyrate_assembly_2021,20,ok,13,5,8,10,LENS distributed,0.4922222222222221,0.575,False,lambda=1,6.0,4.0,0.3,0.15384615384615385
+butyrate_assembly_2021,20,ok,13,5,8,13,OneNet,0.6392857142857142,0.7375,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,13,Fixed mean,0.419047619047619,0.525,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,13,PLNNetwork,0.6491452991452992,0.6625000000000001,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,13,Poisson GLMNet,0.36553446553446556,0.25,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,13,SparCC,0.7133333333333334,0.65,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,13,SPIEC-EASI,0.38461538461538464,0.5,,,,,,
+butyrate_assembly_2021,20,ok,13,5,8,13,LENS restricted,0.3538888888888889,0.375,False,lambda=10,10.0,3.0,0.0,0.0
+butyrate_assembly_2021,20,ok,13,5,8,13,LENS distributed,0.4272222222222223,0.47500000000000003,False,lambda=1,9.0,4.0,0.4,0.3076923076923077

@@ -1,0 +1,171 @@
+analysis_set,budget_pairs,comparison,metric,partitions,mean_difference,sd_difference,median_difference,win_fraction,tie_fraction
+butyrate_assembly_2021,5,LENS distributed minus Fixed mean,auprc,17,0.0,0.0,0.0,0.0,1.0
+butyrate_assembly_2021,5,LENS distributed minus Fixed mean,auroc,17,0.0,0.0,0.0,0.0,1.0
+butyrate_assembly_2021,5,LENS distributed minus LENS restricted,auprc,17,0.0,0.0,0.0,0.0,1.0
+butyrate_assembly_2021,5,LENS distributed minus LENS restricted,auroc,17,0.0,0.0,0.0,0.0,1.0
+butyrate_assembly_2021,5,LENS distributed minus OneNet,auprc,17,-0.018988207967846938,0.1061013384278538,-0.015625,0.47058823529411764,0.0
+butyrate_assembly_2021,5,LENS distributed minus OneNet,auroc,17,0.03321913294823512,0.17425401933984713,0.06349206349206354,0.5882352941176471,0.0
+butyrate_assembly_2021,5,LENS restricted minus Fixed mean,auprc,17,0.0,0.0,0.0,0.0,1.0
+butyrate_assembly_2021,5,LENS restricted minus Fixed mean,auroc,17,0.0,0.0,0.0,0.0,1.0
+butyrate_assembly_2021,5,LENS restricted minus OneNet,auprc,17,-0.018988207967846938,0.1061013384278538,-0.015625,0.47058823529411764,0.0
+butyrate_assembly_2021,5,LENS restricted minus OneNet,auroc,17,0.03321913294823512,0.17425401933984713,0.06349206349206354,0.5882352941176471,0.0
+butyrate_assembly_2021,10,LENS distributed minus Fixed mean,auprc,17,0.01487055882207929,0.049909908086957985,0.0,0.4117647058823529,0.23529411764705882
+butyrate_assembly_2021,10,LENS distributed minus Fixed mean,auroc,17,-0.010631301962571331,0.09560375379094971,0.0,0.4117647058823529,0.29411764705882354
+butyrate_assembly_2021,10,LENS distributed minus LENS restricted,auprc,17,0.012723175529359162,0.06732267065830419,0.0,0.29411764705882354,0.4117647058823529
+butyrate_assembly_2021,10,LENS distributed minus LENS restricted,auroc,17,-0.0027236652236652427,0.1296137126621912,0.0,0.29411764705882354,0.47058823529411764
+butyrate_assembly_2021,10,LENS distributed minus OneNet,auprc,17,-0.004117649145767647,0.08709489967557482,0.012598899208806191,0.5294117647058824,0.058823529411764705
+butyrate_assembly_2021,10,LENS distributed minus OneNet,auroc,17,0.022587830985663793,0.18797242482527635,0.045454545454545414,0.5882352941176471,0.11764705882352941
+butyrate_assembly_2021,10,LENS restricted minus Fixed mean,auprc,17,0.0021473832927201286,0.03958203024127727,0.0,0.29411764705882354,0.4117647058823529
+butyrate_assembly_2021,10,LENS restricted minus Fixed mean,auroc,17,-0.007907636738906085,0.13748050008295934,0.0,0.23529411764705882,0.4117647058823529
+butyrate_assembly_2021,10,LENS restricted minus OneNet,auprc,17,-0.01684082467512681,0.12935157713240805,0.0,0.47058823529411764,0.058823529411764705
+butyrate_assembly_2021,10,LENS restricted minus OneNet,auroc,17,0.025311496209329036,0.2498440250837919,0.0,0.47058823529411764,0.11764705882352941
+butyrate_assembly_2021,13,LENS distributed minus Fixed mean,auprc,17,0.008798626311196201,0.05850921394958582,0.0,0.4117647058823529,0.17647058823529413
+butyrate_assembly_2021,13,LENS distributed minus Fixed mean,auroc,17,-0.020339730788647207,0.10911997549320179,0.0,0.35294117647058826,0.23529411764705882
+butyrate_assembly_2021,13,LENS distributed minus LENS restricted,auprc,17,0.023706502702145714,0.056981896267734256,0.0,0.47058823529411764,0.23529411764705882
+butyrate_assembly_2021,13,LENS distributed minus LENS restricted,auroc,17,0.014429176774378012,0.12178838402097199,0.0,0.4117647058823529,0.23529411764705882
+butyrate_assembly_2021,13,LENS distributed minus OneNet,auprc,17,-0.010189581656650737,0.09732955276643393,0.0,0.47058823529411764,0.058823529411764705
+butyrate_assembly_2021,13,LENS distributed minus OneNet,auroc,17,0.012879402159587916,0.2046791944189339,0.009740259740259716,0.5294117647058824,0.11764705882352941
+butyrate_assembly_2021,13,LENS restricted minus Fixed mean,auprc,17,-0.014907876390949511,0.03934231285263457,0.0,0.17647058823529413,0.47058823529411764
+butyrate_assembly_2021,13,LENS restricted minus Fixed mean,auroc,17,-0.03476890756302522,0.09710572490190005,0.0,0.17647058823529413,0.47058823529411764
+butyrate_assembly_2021,13,LENS restricted minus OneNet,auprc,17,-0.03389608435879645,0.11412274779106306,-0.015625,0.35294117647058826,0.058823529411764705
+butyrate_assembly_2021,13,LENS restricted minus OneNet,auroc,17,-0.0015497746147900985,0.19608688524833884,-0.027272727272727393,0.4117647058823529,0.058823529411764705
+carlstrom_phyllosphere_2019,5,LENS distributed minus Fixed mean,auprc,20,0.0,0.0,0.0,0.0,1.0
+carlstrom_phyllosphere_2019,5,LENS distributed minus Fixed mean,auroc,20,0.0,0.0,0.0,0.0,1.0
+carlstrom_phyllosphere_2019,5,LENS distributed minus LENS restricted,auprc,20,0.0,0.0,0.0,0.0,1.0
+carlstrom_phyllosphere_2019,5,LENS distributed minus LENS restricted,auroc,20,0.0,0.0,0.0,0.0,1.0
+carlstrom_phyllosphere_2019,5,LENS distributed minus OneNet,auprc,20,0.011754855223561896,0.03667476015182439,0.0064355425107822,0.65,0.0
+carlstrom_phyllosphere_2019,5,LENS distributed minus OneNet,auroc,20,0.01750260104728827,0.07053054909651002,0.03206626911046806,0.6,0.0
+carlstrom_phyllosphere_2019,5,LENS restricted minus Fixed mean,auprc,20,0.0,0.0,0.0,0.0,1.0
+carlstrom_phyllosphere_2019,5,LENS restricted minus Fixed mean,auroc,20,0.0,0.0,0.0,0.0,1.0
+carlstrom_phyllosphere_2019,5,LENS restricted minus OneNet,auprc,20,0.011754855223561896,0.03667476015182439,0.0064355425107822,0.65,0.0
+carlstrom_phyllosphere_2019,5,LENS restricted minus OneNet,auroc,20,0.01750260104728827,0.07053054909651002,0.03206626911046806,0.6,0.0
+carlstrom_phyllosphere_2019,10,LENS distributed minus Fixed mean,auprc,20,-0.0018164525354687655,0.008123422694420014,0.0,0.0,0.95
+carlstrom_phyllosphere_2019,10,LENS distributed minus Fixed mean,auroc,20,-0.003820172373631495,0.01708433022641349,0.0,0.0,0.95
+carlstrom_phyllosphere_2019,10,LENS distributed minus LENS restricted,auprc,20,-0.005066394298766884,0.012757680369361833,0.0,0.05,0.7
+carlstrom_phyllosphere_2019,10,LENS distributed minus LENS restricted,auroc,20,-0.00852770591017448,0.03904116086462674,0.0,0.1,0.7
+carlstrom_phyllosphere_2019,10,LENS distributed minus OneNet,auprc,20,0.009938402688093132,0.036485637824099706,0.003446809701054949,0.6,0.0
+carlstrom_phyllosphere_2019,10,LENS distributed minus OneNet,auroc,20,0.013682428673656776,0.0709138336069688,0.01755077658303464,0.55,0.0
+carlstrom_phyllosphere_2019,10,LENS restricted minus Fixed mean,auprc,20,0.0032499417632981184,0.0104497152537378,0.0,0.2,0.75
+carlstrom_phyllosphere_2019,10,LENS restricted minus Fixed mean,auroc,20,0.004707533536542985,0.03563983853679506,0.0,0.15,0.75
+carlstrom_phyllosphere_2019,10,LENS restricted minus OneNet,auprc,20,0.015004796986860015,0.03859025048716121,0.007401931663987789,0.6,0.0
+carlstrom_phyllosphere_2019,10,LENS restricted minus OneNet,auroc,20,0.022210134583831257,0.07424787757933582,0.03667850715165294,0.6,0.0
+carlstrom_phyllosphere_2019,20,LENS distributed minus Fixed mean,auprc,20,0.003002719084648492,0.015758914394757306,0.0,0.25,0.55
+carlstrom_phyllosphere_2019,20,LENS distributed minus Fixed mean,auroc,20,0.01385829076321599,0.04317000566711837,0.0,0.35,0.55
+carlstrom_phyllosphere_2019,20,LENS distributed minus LENS restricted,auprc,20,-0.012896894480366137,0.03348496005754347,0.0,0.15,0.5
+carlstrom_phyllosphere_2019,20,LENS distributed minus LENS restricted,auroc,20,-0.005972325991367608,0.07369656666784449,0.0,0.15,0.5
+carlstrom_phyllosphere_2019,20,LENS distributed minus OneNet,auprc,20,0.014757574308210389,0.03766086204089091,0.010997392670585762,0.7,0.0
+carlstrom_phyllosphere_2019,20,LENS distributed minus OneNet,auroc,20,0.03136089181050426,0.08607555378085313,0.03590158241119018,0.65,0.0
+carlstrom_phyllosphere_2019,20,LENS restricted minus Fixed mean,auprc,20,0.01589961356501463,0.034833751605858464,0.0,0.35,0.6
+carlstrom_phyllosphere_2019,20,LENS restricted minus Fixed mean,auroc,20,0.019830616754583596,0.05886053377040071,0.0,0.35,0.6
+carlstrom_phyllosphere_2019,20,LENS restricted minus OneNet,auprc,20,0.027654468788576525,0.04803681233402658,0.014743730841010508,0.75,0.0
+carlstrom_phyllosphere_2019,20,LENS restricted minus OneNet,auroc,20,0.03733321780187186,0.077864491366652,0.024322840247209987,0.7,0.0
+carlstrom_phyllosphere_2019,50,LENS distributed minus Fixed mean,auprc,20,0.045033618475787,0.07510378060848893,0.0138480514112536,0.75,0.05
+carlstrom_phyllosphere_2019,50,LENS distributed minus Fixed mean,auroc,20,0.08585620357444007,0.11194934980613998,0.04968318133889707,0.8,0.05
+carlstrom_phyllosphere_2019,50,LENS distributed minus LENS restricted,auprc,20,-0.004392064563902602,0.07338854250998855,-0.0015988188573471535,0.45,0.0
+carlstrom_phyllosphere_2019,50,LENS distributed minus LENS restricted,auroc,20,0.02109769664624031,0.10925148972087315,0.020521422192673056,0.6,0.0
+carlstrom_phyllosphere_2019,50,LENS distributed minus OneNet,auprc,20,0.0567884736993489,0.06867903966779718,0.03866632268617069,0.9,0.0
+carlstrom_phyllosphere_2019,50,LENS distributed minus OneNet,auroc,20,0.10335880462172833,0.10751310785552542,0.09717451169657051,0.8,0.0
+carlstrom_phyllosphere_2019,50,LENS restricted minus Fixed mean,auprc,20,0.0494256830396896,0.0775451554903873,0.025206560307755338,0.65,0.05
+carlstrom_phyllosphere_2019,50,LENS restricted minus Fixed mean,auroc,20,0.06475850692819976,0.11187968668197835,0.024502743095840718,0.7,0.05
+carlstrom_phyllosphere_2019,50,LENS restricted minus OneNet,auprc,20,0.0611805382632515,0.06883053014964267,0.04690543842242731,0.75,0.0
+carlstrom_phyllosphere_2019,50,LENS restricted minus OneNet,auroc,20,0.08226110797548802,0.12748820020950175,0.06813848201478542,0.7,0.0
+carlstrom_phyllosphere_2019,100,LENS distributed minus Fixed mean,auprc,20,0.05982442109202417,0.0688525530016462,0.03652011051313205,0.85,0.0
+carlstrom_phyllosphere_2019,100,LENS distributed minus Fixed mean,auroc,20,0.11792909957607349,0.10708129657461633,0.10683261447031159,0.9,0.0
+carlstrom_phyllosphere_2019,100,LENS distributed minus LENS restricted,auprc,20,0.01494121991169893,0.06657835152659455,0.016778487397524938,0.65,0.0
+carlstrom_phyllosphere_2019,100,LENS distributed minus LENS restricted,auroc,20,0.03153122260885942,0.11860599176163042,0.052515404192619325,0.6,0.0
+carlstrom_phyllosphere_2019,100,LENS distributed minus OneNet,auprc,20,0.07157927631558607,0.06712224216188423,0.06393236567097489,0.85,0.0
+carlstrom_phyllosphere_2019,100,LENS distributed minus OneNet,auroc,20,0.13543170062336177,0.10667617520330652,0.15887651780773332,0.9,0.0
+carlstrom_phyllosphere_2019,100,LENS restricted minus Fixed mean,auprc,20,0.044883201180325245,0.07091336120468882,0.042321316489537186,0.8,0.0
+carlstrom_phyllosphere_2019,100,LENS restricted minus Fixed mean,auroc,20,0.08639787696721406,0.11533116337381172,0.09828367294630275,0.7,0.0
+carlstrom_phyllosphere_2019,100,LENS restricted minus OneNet,auprc,20,0.05663805640388714,0.05919119673662722,0.04481040427984487,0.9,0.0
+carlstrom_phyllosphere_2019,100,LENS restricted minus OneNet,auroc,20,0.10390047801450233,0.12833733947731352,0.079830442238815,0.85,0.0
+carlstrom_phyllosphere_2019,200,LENS distributed minus Fixed mean,auprc,20,0.08273383327516959,0.07006833810261648,0.06356481904591399,0.95,0.0
+carlstrom_phyllosphere_2019,200,LENS distributed minus Fixed mean,auroc,20,0.15131308162735477,0.10289252605557306,0.1714450962571264,0.95,0.0
+carlstrom_phyllosphere_2019,200,LENS distributed minus LENS restricted,auprc,20,0.011649978470614667,0.05588808557818415,0.00550109107121826,0.5,0.0
+carlstrom_phyllosphere_2019,200,LENS distributed minus LENS restricted,auroc,20,0.011710565523799555,0.08635961150782583,0.02595203990485928,0.6,0.0
+carlstrom_phyllosphere_2019,200,LENS distributed minus OneNet,auprc,20,0.09448868849873149,0.07396675257066296,0.07444799912893076,0.9,0.0
+carlstrom_phyllosphere_2019,200,LENS distributed minus OneNet,auroc,20,0.16881568267464303,0.10358996491200236,0.1760853021573433,0.9,0.0
+carlstrom_phyllosphere_2019,200,LENS restricted minus Fixed mean,auprc,20,0.07108385480455491,0.07959341776511251,0.05223353135240001,0.95,0.0
+carlstrom_phyllosphere_2019,200,LENS restricted minus Fixed mean,auroc,20,0.13960251610355523,0.09020022613808183,0.12411345824879666,0.9,0.0
+carlstrom_phyllosphere_2019,200,LENS restricted minus OneNet,auprc,20,0.08283871002811681,0.07654108751493702,0.06266963075665119,0.95,0.0
+carlstrom_phyllosphere_2019,200,LENS restricted minus OneNet,auroc,20,0.1571051171508435,0.11649091711590756,0.15310188020230892,0.9,0.0
+carlstrom_phyllosphere_2019,275,LENS distributed minus Fixed mean,auprc,20,0.09511184503710418,0.07996367793448989,0.08426933996946465,0.95,0.0
+carlstrom_phyllosphere_2019,275,LENS distributed minus Fixed mean,auroc,20,0.17609231174245182,0.10562713415418043,0.1983759910975101,0.95,0.0
+carlstrom_phyllosphere_2019,275,LENS distributed minus LENS restricted,auprc,20,0.020884269809463906,0.057224646656476336,0.007771950981734853,0.5,0.0
+carlstrom_phyllosphere_2019,275,LENS distributed minus LENS restricted,auroc,20,0.02296813445606375,0.07816241174184221,0.02562321937321943,0.6,0.0
+carlstrom_phyllosphere_2019,275,LENS distributed minus OneNet,auprc,20,0.10686670026066607,0.07903237384092421,0.08422741525726515,1.0,0.0
+carlstrom_phyllosphere_2019,275,LENS distributed minus OneNet,auroc,20,0.19359491278974011,0.10671343705230692,0.19646443118310142,0.95,0.0
+carlstrom_phyllosphere_2019,275,LENS restricted minus Fixed mean,auprc,20,0.07422757522764027,0.06331109844460481,0.07551235816724539,0.9,0.0
+carlstrom_phyllosphere_2019,275,LENS restricted minus Fixed mean,auroc,20,0.15312417728638808,0.09139097414399838,0.14673994597839135,0.95,0.0
+carlstrom_phyllosphere_2019,275,LENS restricted minus OneNet,auprc,20,0.08598243045120217,0.05572796302639344,0.08662447807221646,1.0,0.0
+carlstrom_phyllosphere_2019,275,LENS restricted minus OneNet,auroc,20,0.17062677833367634,0.10974665995334597,0.17340902768117966,0.95,0.0
+schafer_phyllosphere_2022,5,LENS distributed minus Fixed mean,auprc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,5,LENS distributed minus Fixed mean,auroc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,5,LENS distributed minus LENS restricted,auprc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,5,LENS distributed minus LENS restricted,auroc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,5,LENS distributed minus OneNet,auprc,20,0.08308873176749673,0.1571517859842101,0.1154999105068977,0.8,0.0
+schafer_phyllosphere_2022,5,LENS distributed minus OneNet,auroc,20,0.06963907405746068,0.10622207591533099,0.05882107228856459,0.8,0.0
+schafer_phyllosphere_2022,5,LENS restricted minus Fixed mean,auprc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,5,LENS restricted minus Fixed mean,auroc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,5,LENS restricted minus OneNet,auprc,20,0.08308873176749673,0.1571517859842101,0.1154999105068977,0.8,0.0
+schafer_phyllosphere_2022,5,LENS restricted minus OneNet,auroc,20,0.06963907405746068,0.10622207591533099,0.05882107228856459,0.8,0.0
+schafer_phyllosphere_2022,10,LENS distributed minus Fixed mean,auprc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,10,LENS distributed minus Fixed mean,auroc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,10,LENS distributed minus LENS restricted,auprc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,10,LENS distributed minus LENS restricted,auroc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,10,LENS distributed minus OneNet,auprc,20,0.08308873176749673,0.1571517859842101,0.1154999105068977,0.8,0.0
+schafer_phyllosphere_2022,10,LENS distributed minus OneNet,auroc,20,0.06963907405746068,0.10622207591533099,0.05882107228856459,0.8,0.0
+schafer_phyllosphere_2022,10,LENS restricted minus Fixed mean,auprc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,10,LENS restricted minus Fixed mean,auroc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,10,LENS restricted minus OneNet,auprc,20,0.08308873176749673,0.1571517859842101,0.1154999105068977,0.8,0.0
+schafer_phyllosphere_2022,10,LENS restricted minus OneNet,auroc,20,0.06963907405746068,0.10622207591533099,0.05882107228856459,0.8,0.0
+schafer_phyllosphere_2022,20,LENS distributed minus Fixed mean,auprc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,20,LENS distributed minus Fixed mean,auroc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,20,LENS distributed minus LENS restricted,auprc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,20,LENS distributed minus LENS restricted,auroc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,20,LENS distributed minus OneNet,auprc,20,0.08308873176749673,0.1571517859842101,0.1154999105068977,0.8,0.0
+schafer_phyllosphere_2022,20,LENS distributed minus OneNet,auroc,20,0.06963907405746068,0.10622207591533099,0.05882107228856459,0.8,0.0
+schafer_phyllosphere_2022,20,LENS restricted minus Fixed mean,auprc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,20,LENS restricted minus Fixed mean,auroc,20,0.0,0.0,0.0,0.0,1.0
+schafer_phyllosphere_2022,20,LENS restricted minus OneNet,auprc,20,0.08308873176749673,0.1571517859842101,0.1154999105068977,0.8,0.0
+schafer_phyllosphere_2022,20,LENS restricted minus OneNet,auroc,20,0.06963907405746068,0.10622207591533099,0.05882107228856459,0.8,0.0
+schafer_phyllosphere_2022,50,LENS distributed minus Fixed mean,auprc,20,0.006061616964557005,0.027108375172630792,0.0,0.05,0.95
+schafer_phyllosphere_2022,50,LENS distributed minus Fixed mean,auroc,20,-0.0012893081761006287,0.005765961451414551,0.0,0.0,0.95
+schafer_phyllosphere_2022,50,LENS distributed minus LENS restricted,auprc,20,0.0041448253133759315,0.023733892287335367,0.0,0.05,0.9
+schafer_phyllosphere_2022,50,LENS distributed minus LENS restricted,auroc,20,-0.00012127319336943665,0.0014621706938729568,0.0,0.05,0.9
+schafer_phyllosphere_2022,50,LENS distributed minus OneNet,auprc,20,0.08915034873205374,0.15808447457246053,0.1353700371326875,0.8,0.0
+schafer_phyllosphere_2022,50,LENS distributed minus OneNet,auroc,20,0.06834976588136005,0.10604273850593675,0.05882107228856459,0.8,0.0
+schafer_phyllosphere_2022,50,LENS restricted minus Fixed mean,auprc,20,0.001916791651181074,0.005909962255814581,0.0,0.1,0.9
+schafer_phyllosphere_2022,50,LENS restricted minus Fixed mean,auroc,20,-0.001168034982731192,0.006651997354204619,0.0,0.05,0.9
+schafer_phyllosphere_2022,50,LENS restricted minus OneNet,auprc,20,0.08500552341867781,0.15671274223943749,0.1154999105068977,0.8,0.0
+schafer_phyllosphere_2022,50,LENS restricted minus OneNet,auroc,20,0.06847103907472948,0.10622914332280868,0.05882107228856459,0.8,0.0
+schafer_phyllosphere_2022,100,LENS distributed minus Fixed mean,auprc,20,0.01570628051364899,0.09032945884509505,0.0,0.25,0.55
+schafer_phyllosphere_2022,100,LENS distributed minus Fixed mean,auroc,20,-0.006307041066687907,0.027370833581402187,0.0,0.15,0.55
+schafer_phyllosphere_2022,100,LENS distributed minus LENS restricted,auprc,20,0.045155956229477615,0.10009799736348057,0.016662156815100942,0.5,0.3
+schafer_phyllosphere_2022,100,LENS distributed minus LENS restricted,auroc,20,0.022263225839163032,0.08996972533329577,0.0,0.4,0.35
+schafer_phyllosphere_2022,100,LENS distributed minus OneNet,auprc,20,0.09879501228114572,0.19932648267374015,0.11322454366428536,0.85,0.0
+schafer_phyllosphere_2022,100,LENS distributed minus OneNet,auroc,20,0.06333203299077277,0.10996731710938437,0.05095754341443992,0.7,0.0
+schafer_phyllosphere_2022,100,LENS restricted minus Fixed mean,auprc,20,-0.029449675715828627,0.11086617885840273,0.0,0.15,0.45
+schafer_phyllosphere_2022,100,LENS restricted minus Fixed mean,auroc,20,-0.02857026690585094,0.08562372673246042,0.0,0.1,0.45
+schafer_phyllosphere_2022,100,LENS restricted minus OneNet,auprc,20,0.0536390560516681,0.20651683295224407,0.09811072446249129,0.7,0.0
+schafer_phyllosphere_2022,100,LENS restricted minus OneNet,auroc,20,0.04106880715160974,0.1441872470006625,0.04737696514012296,0.65,0.0
+schafer_phyllosphere_2022,200,LENS distributed minus Fixed mean,auprc,20,-0.01508077100000515,0.13337029931516736,0.0075964057871953095,0.5,0.1
+schafer_phyllosphere_2022,200,LENS distributed minus Fixed mean,auroc,20,-0.06473694729545776,0.13477540713055017,-0.01379993258048201,0.2,0.1
+schafer_phyllosphere_2022,200,LENS distributed minus LENS restricted,auprc,20,0.01407116880467539,0.13307058427350382,0.007382742165975245,0.5,0.05
+schafer_phyllosphere_2022,200,LENS distributed minus LENS restricted,auroc,20,-0.02756633162625171,0.1370926483463844,-0.0003869969040248278,0.4,0.1
+schafer_phyllosphere_2022,200,LENS distributed minus OneNet,auprc,20,0.06800796076749158,0.21876759700393458,0.11456547216718273,0.75,0.0
+schafer_phyllosphere_2022,200,LENS distributed minus OneNet,auroc,20,0.004902126762002912,0.19199757539140436,0.043990338771916215,0.7,0.0
+schafer_phyllosphere_2022,200,LENS restricted minus Fixed mean,auprc,20,-0.02915193980468054,0.13189198712492373,0.0,0.4,0.2
+schafer_phyllosphere_2022,200,LENS restricted minus Fixed mean,auroc,20,-0.037170615669206056,0.06981183147878313,-0.007922759265511836,0.25,0.2
+schafer_phyllosphere_2022,200,LENS restricted minus OneNet,auprc,20,0.053936791962816186,0.20670553687426912,0.07765420130917164,0.65,0.0
+schafer_phyllosphere_2022,200,LENS restricted minus OneNet,auroc,20,0.03246845838825462,0.12495910310793511,0.011976715318651465,0.6,0.0
+schafer_phyllosphere_2022,357,LENS distributed minus Fixed mean,auprc,20,0.026147514142890647,0.1095131088920217,0.0515147021525445,0.65,0.0
+schafer_phyllosphere_2022,357,LENS distributed minus Fixed mean,auroc,20,-0.005490804179114755,0.043242051820480215,0.005647313994469161,0.55,0.0
+schafer_phyllosphere_2022,357,LENS distributed minus LENS restricted,auprc,20,0.0517984154228581,0.1237785382475936,0.0586766090226751,0.7,0.0
+schafer_phyllosphere_2022,357,LENS distributed minus LENS restricted,auroc,20,0.08194306302773655,0.15150556481018077,0.021725423897369756,0.65,0.0
+schafer_phyllosphere_2022,357,LENS distributed minus OneNet,auprc,20,0.10923624591038739,0.20649394525322756,0.1389125651714284,0.8,0.0
+schafer_phyllosphere_2022,357,LENS distributed minus OneNet,auroc,20,0.06414826987834592,0.11550134885768126,0.017651211744460382,0.7,0.0
+schafer_phyllosphere_2022,357,LENS restricted minus Fixed mean,auprc,20,-0.025650901279967452,0.13396945483963393,-0.011930730685777546,0.45,0.05
+schafer_phyllosphere_2022,357,LENS restricted minus Fixed mean,auroc,20,-0.08743386720685131,0.1488404604035179,-0.024972413323343046,0.3,0.1
+schafer_phyllosphere_2022,357,LENS restricted minus OneNet,auprc,20,0.05743783048752928,0.25745693573936407,0.05634382508992704,0.7,0.0
+schafer_phyllosphere_2022,357,LENS restricted minus OneNet,auroc,20,-0.017794793149390635,0.22054223394336792,0.011541292777904555,0.6,0.0
